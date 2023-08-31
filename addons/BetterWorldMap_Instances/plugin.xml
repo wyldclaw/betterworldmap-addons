@@ -1,0 +1,15 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+  <Script file="common.lua"/>
+  <Script file="zones\broken_isles.lua"/>
+  <Script file="zones\draenor.lua"/>
+  <Script file="zones\dragon_isles.lua"/>
+  <Script file="zones\eastern_kingdoms.lua"/>
+  <Script file="zones\kalimdor.lua"/>
+  <Script file="zones\kul_tiras.lua"/>
+  <Script file="zones\northrend.lua"/>
+  <Script file="zones\outland.lua"/>
+  <Script file="zones\pandaria.lua"/>
+  <Script file="zones\shadowlands.lua"/>
+  <Script file="zones\the_maelstrom.lua"/> 
+  <Script file="zones\zandalar.lua"/>
+</Ui>

@@ -1,0 +1,12 @@
+## Interface: 100105
+## Title: BetterWorldMap: Instances
+## Version: 01
+## Notes: Add pins to world map for instances
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
+## SavedVariables: BetterWorldMap_InstancesDB
+## IconTexture: 135958
+
+embeds.xml
+core/core.xml
+plugin.xml
