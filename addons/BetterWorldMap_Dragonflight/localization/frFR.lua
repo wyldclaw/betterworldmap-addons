@@ -41,7 +41,7 @@ L['faction_valdrakken'] = 'Siège des Aspects'
 L['great_vault_label'] = 'Grande Chambre-forte'
 L['storms_fury_label'] = '{spell:76232}'
 L['time_rift_label'] = '{spell:409045}'
-L['secrets_of_azeroth_label'] = 'Secrets of Azeroth'
+L['secrets_of_azeroth_label'] = 'Secrets d\'Azeroth'
 L['zone_thaldraszus'] = 'Thaldraszus'
 
 ----------------------------- THE FORBIDDEN REACH -----------------------------
@@ -57,6 +57,6 @@ L['zone_zaralek_cavern'] = 'Grotte de Zaralek'
 
 -------------------------------- DRAGONRIDING ---------------------------------
 
-L['eastern_kingdoms_cup'] = 'Eastern Kingdoms Cup'
+L['eastern_kingdoms_cup'] = 'Coupe des Royaumes de l\'Est'
 L['kalimdor_cup'] = 'Coupe de Kalimdor'
-L['outland_cup'] = 'Outland Cup'
+L['outland_cup'] = 'Coupe de l\'Outreterre'
