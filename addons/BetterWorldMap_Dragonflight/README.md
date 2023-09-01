@@ -1,4 +1,4 @@
-**An addon for the Dragonflight expansion. It will add icons for points of interest to the Dragon Isles and Kalimdor world map.**
+**An addon for the Dragonflight expansion. It will add icons for points of interest to the Dragon Isles, Kalimdor, Eastern Kingdoms, and Outland world map.**
 
 Now available on CurseForge! [BetterWorldMap: Dragonflight](https://www.curseforge.com/wow/addons/betterworldmap-dragonflight)
 
