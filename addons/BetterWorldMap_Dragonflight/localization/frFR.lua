@@ -57,6 +57,6 @@ L['zone_zaralek_cavern'] = 'Grotte de Zaralek'
 
 -------------------------------- DRAGONRIDING ---------------------------------
 
--- L['eastern_kingdoms_cup'] = 'Eastern Kingdoms Cup'
+L['eastern_kingdoms_cup'] = 'Eastern Kingdoms Cup'
 L['kalimdor_cup'] = 'Coupe de Kalimdor'
--- L['outland_cup'] = 'Outland Cup'
+L['outland_cup'] = 'Outland Cup'

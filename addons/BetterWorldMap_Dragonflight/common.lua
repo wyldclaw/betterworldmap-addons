@@ -158,109 +158,51 @@ ns.groups.KALIMDOR_CUP = Group({
     name = 'kalimdor_cup'
 }) -- Kalimdor Cup
 
--- ns.groups.EASTERN_KINGDOMS_CUP = Group({
---     atlas = 'racing',
---     label = L['eastern_kingdoms_cup'],
---     name = 'eastern_kingdoms_cup'
--- }) -- Eastern Kingdom Cup
+ns.groups.EASTERN_KINGDOMS_CUP = Group({
+    atlas = 'racing',
+    label = L['eastern_kingdoms_cup'],
+    name = 'eastern_kingdoms_cup'
+}) -- Eastern Kingdom Cup
 
--- ns.groups.OUTLAND_CUP = Group({
---     atlas = 'racing',
---     label = L['outland_cup'],
---     name = 'outland_cup'
--- }) -- Outland Cup
+ns.groups.OUTLAND_CUP = Group({
+    atlas = 'racing',
+    label = L['outland_cup'],
+    name = 'outland_cup'
+}) -- Outland Cup
 
 -------------------------------------------------------------------------------
 ------------------------------------ PINS -------------------------------------
 -------------------------------------------------------------------------------
 
-function AncientWaygate(attrs)
+local function AncientWaygate(attrs)
     return Pin({
         group = ns.groups.ANCIENT_WAYGATES,
         coordinates = attrs.coordinates
     })
 end -- Ancient Waygates
 
-ns.pin.AncientWaygate = AncientWaygate
-
-local AylaagCamp = Pin({
-    group = ns.groups.AYLAAG_CAMPS
-}) -- Aylaag Camp
-
-ns.pin.AylaagCamp = AylaagCamp
-
-local CommunityFeast = Pin({
-    group = ns.groups.COMMUNITY_FEAST
-}) -- Community Feast
-
-ns.pin.CommunityFeast = CommunityFeast
-
-local DragonbaneSiege = Pin({
-    group = ns.groups.DRAGONBANE_SIEGE
-}) -- Seige on Dragonbane Keep
-
-ns.pin.DragonbaneSiege = DragonbaneSiege
-
 local DragonridingRally = Pin({
     group = ns.groups.DRAGONRIDING_RALLY
 }) -- Dragonriding Rally
-
-ns.pin.DragonridingRally = DragonridingRally
-
--- local EasternKingdomsCup = Pin({
---     group = ns.groups.EASTERN_KINGDOMS_CUP
--- }) -- Eastern Kingdoms Cup
-
--- ns.pin.EasternKingdomsCup = EasternKingdomsCup
 
 local ElementalStorm = Pin({
     group = ns.groups.ELEMENTAL_STORM
 }) -- Elemental Storm
 
-ns.pin.ElementalStorm = ElementalStorm
+local FishingHole = Pin({group = ns.groups.FISHING_HOLE}) -- Fishing Hole
 
-local FishingHole = Pin({
-    group = ns.groups.FISHING_HOLE
-}) -- Fishing Hole
-
-ns.pin.FishingHole = FishingHole
-
-local FrostStoneVaultStorm = Pin({
-    group = ns.groups.FROSTSTONE_VAULT_STORM
-}) -- Frostone Vault Primal Storm
-
-ns.pin.FrostStoneVaultStorm = FrostStoneVaultStorm
-
-local GrandHunt = Pin({
-    group = ns.groups.GRAND_HUNTS
-}) -- Grand Hunt
-
-ns.pin.GrandHunt = GrandHunt
-
-local KalimdorCup = Pin({
-    group = ns.groups.KALIMDOR_CUP
-}) -- Kalimdor Cup
-
-ns.pin.KalimdorCup = KalimdorCup
-
--- local OutlandCup = Pin({
---     group = ns.groups.OUTLAND_CUP
--- }) -- Outland Cup
-
--- ns.pin.OutlandCup = OutlandCup
-
-local ResearchersUnderFire = Pin({
-    group = ns.groups.RESEARCHERS_UNDER_FIRE,
-    coordinates = 87248274
-}) -- Researchers Under Fire
-
-ns.pin.ResearchersUnderFire = ResearchersUnderFire
+local GrandHunt = Pin({group = ns.groups.GRAND_HUNTS}) -- Grand Hunt
 
 local ZaralekCavern = Pin({
     group = ns.groups.ZARALEK_CAVERN_ENTRANCES,
     passive = true
 }) -- Zaralek Cavern
 
+ns.pin.AncientWaygate = AncientWaygate
+ns.pin.DragonridingRally = DragonridingRally
+ns.pin.ElementalStorm = ElementalStorm
+ns.pin.FishingHole = FishingHole
+ns.pin.GrandHunt = GrandHunt
 ns.pin.ZaralekCavern = ZaralekCavern
 
 -------------------------------------------------------------------------------
@@ -272,6 +214,20 @@ ns.menuGroups = {
         [1] = {
             groups = {
                 [1] = ns.groups.KALIMDOR_CUP
+            }
+        }
+    },
+    [13] = { -- Eastern Kingdoms
+        [1] = {
+            groups = {
+                [1] = ns.groups.EASTERN_KINGDOMS_CUP
+            }
+        }
+    },
+    [101] = { -- Outland
+        [1] = {
+            groups = {
+                [1] = ns.groups.OUTLAND_CUP
             }
         }
     },
@@ -331,19 +287,5 @@ ns.menuGroups = {
                 [2] = ns.groups.RESEARCHERS_UNDER_FIRE
             }
         }
-    },
-    -- [13] = { -- Eastern Kingdoms
-    --     [1] = {
-    --         groups = {
-    --             [1] = ns.groups.EASTERN_KINGDOMS_CUP
-    --         }
-    --     }
-    -- },
-    -- [101] = { -- Outland
-    --     [1] = {
-    --         groups = {
-    --             [1] = ns.groups.OUTLAND_CUP
-    --         }
-    --     }
-    -- }
+    }
 }
