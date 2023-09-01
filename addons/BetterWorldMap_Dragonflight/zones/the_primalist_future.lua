@@ -4,6 +4,8 @@
 local _, ns = ...
 local Map = ns.Map
 
+local Pin = ns.pin.Pin
+
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2085, parent = 1978})
@@ -12,4 +14,4 @@ local map = Map({id = 2085, parent = 1978})
 ------------------------------ THE STORM'S FURY -------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7407] = {group = ns.groups.STORMS_FURY} -- The Storm's Fury
+map.pins[7407] = Pin({group = ns.groups.STORMS_FURY}) -- The Storm's Fury

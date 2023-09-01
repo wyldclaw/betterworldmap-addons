@@ -5,11 +5,11 @@ local _, ns = ...
 local Map = ns.Map
 
 local AncientWaygate = ns.pin.AncientWaygate
-local CommunityFeast = ns.pin.CommunityFeast
 local DragonridingRally = ns.pin.DragonridingRally
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
 local GrandHunt = ns.pin.GrandHunt
+local Pin = ns.pin.Pin
 local ZaralekCavern = ns.pin.ZaralekCavern
 
 -------------------------------------------------------------------------------
@@ -20,7 +20,7 @@ local map = Map({id = 2024, parent = 1978})
 ----------------------------------- ISKAARA -----------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7393] = {group = ns.groups.FACTION_TUSKARR} -- Iskaara
+map.pins[7393] = Pin({group = ns.groups.FACTION_TUSKARR}) -- Iskaara
 
 -------------------------------------------------------------------------------
 ------------------------------ ANCIENT WAYGATES -------------------------------
@@ -32,6 +32,10 @@ map.pins[2837] = AncientWaygate({coordinates = 63966829}) -- Vakthros
 -------------------------------------------------------------------------------
 ------------------------------- COMMUNITY FEAST -------------------------------
 -------------------------------------------------------------------------------
+
+local CommunityFeast = Pin({
+    group = ns.groups.COMMUNITY_FEAST
+}) -- Community Feast
 
 map.pins[7218] = CommunityFeast -- Community Feast - Before
 map.pins[7219] = CommunityFeast -- Community Feast - During

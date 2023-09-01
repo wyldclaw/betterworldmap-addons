@@ -6,7 +6,7 @@ local Map = ns.Map
 
 local AncientWaygate = ns.pin.AncientWaygate
 local FishingHole = ns.pin.FishingHole
-local FrostStoneVaultStorm = ns.pin.FrostStoneVaultStorm
+local Pin = ns.pin.Pin
 
 -------------------------------------------------------------------------------
 
@@ -27,6 +27,10 @@ map.pins[7412] = FishingHole -- Dragonskull Island Fishing Hole
 -------------------------------------------------------------------------------
 ------------------------ FROSTSTONE VAULT PRIMAL STORM ------------------------
 -------------------------------------------------------------------------------
+
+local FrostStoneVaultStorm = Pin({
+	group = ns.groups.FROSTSTONE_VAULT_STORM
+}) -- Frostone Vault Primal Storm
 
 map.pins[7408] = FrostStoneVaultStorm -- Froststone Vault Primal Storm - Air
 map.pins[7409] = FrostStoneVaultStorm -- Froststone Vault Primal Storm - Earth

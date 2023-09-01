@@ -9,6 +9,7 @@ local DragonridingRally = ns.pin.DragonridingRally
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
 local GrandHunt = ns.pin.GrandHunt
+local Pin = ns.pin.Pin
 
 -------------------------------------------------------------------------------
 
@@ -19,7 +20,9 @@ local val = Map({id = 2112, parent = 1978})
 --------------------------- THE SEAT OF THE ASPECTS ---------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7391] = {group = ns.groups.FACTION_VALDRAKKEN} -- The Seat of the Aspects
+map.pins[7391] = Pin({
+	group = ns.groups.FACTION_VALDRAKKEN
+}) -- The Seat of the Aspects
 
 -------------------------------------------------------------------------------
 ------------------------------ ANCIENT WAYGATES -------------------------------
@@ -64,16 +67,18 @@ map.pins[7099] = GrandHunt -- Northern Thaldraszus Hunt
 --------------------------------- GREAT VAULT ---------------------------------
 -------------------------------------------------------------------------------
 
-val.pins[7455] = {group = ns.groups.GREAT_VAULT} -- Great Vault
+val.pins[7455] = Pin({group = ns.groups.GREAT_VAULT}) -- Great Vault
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-val.pins[7544] = {group = ns.groups.SECRETS_OF_AZEROTH} -- Secrets of Azeroth
+val.pins[7544] = Pin({
+	group = ns.groups.SECRETS_OF_AZEROTH
+}) -- Secrets of Azeroth
 
 -------------------------------------------------------------------------------
 ---------------------------------- TIME RIFT ----------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7492] = {group = ns.groups.TIME_RIFT} -- Time Rift
+map.pins[7492] = Pin({group = ns.groups.TIME_RIFT}) -- Time Rift
