@@ -6,6 +6,6 @@ if not L then return end
 ----------------------------------- GLOBAL ------------------------------------
 
 L['addon_description'] = 'Régler l\'affichage des icônes pour cette carte.'
-L['dungeon_label'] = 'Dungeons'
+L['dungeon_label'] = 'Donjons'
 L['instances_label'] = 'Instances'
 L['raid_label'] = 'Raids'
