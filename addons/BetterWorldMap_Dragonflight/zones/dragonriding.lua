@@ -4,14 +4,9 @@
 local _, ns = ...
 local Map = ns.Map
 
--- local EasternKingdomsCup = ns.pin.EasternKingdomsCup
--- local OutlandCup = ns.pin.OutlandCup
-
-local KalimdorCup = ns.pin.KalimdorCup
+local Pin = ns.pin.Pin
 
 -------------------------------------------------------------------------------
-
--- Kalimdor Map ID 12
 
 local ash = Map({id = 63, parent = 12}) -- Ashenvale
 local azs = Map({id = 76, parent = 12}) -- Azshara
@@ -28,31 +23,31 @@ local ugc = Map({id = 78, parent = 12}) -- Un'Goro Crater
 local uld = Map({id = 249, parent = 12}) -- Uldum
 local wsp = Map({id = 83, parent = 12}) -- Winterspring
 
--- Eastern Kindoms Map ID 13
+local bla = Map({id = 17, parent = 13}) -- Blasted Lands
+local cos = Map({id = 210, parent = 13}) -- The Cape of Stranglethorn
+local dun = Map({id = 27, parent = 13}) -- Dun Morogh
+local dwp = Map({id = 42, parent = 13}) -- Deadwind Pass
+local elw = Map({id = 37, parent = 13}) -- Elwynn Forest
+local lmd = Map({id = 48, parent = 13}) -- Lock Modan
+local rrm = Map({id = 49, parent = 13}) -- Redridge Mountains
+local sea = Map({id = 32, parent = 13}) -- Searing Gorge
+local twi = Map({id = 241, parent = 13}) -- Twilight Highlands
 
--- local bla = Map({id = 17, parent = 13}) -- Blasted Lands
--- local cos = Map({id = 210, parent = 13}) -- The Cape of Stranglethorn
--- local dun = Map({id = 27, parent = 13}) -- Dun Morogh
--- local dwp = Map({id = 42, parent = 13}) -- Deadwind Pass
--- local elw = Map({id = 37, parent = 13}) -- Elwynn Forest
--- local lmd = Map({id = 48, parent = 13}) -- Lock Modan
--- local rrm = Map({id = 49, parent = 13}) -- Redridge Mountains
--- local sea = Map({id = 32, parent = 13}) -- Searing Gorge
--- local twi = Map({id = 241, parent = 13}) -- Twilight Highlands
-
--- Outland Map ID 101
-
--- local bem = Map({id = 105, parent = 101}) -- Blade's Edge Mountains
--- local hel = Map({id = 100, parent = 101}) -- Hellfire Peninsula
--- local nag = Map({id = 107, parent = 101}) -- Nagrand
--- local net = Map({id = 109, parent = 101}) -- Netherstorm
--- local smv = Map({id = 104, parent = 101}) -- Shadowmoon Valley
--- local ter = Map({id = 108, parent = 101}) -- Terokkar Forest
--- local zan = Map({id = 102, parent = 101}) -- Zangarmarsh
+local bem = Map({id = 105, parent = 101}) -- Blade's Edge Mountains
+local hel = Map({id = 100, parent = 101}) -- Hellfire Peninsula
+local nag = Map({id = 107, parent = 101}) -- Nagrand
+local net = Map({id = 109, parent = 101}) -- Netherstorm
+local smv = Map({id = 104, parent = 101}) -- Shadowmoon Valley
+local ter = Map({id = 108, parent = 101}) -- Terokkar Forest
+local zan = Map({id = 102, parent = 101}) -- Zangarmarsh
 
 -------------------------------------------------------------------------------
 -------------------------------- KALIMDOR CUP ---------------------------------
 -------------------------------------------------------------------------------
+
+local KalimdorCup = Pin({
+    group = ns.groups.KALIMDOR_CUP
+}) -- Kalimdor Cup
 
 ash.pins[7499] = KalimdorCup -- Ashenvale Ambit
 azs.pins[7498] = KalimdorCup -- Rocketway Ride
@@ -75,36 +70,44 @@ wsp.pins[7495] = KalimdorCup -- Winter Wander
 ---------------------------- Eastern Kingdoms Cup -----------------------------
 -------------------------------------------------------------------------------
 
+local EasternKingdomsCup = Pin({
+    group = ns.groups.EASTERN_KINGDOMS_CUP
+}) -- Eastern Kingdoms Cup
+
 -- .pins[7571] = EasternKingdomsCup -- Gilneas Gambit
 -- .pins[7580] = EasternKingdomsCup -- Plaguelands Plunge
 -- .pins[7582] = EasternKingdomsCup -- Fuselight Night Flight
 -- .pins[7583] = EasternKingdomsCup -- Krazzworks Klash
 
--- bla.pins[7579] = EasternKingdomsCup -- Blasted Lands Bolt
--- cos.pins[7577] = EasternKingdomsCup -- Gurubashi Gala
--- cos.pins[7581] = EasternKingdomsCup -- Booty Bay Blast
--- dun.pins[7578] = EasternKingdomsCup -- Ironforge Interceptor
--- dwp.pins[7575] = EasternKingdomsCup -- Deadwind Derby
--- elw.pins[7576] = EasternKingdomsCup -- Elwynn Forest Flash
--- lmd.pins[7572] = EasternKingdomsCup -- Loch Modan Loop
--- rrm.pins[7584] = EasternKingdomsCup -- Redridge Rally
--- sea.pins[7573] = EasternKingdomsCup -- Searing Slalom
--- twi.pins[7574] = EasternKingdomsCup -- Twilight Terror
+bla.pins[7579] = EasternKingdomsCup -- Blasted Lands Bolt
+cos.pins[7577] = EasternKingdomsCup -- Gurubashi Gala
+cos.pins[7581] = EasternKingdomsCup -- Booty Bay Blast
+dun.pins[7578] = EasternKingdomsCup -- Ironforge Interceptor
+dwp.pins[7575] = EasternKingdomsCup -- Deadwind Derby
+elw.pins[7576] = EasternKingdomsCup -- Elwynn Forest Flash
+lmd.pins[7572] = EasternKingdomsCup -- Loch Modan Loop
+rrm.pins[7584] = EasternKingdomsCup -- Redridge Rally
+sea.pins[7573] = EasternKingdomsCup -- Searing Slalom
+twi.pins[7574] = EasternKingdomsCup -- Twilight Terror
 
 -------------------------------------------------------------------------------
 --------------------------------- Outland Cup ---------------------------------
 -------------------------------------------------------------------------------
 
--- bem.pins[7591] = OutlandCup -- Blade's Edge Brawl
--- hel.pins[7589] = OutlandCup -- Hellfire Hustle
--- hel.pins[7593] = OutlandCup -- Razorthorn Rise Rush
--- nag.pins[7592] = OutlandCup -- Telaar Tear
--- nag.pins[7599] = OutlandCup -- Warmaul Wingding
--- net.pins[7595] = OutlandCup -- Tempest Keep Sweep
--- net.pins[7598] = OutlandCup -- Eco-Dome Excursion
--- smv.pins[7597] = OutlandCup -- Shadowmoon Slam
--- smv.pins[7601] = OutlandCup -- Fel Pit Fracas
--- ter.pins[7594] = OutlandCup -- Auchindoun Coaster
--- ter.pins[7596] = OutlandCup -- Shattrath City Sashay
--- ter.pins[7600] = OutlandCup -- Skettis Scramble
--- zan.pins[7590] = OutlandCup -- Coilfang Caper
+local OutlandCup = Pin({
+    group = ns.groups.OUTLAND_CUP
+}) -- Outland Cup
+
+bem.pins[7591] = OutlandCup -- Blade's Edge Brawl
+hel.pins[7589] = OutlandCup -- Hellfire Hustle
+hel.pins[7593] = OutlandCup -- Razorthorn Rise Rush
+nag.pins[7592] = OutlandCup -- Telaar Tear
+nag.pins[7599] = OutlandCup -- Warmaul Wingding
+net.pins[7595] = OutlandCup -- Tempest Keep Sweep
+net.pins[7598] = OutlandCup -- Eco-Dome Excursion
+smv.pins[7597] = OutlandCup -- Shadowmoon Slam
+smv.pins[7601] = OutlandCup -- Fel Pit Fracas
+ter.pins[7594] = OutlandCup -- Auchindoun Coaster
+ter.pins[7596] = OutlandCup -- Shattrath City Sashay
+ter.pins[7600] = OutlandCup -- Skettis Scramble
+zan.pins[7590] = OutlandCup -- Coilfang Caper
