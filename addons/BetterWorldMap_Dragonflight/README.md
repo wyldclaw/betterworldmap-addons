@@ -46,6 +46,7 @@ This addon adds information to the Kalimdor map for the following zones:
 * The Seat of the Aspects location. Learn more about the [Valdrakken Accord](https://www.wowhead.com/faction=2510/valdrakken-accord).
 * Great Vault location. Get your weekly reward at [The Great Vault](https://www.wowhead.com/quest=72354/the-great-vault).
 * The Storm's Fury location.  Learn more about [The Future We Make](https://www.wowhead.com/achievement=17342/the-future-we-make).
+* Secrets of Azeroth location. Learn more about the [Secrets of Azeroth](https://www.wowhead.com/guide/world-events/secrets-of-azeroth).
 * Time Rift location. Learn to become a [Chronograde Connoisseur](https://www.wowhead.com/achievement=18637/chronograde-connoisseur).
 
 ### The Forbidden Reach

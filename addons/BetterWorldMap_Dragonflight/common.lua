@@ -116,6 +116,12 @@ ns.groups.STORMS_FURY = Group({
     name = 'storms_fury'
 }) -- Storm's Fury
 
+ns.groups.SECRETS_OF_AZEROTH = Group({
+    atlas = 'minimap-genericevent-hornicon',
+    label = L['secrets_of_azeroth_label'],
+    name = 'secrets_of_azeroth'
+}) -- Secrets of Azeroth
+
 ns.groups.TIME_RIFT = Group({
     atlas = 'minimap-genericevent-hornicon',
     label = L['time_rift_label'],
@@ -262,6 +268,13 @@ ns.pin.ZaralekCavern = ZaralekCavern
 -------------------------------------------------------------------------------
 
 ns.menuGroups = {
+    [12] = { -- Kalimdor
+        [1] = {
+            groups = {
+                [1] = ns.groups.KALIMDOR_CUP
+            }
+        }
+    },
     [1978] = { -- Dragon Isles
         [1] = {
             title = L['zone_dragon_isles'],
@@ -301,7 +314,8 @@ ns.menuGroups = {
                 [1] = ns.groups.FACTION_VALDRAKKEN,
                 [2] = ns.groups.GREAT_VAULT,
                 [3] = ns.groups.STORMS_FURY,
-                [4] = ns.groups.TIME_RIFT
+                [4] = ns.groups.SECRETS_OF_AZEROTH,
+                [5] = ns.groups.TIME_RIFT
             }
         },
         [6] = {
@@ -315,13 +329,6 @@ ns.menuGroups = {
             groups = {
                 [1] = ns.groups.FACTION_NIFFEN,
                 [2] = ns.groups.RESEARCHERS_UNDER_FIRE
-            }
-        }
-    },
-    [12] = { -- Kalimdor
-        [1] = {
-            groups = {
-                [1] = ns.groups.KALIMDOR_CUP
             }
         }
     },

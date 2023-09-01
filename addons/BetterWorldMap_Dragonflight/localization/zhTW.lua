@@ -41,6 +41,7 @@ L['faction_valdrakken'] = '守護巨龍之座'
 L['great_vault_label'] = '寶庫'
 L['storms_fury_label'] = '{spell:76232}'
 L['time_rift_label'] = '{spell:409045}'
+L['secrets_of_azeroth_label'] = 'Secrets of Azeroth'
 L['zone_thaldraszus'] = '薩爪祖斯'
 
 ----------------------------- THE FORBIDDEN REACH -----------------------------
