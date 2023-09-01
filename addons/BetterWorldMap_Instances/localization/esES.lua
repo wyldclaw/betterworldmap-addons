@@ -6,6 +6,6 @@ if not L then return end
 ----------------------------------- GLOBAL ------------------------------------
 
 L['addon_description'] = 'Ajustar la visualización de iconos para este mapa.'
-L['dungeon_label'] = 'Dungeons'
-L['instances_label'] = 'Instances'
-L['raid_label'] = 'Raids'
+L['dungeon_label'] = 'Mazmorras'
+L['instances_label'] = 'Instancias'
+L['raid_label'] = 'Bandas'
