@@ -17,6 +17,14 @@ This addon adds information to the Kalimdor map for the following zones:
 
 * Patch 10.1.5 - Ashenvale, Azshara, Desolace, Durotar, Felwood, Feralas, Silithus, Southern Barrens, Stonetalon Mountains, Thousand Needles, Un'Goro Crater, and Winterspring
 
+This addon adds information to the Eastern Kingdoms map for the following zones (coming soon!):
+
+* Patch 10.?.? - Blasted Lands, The Cape of Stranglethorn, Dun Morogh, Deadwind Pass, Elwynn Forest, Lock Modan, Redridge Mountains, Searing Gorge, and Twilight Highlands
+
+This addon adds information to the Outland map for the following zones (coming soon!):
+
+* Path 10.?.? - Blade's Edge Mountains, Hellfire Penninsula, Nagrand, Netehrstorm, Shadowmoon Valley, Terokkar Forest, and Zangarmarsh
+
 ## Dragon Isles
 
 * Ancient Waygate locations in all zones. Learn more about [Mastering the Waygates](https://www.wowhead.com/achievement=16292/mastering-the-waygates).
@@ -61,6 +69,14 @@ This addon adds information to the Kalimdor map for the following zones:
 ## Kalimdor
 
 * Kalimdor Cup locations in all zones. Become a [Kalimdor Racer](https://www.wowhead.com/guide/dragonriding/kalimdor-cup-event).
+
+## Eastern Kingdom
+
+* Eastern Kingdom Cup locations in all zones. Coming soon!
+
+## Outland
+
+* Outland Cup locations in all zones. Coming soon!
 
 ## Limitations
 
