@@ -30,25 +30,3 @@ hooksecurefunc(AreaPOIPinMixin, 'OnMouseEnter', function(self)
         GameTooltip:Show()
     end
 end)
-
--------------------------------------------------------------------------------
----------------------------------- INSTANCES ----------------------------------
--------------------------------------------------------------------------------
-
-hooksecurefunc(DungeonEntrancePinMixin, 'OnMouseEnter', function(self)
-    if ns.GetOpt('dev_enabled') then
-        local mapID = self:GetMap().mapID
-        local coords = ns.GetCoord(self:GetPosition())
-        GameTooltip:SetOwner(self, 'ANCHOR_RIGHT')
-        GameTooltip_SetTitle(GameTooltip, self.name, HIGHLIGHT_FONT_COLOR)
-        GameTooltip:AddLine(' ')
-        GameTooltip:AddLine('BetterWorldMap:', 1, 1, 1)
-        GameTooltip:AddDoubleLine('mapID:', mapID, r, g, b, 1, 1, 1)
-        GameTooltip:AddDoubleLine('coordinates:', coords, r, g, b, 1, 1, 1)
-        GameTooltip:Show()
-    end
-end)
-
-hooksecurefunc(DungeonEntrancePinMixin, 'OnMouseLeave', function(self)
-    GameTooltip:Hide()
-end)
