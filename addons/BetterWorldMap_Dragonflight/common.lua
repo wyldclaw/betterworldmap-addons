@@ -164,11 +164,11 @@ ns.groups.EASTERN_KINGDOMS_CUP = Group({
     name = 'eastern_kingdoms_cup'
 }) -- Eastern Kingdom Cup
 
-ns.groups.OUTLAND_CUP = Group({
-    atlas = 'racing',
-    label = L['outland_cup'],
-    name = 'outland_cup'
-}) -- Outland Cup
+-- ns.groups.OUTLAND_CUP = Group({
+--     atlas = 'racing',
+--     label = L['outland_cup'],
+--     name = 'outland_cup'
+-- }) -- Outland Cup
 
 -------------------------------------------------------------------------------
 ------------------------------------ PINS -------------------------------------
@@ -224,13 +224,13 @@ ns.menuGroups = {
             }
         }
     },
-    [101] = { -- Outland
-        [1] = {
-            groups = {
-                [1] = ns.groups.OUTLAND_CUP
-            }
-        }
-    },
+    -- [101] = { -- Outland
+    --     [1] = {
+    --         groups = {
+    --             [1] = ns.groups.OUTLAND_CUP
+    --         }
+    --     }
+    -- },
     [1978] = { -- Dragon Isles
         [1] = {
             title = L['zone_dragon_isles'],

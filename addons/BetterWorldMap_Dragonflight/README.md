@@ -1,4 +1,4 @@
-**An addon for the Dragonflight expansion. It will add icons for points of interest to the Dragon Isles, Kalimdor, Eastern Kingdoms, and Outland world map.**
+**An addon for the Dragonflight expansion. It will add icons for points of interest to the Dragon Isles, Kalimdor and Eastern Kingdoms world map.**
 
 Now available on CurseForge! [BetterWorldMap: Dragonflight](https://www.curseforge.com/wow/addons/betterworldmap-dragonflight)
 
@@ -17,15 +17,11 @@ This addon adds information to the Kalimdor map for the following zones:
 
 * Patch 10.1.5 - Ashenvale, Azshara, Desolace, Durotar, Felwood, Feralas, Silithus, Southern Barrens, Stonetalon Mountains, Thousand Needles, Un'Goro Crater, and Winterspring
 
-This addon adds information to the Eastern Kingdoms map for the following zones (coming soon!):
+This addon adds information to the Eastern Kingdoms map for the following zones:
 
-* Patch 10.?.? - Blasted Lands, The Cape of Stranglethorn, Dun Morogh, Deadwind Pass, Elwynn Forest, Lock Modan, Redridge Mountains, Searing Gorge, and Twilight Highlands
+* Patch 10.1.7 - Badlands, Blasted Lands, The Cape of Stranglethorn, Dun Morogh, Deadwind Pass, Elwynn Forest, Eastern Plaguelands, Lock Modan, Redridge Mountains, Ruins of Gilneas, Searing Gorge, and Twilight Highlands
 
-This addon adds information to the Outland map for the following zones (coming soon!):
-
-* Path 10.?.? - Blade's Edge Mountains, Hellfire Penninsula, Nagrand, Netehrstorm, Shadowmoon Valley, Terokkar Forest, and Zangarmarsh
-
-## Dragon Isles
+### Dragon Isles
 
 * Ancient Waygate locations in all zones. Learn more about [Mastering the Waygates](https://www.wowhead.com/achievement=16292/mastering-the-waygates).
 * Dragonriding Rally. Race against other racers in [Dragonriding](https://www.wowhead.com/guide/dragonriding/races-overview-rewards).
@@ -66,17 +62,13 @@ This addon adds information to the Outland map for the following zones (coming s
 * Loamm location. Learn more about the [Loamm Niffen](https://www.wowhead.com/faction=2564/loamm-niffen).
 * Researchers Under Fire location. Learn more about the [Researchers Under Fire](https://www.wowhead.com/guide/zaralek-cavern#weekly-event-researchers-under-fire) event.
 
-## Kalimdor
+### Kalimdor
 
-* Kalimdor Cup locations in all zones. Become a [Kalimdor Racer](https://www.wowhead.com/guide/dragonriding/kalimdor-cup-event).
+* Kalimdor Cup locations in all zones. Become a [Kalimdor Racing Completionist](https://www.wowhead.com/achievement=17723/kalimdor-racing-completionist-gold).
 
-## Eastern Kingdom
+### Eastern Kingdom
 
-* Eastern Kingdom Cup locations in all zones. Coming soon!
-
-## Outland
-
-* Outland Cup locations in all zones. Coming soon!
+* Eastern Kingdom Cup locations in all zones. Become a [Eastern Kingdoms Completionist](https://www.wowhead.com/achievement=18942/eastern-kingdoms-racing-completionist-gold).
 
 ## Limitations
 
