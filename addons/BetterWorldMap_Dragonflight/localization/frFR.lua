@@ -39,20 +39,13 @@ L['zone_azure_span'] = 'Travée d’Azur'
 
 L['faction_valdrakken'] = 'Siège des Aspects'
 L['great_vault_label'] = 'Grande Chambre-forte'
-L['storms_fury_label'] = '{spell:76232}'
 L['time_rift_label'] = '{spell:409045}'
 L['secrets_of_azeroth_label'] = 'Secrets d\'Azeroth'
 L['zone_thaldraszus'] = 'Thaldraszus'
 
------------------------------ THE FORBIDDEN REACH -----------------------------
-
-L['froststone_vault_storm_label'] = 'Tempête primordiale du caveau Givre-Pierre'
-L['zone_the_forbidden_reach'] = 'Confins Interdits'
-
 -------------------------------- ZARALEK CAVERN -------------------------------
 
 L['faction_niffen'] = 'Loamm'
-L['researchers_under_fire'] = 'Des Chercheurs sous le Feu'
 L['zone_zaralek_cavern'] = 'Grotte de Zaralek'
 
 -------------------------------- DRAGONRIDING ---------------------------------

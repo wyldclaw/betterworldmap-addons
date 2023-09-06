@@ -8,7 +8,6 @@ local AncientWaygate = ns.pin.AncientWaygate
 local DragonridingRally = ns.pin.DragonridingRally
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
-local GrandHunt = ns.pin.GrandHunt
 local Pin = ns.pin.Pin
 
 -------------------------------------------------------------------------------
@@ -19,9 +18,7 @@ local map = Map({id = 2022, parent = 1978})
 ----------------------------- DRAGONSCALE BASECAMP ----------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7365] = Pin({
-	group = ns.groups.FACTION_EXPEDITION
-}) -- Dragonscale Basecamp
+map.pins[7365] = Pin({group = ns.groups.FACTION_EXPEDITION}) -- Dragonscale Basecamp
 
 -------------------------------------------------------------------------------
 ------------------------------ ANCIENT WAYGATES -------------------------------
@@ -34,9 +31,7 @@ map.pins[2841] = AncientWaygate({coordinates = 57673589}) -- Skytop Observatory
 ------------------------------ DRAGONBANE SIEGE -------------------------------
 -------------------------------------------------------------------------------
 
-local DragonbaneSiege = Pin({
-    group = ns.groups.DRAGONBANE_SIEGE
-}) -- Seige on Dragonbane Keep
+local DragonbaneSiege = Pin({group = ns.groups.DRAGONBANE_SIEGE}) -- Seige on Dragonbane Keep
 
 map.pins[7267] = DragonbaneSiege -- Siege on Dragonbane Keep - Before
 map.pins[7104] = DragonbaneSiege -- Siege on Dragonbane Keep - During
@@ -71,11 +66,3 @@ map.pins[7260] = ElementalStorm -- Scalecracker Keep - Snowstorm
 
 map.pins[7086] = FishingHole -- River Mouth Fishing Hole
 map.pins[7272] = FishingHole -- Burning Ascent Fishing Hole
-
--------------------------------------------------------------------------------
---------------------------------- GRAND HUNTS ---------------------------------
--------------------------------------------------------------------------------
-
-map.pins[7091] = GrandHunt -- Southern Waking Shores Hunt
-map.pins[7092] = GrandHunt -- Eastern Waking Shores Hunt
-map.pins[7093] = GrandHunt -- Northern Waking Shores Hunt

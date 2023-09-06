@@ -8,7 +8,6 @@ local AncientWaygate = ns.pin.AncientWaygate
 local DragonridingRally = ns.pin.DragonridingRally
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
-local GrandHunt = ns.pin.GrandHunt
 local Pin = ns.pin.Pin
 local ZaralekCavern = ns.pin.ZaralekCavern
 
@@ -69,14 +68,6 @@ map.pins[7240] = ElementalStorm -- Imbu - Snowstorm
 -------------------------------------------------------------------------------
 
 map.pins[7266] = FishingHole -- Grimtusks Fishing Hole
-
--------------------------------------------------------------------------------
---------------------------------- GRAND HUNTS ---------------------------------
--------------------------------------------------------------------------------
-
-map.pins[7095] = GrandHunt -- Eastern Azure Span Hunt
-map.pins[7096] = GrandHunt -- Southern Azure Span Hunt
-map.pins[7094] = GrandHunt -- Western Azure San Hunt
 
 -------------------------------------------------------------------------------
 -------------------------- ZARALEK CAVERN ENTRANCES ---------------------------

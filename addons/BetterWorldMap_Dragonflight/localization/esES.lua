@@ -39,20 +39,13 @@ L['zone_azure_span'] = 'Tierras Azures'
 
 L['faction_valdrakken'] = 'Trono de los Aspectos'
 L['great_vault_label'] = 'Gran Cámara'
-L['storms_fury_label'] = '{spell:76232}'
 L['time_rift_label'] = '{spell:409045}'
 L['secrets_of_azeroth_label'] = 'Secretos de Azeroth'
 L['zone_thaldraszus'] = 'Thaldraszus'
 
------------------------------ THE FORBIDDEN REACH -----------------------------
-
-L['froststone_vault_storm_label'] = 'Tormenta Primigenia de la Cámara Petraescarcha'
-L['zone_the_forbidden_reach'] = 'El Confín Olvidado'
-
 -------------------------------- ZARALEK CAVERN -------------------------------
 
 L['faction_niffen'] = 'Loamm'
-L['researchers_under_fire'] = 'Investigadores bajo el Fuego'
 L['zone_zaralek_cavern'] = 'Caverna Zaralek'
 
 -------------------------------- DRAGONRIDING ---------------------------------

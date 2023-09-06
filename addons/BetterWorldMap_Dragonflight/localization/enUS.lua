@@ -39,20 +39,13 @@ L['zone_azure_span'] = 'Azure Span'
 
 L['faction_valdrakken'] = 'The Seat of the Aspects'
 L['great_vault_label'] = 'Great Vault'
-L['storms_fury_label'] = '{spell:76232}'
 L['time_rift_label'] = '{spell:409045}'
 L['secrets_of_azeroth_label'] = 'Secrets of Azeroth'
 L['zone_thaldraszus'] = 'Thaldraszus'
 
------------------------------ THE FORBIDDEN REACH -----------------------------
-
-L['froststone_vault_storm_label'] = 'Froststone Vault Primal Storm'
-L['zone_the_forbidden_reach'] = 'The Forbidden Reach'
-
 -------------------------------- ZARALEK CAVERN -------------------------------
 
 L['faction_niffen'] = 'Loamm'
-L['researchers_under_fire'] = 'Researchers Under Fire'
 L['zone_zaralek_cavern'] = 'Zaralek Cavern'
 
 -------------------------------- DRAGONRIDING ---------------------------------

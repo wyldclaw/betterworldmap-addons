@@ -110,12 +110,6 @@ ns.groups.GREAT_VAULT = Group({
     name = 'great_vault'
 }) -- Great Vault
 
-ns.groups.STORMS_FURY = Group({
-    atlas = 'ElementalStorm-Boss-Water',
-    label = L['storms_fury_label'],
-    name = 'storms_fury'
-}) -- Storm's Fury
-
 ns.groups.SECRETS_OF_AZEROTH = Group({
     atlas = 'minimap-genericevent-hornicon',
     label = L['secrets_of_azeroth_label'],
@@ -134,14 +128,6 @@ ns.groups.TIME_RIFT = Group({
     name = 'time_rift'
 }) -- Time Rift
 
------------------------------ THE FORBIDDEN REACH -----------------------------
-
-ns.groups.FROSTSTONE_VAULT_STORM = Group({
-    atlas = 'ElementalStorm-Boss-Air',
-    label = L['froststone_vault_storm_label'],
-    name = 'froststone_vault_storm'
-}) -- Froststone Vault Primal Storm
-
 -------------------------------- ZARALEK CAVERN -------------------------------
 
 ns.groups.FACTION_NIFFEN = Group({
@@ -149,12 +135,6 @@ ns.groups.FACTION_NIFFEN = Group({
     label = L['faction_niffen'],
     name = 'faction_niffen',
 }) -- Loamm
-
-ns.groups.RESEARCHERS_UNDER_FIRE = Group({
-    atlas = 'minimap-genericevent-hornicon',
-    label = L['researchers_under_fire'],
-    name = 'researchers_under_fire'
-}) -- Researchers Under Fire
 
 -------------------------------- DRAGONRIDING ---------------------------------
 
@@ -176,11 +156,14 @@ ns.groups.EASTERN_KINGDOMS_CUP = Group({
     end
 }) -- Eastern Kingdom Cup
 
--- ns.groups.OUTLAND_CUP = Group({
---     atlas = 'racing',
---     label = L['outland_cup'],
---     name = 'outland_cup'
--- }) -- Outland Cup
+ns.groups.OUTLAND_CUP = Group({
+    atlas = 'racing',
+    label = L['outland_cup'],
+    name = 'outland_cup',
+    IsVisible = function()
+        return false
+    end
+}) -- Outland Cup
 
 -------------------------------------------------------------------------------
 ------------------------------------ PINS -------------------------------------
@@ -203,8 +186,6 @@ local ElementalStorm = Pin({
 
 local FishingHole = Pin({group = ns.groups.FISHING_HOLE}) -- Fishing Hole
 
-local GrandHunt = Pin({group = ns.groups.GRAND_HUNTS}) -- Grand Hunt
-
 local ZaralekCavern = Pin({
     group = ns.groups.ZARALEK_CAVERN_ENTRANCES,
     passive = true
@@ -214,7 +195,6 @@ ns.pin.AncientWaygate = AncientWaygate
 ns.pin.DragonridingRally = DragonridingRally
 ns.pin.ElementalStorm = ElementalStorm
 ns.pin.FishingHole = FishingHole
-ns.pin.GrandHunt = GrandHunt
 ns.pin.ZaralekCavern = ZaralekCavern
 
 -------------------------------------------------------------------------------
@@ -225,78 +205,70 @@ ns.menuGroups = {
     [12] = { -- Kalimdor
         [1] = {
             groups = {
-                [1] = ns.groups.KALIMDOR_CUP
+                ns.groups.KALIMDOR_CUP
             }
         }
     },
     [13] = { -- Eastern Kingdoms
         [1] = {
             groups = {
-                [1] = ns.groups.EASTERN_KINGDOMS_CUP
+                ns.groups.EASTERN_KINGDOMS_CUP
             }
         }
     },
-    -- [101] = { -- Outland
-    --     [1] = {
-    --         groups = {
-    --             [1] = ns.groups.OUTLAND_CUP
-    --         }
-    --     }
-    -- },
+    [101] = { -- Outland
+        [1] = {
+            groups = {
+                ns.groups.OUTLAND_CUP
+            }
+        }
+    },
     [1978] = { -- Dragon Isles
         [1] = {
             title = L['zone_dragon_isles'],
             groups = {
-                [1] = ns.groups.ANCIENT_WAYGATES,
-                [2] = ns.groups.DRAGONRIDING_RALLY,
-                [3] = ns.groups.ELEMENTAL_STORM,
-                [4] = ns.groups.FISHING_HOLE,
-                [5] = ns.groups.GRAND_HUNTS,
-                [6] = ns.groups.ZARALEK_CAVERN_ENTRANCES
+                ns.groups.ANCIENT_WAYGATES,
+                ns.groups.DRAGONRIDING_RALLY,
+                ns.groups.ELEMENTAL_STORM,
+                ns.groups.FISHING_HOLE,
+                ns.groups.GRAND_HUNTS,
+                ns.groups.ZARALEK_CAVERN_ENTRANCES
             }
         },
         [2] = {
             title = L['zone_the_waking_shores'],
             groups = {
-                [1] = ns.groups.FACTION_EXPEDITION,
-                [2] = ns.groups.DRAGONBANE_SIEGE
+                ns.groups.FACTION_EXPEDITION,
+                ns.groups.DRAGONBANE_SIEGE
             }
         },
         [3] = {
             title = L['zone_ohnahran_plains'],
             groups = {
-                [1] = ns.groups.FACTION_CENTAUR,
-                [2] = ns.groups.AYLAAG_CAMPS
+                ns.groups.FACTION_CENTAUR,
+                ns.groups.AYLAAG_CAMPS
             }
         },
         [4] = {
             title = L['zone_azure_span'],
             groups = {
-                [1] = ns.groups.FACTION_TUSKARR,
-                [2] = ns.groups.COMMUNITY_FEAST
+                ns.groups.FACTION_TUSKARR,
+                ns.groups.COMMUNITY_FEAST
             }
         },
         [5] = {
             title = L['zone_thaldraszus'],
             groups = {
-                [1] = ns.groups.FACTION_VALDRAKKEN,
-                [2] = ns.groups.GREAT_VAULT,
-                [3] = ns.groups.STORMS_FURY,
-                [4] = ns.groups.SECRETS_OF_AZEROTH,
-                [5] = ns.groups.TIME_RIFT
+                ns.groups.FACTION_VALDRAKKEN,
+                ns.groups.GREAT_VAULT,
+                ns.groups.SECRETS_OF_AZEROTH,
+                ns.groups.TIME_RIFT
             }
         },
         [6] = {
-            title = L['zone_the_forbidden_reach'],
-            groups = {
-                [1] = ns.groups.FROSTSTONE_VAULT_STORM
-            }
-        },
-        [7] = {
             title = L['zone_zaralek_cavern'],
             groups = {
-                [1] = ns.groups.FACTION_NIFFEN,
-                [2] = ns.groups.RESEARCHERS_UNDER_FIRE
+                ns.groups.FACTION_NIFFEN
             }
         }
     }

@@ -39,20 +39,13 @@ L['zone_azure_span'] = '蒼藍高地'
 
 L['faction_valdrakken'] = '守護巨龍之座'
 L['great_vault_label'] = '寶庫'
-L['storms_fury_label'] = '{spell:76232}'
 L['time_rift_label'] = '{spell:409045}'
 L['secrets_of_azeroth_label'] = 'Secrets of Azeroth'
 L['zone_thaldraszus'] = '薩爪祖斯'
 
------------------------------ THE FORBIDDEN REACH -----------------------------
-
-L['froststone_vault_storm_label'] = '霜石密庫洪荒風暴'
-L['zone_the_forbidden_reach'] = '禁忌之境'
-
 -------------------------------- ZARALEK CAVERN -------------------------------
 
 L['faction_niffen'] = '洛姆'
-L['researchers_under_fire'] = '遭攻擊的研究員'
 L['zone_zaralek_cavern'] = '扎拉萊克洞窟'
 
 -------------------------------- DRAGONRIDING ---------------------------------

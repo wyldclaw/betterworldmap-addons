@@ -8,7 +8,6 @@ local AncientWaygate = ns.pin.AncientWaygate
 local DragonridingRally = ns.pin.DragonridingRally
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
-local GrandHunt = ns.pin.GrandHunt
 local Pin = ns.pin.Pin
 local ZaralekCavern = ns.pin.ZaralekCavern
 
@@ -61,14 +60,6 @@ map.pins[7224] = ElementalStorm -- Nokhudon Hold - Snowstorm
 -------------------------------------------------------------------------------
 
 map.pins[7270] = FishingHole -- Dragonsprings Fishing Hole
-
--------------------------------------------------------------------------------
---------------------------------- GRAND HUNTS ---------------------------------
--------------------------------------------------------------------------------
-
-map.pins[7098] = GrandHunt -- Northern Ohn'ahran Plains Hunt
-map.pins[7089] = GrandHunt -- Western Ohn'ahran Plains Hunt
-map.pins[7090] = GrandHunt -- Eastern Ohn'ahran Plains Hunt
 
 -------------------------------------------------------------------------------
 -------------------------- ZARALEK CAVERN ENTRANCES ---------------------------
