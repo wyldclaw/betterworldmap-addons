@@ -42,12 +42,6 @@ ns.groups.FISHING_HOLE = Group({
     name = 'tuskarr_fishing_hole'
 }) -- Tuskarr Fishing Holes
 
-ns.groups.GRAND_HUNTS = Group({
-    atlas = 'minimap-genericevent-hornicon',
-    label = L['grand_hunt_label'],
-    name = 'grand_hunt'
-}) -- Grand Hunt
-
 ns.groups.ZARALEK_CAVERN_ENTRANCES = Group({
     atlas = 'CaveUnderground-Down',
     label = L['zaralek_cavern_entrance_label'],
@@ -231,7 +225,6 @@ ns.menuGroups = {
                 ns.groups.DRAGONRIDING_RALLY,
                 ns.groups.ELEMENTAL_STORM,
                 ns.groups.FISHING_HOLE,
-                ns.groups.GRAND_HUNTS,
                 ns.groups.ZARALEK_CAVERN_ENTRANCES
             }
         },
