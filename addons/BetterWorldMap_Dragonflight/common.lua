@@ -119,7 +119,13 @@ ns.groups.STORMS_FURY = Group({
 ns.groups.SECRETS_OF_AZEROTH = Group({
     atlas = 'minimap-genericevent-hornicon',
     label = L['secrets_of_azeroth_label'],
-    name = 'secrets_of_azeroth'
+    name = 'secrets_of_azeroth',
+    IsVisible = function()
+        local us = ns.CalendarEventIsActive(1396)
+        local eu = ns.CalendarEventIsActive(1398)
+        local tw = ns.CalendarEventIsActive(1399)
+        return us or eu or tw
+    end
 }) -- Secrets of Azeroth
 
 ns.groups.TIME_RIFT = Group({
@@ -155,13 +161,19 @@ ns.groups.RESEARCHERS_UNDER_FIRE = Group({
 ns.groups.KALIMDOR_CUP = Group({
     atlas = 'racing',
     label = L['kalimdor_cup'],
-    name = 'kalimdor_cup'
+    name = 'kalimdor_cup',
+    IsVisible = function()
+        return ns.CalendarEventIsActive(1395)
+    end
 }) -- Kalimdor Cup
 
 ns.groups.EASTERN_KINGDOMS_CUP = Group({
     atlas = 'racing',
     label = L['eastern_kingdoms_cup'],
-    name = 'eastern_kingdoms_cup'
+    name = 'eastern_kingdoms_cup',
+    IsVisible = function()
+        return ns.CalendarEventIsActive(1400)
+    end
 }) -- Eastern Kingdom Cup
 
 -- ns.groups.OUTLAND_CUP = Group({

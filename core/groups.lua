@@ -17,6 +17,10 @@ local function Group(attrs)
     if not group.label then error('Group must have a label!') end
     if not group.name then error('Group must have a name!') end
 
+    if not group.IsVisible then
+        group.IsVisible = function() return true end
+    end
+
     ns.PrepareText(group.label)
 
     return group

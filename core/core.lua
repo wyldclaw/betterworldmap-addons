@@ -71,7 +71,11 @@ end
 
 function WorldMapOptionsButtonMixin:Refresh()
     local mapID = self:GetParent():GetMapID()
-    if ns.IsActiveMap(mapID) then self:Show() else self:Hide() end
+    if ns.IsActiveMap(mapID) and ns.HasVisibleGroups(mapID) then
+        self:Show()
+    else
+        self:Hide()
+    end
 end
 
 function WorldMapOptionsButtonMixin:InitializeDropDown()
@@ -88,16 +92,18 @@ function WorldMapOptionsButtonMixin:InitializeDropDown()
                 })
             end
             for _, group in ipairs(section.groups) do
-                local atlas = CreateAtlasMarkup(group.atlas, 20, 20)
-                ns.libs.DDM:UIDropDownMenu_AddButton({
-                    text = atlas .. ' ' .. ns.RenderText(group.label),
-                    isNotRadio = true,
-                    keepShownOnClick = true,
-                    checked = ns.GetOpt('enable_' .. group.name),
-                    func = function()
-                        ns.SetOpt('enable_' .. group.name)
-                    end
-                })
+                if group.IsVisible() then
+                    local atlas = CreateAtlasMarkup(group.atlas, 20, 20)
+                    ns.libs.DDM:UIDropDownMenu_AddButton({
+                        text = atlas .. ' ' .. ns.RenderText(group.label),
+                        isNotRadio = true,
+                        keepShownOnClick = true,
+                        checked = ns.GetOpt('enable_' .. group.name),
+                        func = function()
+                            ns.SetOpt('enable_' .. group.name)
+                        end
+                    })
+                end
             end
         end
     end
