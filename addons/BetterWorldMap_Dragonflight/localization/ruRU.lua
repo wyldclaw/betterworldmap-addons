@@ -12,7 +12,6 @@ L['addon_description'] = 'Настроить отображение значко
 L['ancient_waygate_label'] = '{spell:386485}'
 L['dragonriding_rally_label'] = 'Dragonriding Rally'
 L['elemental_storm_label'] = '{spell:392768}'
-L['grand_hunt_label'] = 'Великая охота'
 L['tuskarr_fishing_hole_label'] = '{spell:388968}'
 L['zaralek_cavern_entrance_label'] = 'Пещера Заралек'
 L['zone_dragon_isles'] = 'Драконьи острова'
