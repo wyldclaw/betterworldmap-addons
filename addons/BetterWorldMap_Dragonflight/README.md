@@ -9,8 +9,6 @@ A quick toggle menu will appear on the Dragon Isles and Kalimdor map which allow
 This addon adds information to the Dragon Isles map for the following zones:
 
 * Patch 10.0.0 - The Waking Shores, Ohn'ahran Plains, The Azure Span, and Thaldraszus
-* Patch 10.0.5 - The Primalist Future
-* Patch 10.0.7 - The Forbidden Reach
 * Patch 10.1.5 - Zaralek Cavern
 
 This addon adds information to the Kalimdor map for the following zones:
@@ -24,10 +22,9 @@ This addon adds information to the Eastern Kingdoms map for the following zones:
 ### Dragon Isles
 
 * Ancient Waygate locations in all zones. Learn more about [Mastering the Waygates](https://www.wowhead.com/achievement=16292/mastering-the-waygates).
-* Dragonriding Rally. Race against other racers in [Dragonriding](https://www.wowhead.com/guide/dragonriding/races-overview-rewards).
+* Dragonriding Rally in all zones. Race against other racers in [Dragonriding](https://www.wowhead.com/guide/dragonriding/races-overview-rewards).
 * Elemental Storm locations in all zones. Learn to become a [Storm Chaster](https://www.wowhead.com/achievement=16490/storm-chaser).
-* Tuskarr Fishing Hole locations. Become a [Tuskarr fishing expert](https://www.wowhead.com/guide/professions/fishing/iskaara-tuskarr-fishing-holes).
-* Grand Hunt locations in all zones. Learn to become a [Hunt Master](https://www.wowhead.com/achievement=16540/hunt-master).
+* Tuskarr Fishing Hole locations in all zones. Become a [Tuskarr fishing expert](https://www.wowhead.com/guide/professions/fishing/iskaara-tuskarr-fishing-holes).
 * Zaralek Cavern cave entrances in all zones. Be sure to [Explore Zaralek Cavern](https://www.wowhead.com/achievement=17766/explore-zaralek-cavern).
 
 ### The Waking Shores
@@ -49,18 +46,12 @@ This addon adds information to the Eastern Kingdoms map for the following zones:
 
 * The Seat of the Aspects location. Learn more about the [Valdrakken Accord](https://www.wowhead.com/faction=2510/valdrakken-accord).
 * Great Vault location. Get your weekly reward at [The Great Vault](https://www.wowhead.com/quest=72354/the-great-vault).
-* The Storm's Fury location.  Learn more about [The Future We Make](https://www.wowhead.com/achievement=17342/the-future-we-make).
 * Secrets of Azeroth location. Learn more about the [Secrets of Azeroth](https://www.wowhead.com/guide/world-events/secrets-of-azeroth).
 * Time Rift location. Learn to become a [Chronograde Connoisseur](https://www.wowhead.com/achievement=18637/chronograde-connoisseur).
-
-### The Forbidden Reach
-
-* Froststone Vault Primal Storm location. Learn more about [Under the Weather](https://www.wowhead.com/achievement=17540/under-the-weather).
 
 ### Zaralek Cavern
 
 * Loamm location. Learn more about the [Loamm Niffen](https://www.wowhead.com/faction=2564/loamm-niffen).
-* Researchers Under Fire location. Learn more about the [Researchers Under Fire](https://www.wowhead.com/guide/zaralek-cavern#weekly-event-researchers-under-fire) event.
 
 ### Kalimdor
 
@@ -72,7 +63,12 @@ This addon adds information to the Eastern Kingdoms map for the following zones:
 
 ## Limitations
 
-Due to World of Warcraft API limitations this addon _cannot_ show exact Grand Hunt or Researchers Under Fire locations unless you are in the zone where they are currently active.
+Several locations have been removed due to World of Warcraft API limitations. Some locations _cannot_ be shown unless you are in the zone where they are currently active.
+
+* Grand Hunts
+* Researchers Under Fire
+* Storm's Fury
+* Froststone Vault Primal Storm
 
 ## Localization
 
