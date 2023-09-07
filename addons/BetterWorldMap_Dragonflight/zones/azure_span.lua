@@ -32,9 +32,7 @@ map.pins[2837] = AncientWaygate({coordinates = 63966829}) -- Vakthros
 ------------------------------- COMMUNITY FEAST -------------------------------
 -------------------------------------------------------------------------------
 
-local CommunityFeast = Pin({
-    group = ns.groups.COMMUNITY_FEAST
-}) -- Community Feast
+local CommunityFeast = Pin({group = ns.groups.COMMUNITY_FEAST}) -- Community Feast
 
 map.pins[7218] = CommunityFeast -- Community Feast - Before
 map.pins[7219] = CommunityFeast -- Community Feast - During

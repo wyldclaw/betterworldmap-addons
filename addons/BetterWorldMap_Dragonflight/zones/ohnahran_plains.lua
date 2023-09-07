@@ -32,9 +32,7 @@ map.pins[2839] = AncientWaygate({coordinates = 49765289}) -- Ruszathar Reach
 -------------------------------- AYLAAG CAMPS ---------------------------------
 -------------------------------------------------------------------------------
 
-local AylaagCamp = Pin({
-    group = ns.groups.AYLAAG_CAMPS
-}) -- Aylaag Camp
+local AylaagCamp = Pin({group = ns.groups.AYLAAG_CAMPS}) -- Aylaag Camp
 
 map.pins[7101] = AylaagCamp -- Aylaag Camp - River Camp
 map.pins[7102] = AylaagCamp -- Aylaag Camp - Aylaag Outpost
