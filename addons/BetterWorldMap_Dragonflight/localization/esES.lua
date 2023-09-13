@@ -36,6 +36,7 @@ L['zone_azure_span'] = 'Tierras Azures'
 
 --------------------------------- THALDRASZUS ---------------------------------
 
+L['arcane_forge_label'] = 'Forja Arcana'
 L['faction_valdrakken'] = 'Trono de los Aspectos'
 L['great_vault_label'] = 'Gran Cámara'
 L['time_rift_label'] = '{spell:409045}'

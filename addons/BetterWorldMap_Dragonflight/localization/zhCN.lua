@@ -36,6 +36,7 @@ L['zone_azure_span'] = '碧蓝林海'
 
 --------------------------------- THALDRASZUS ---------------------------------
 
+L['arcane_forge_label'] = '奥术熔炉'
 L['faction_valdrakken'] = 'The Seat of the Aspects'
 L['great_vault_label'] = 'Great Vault'
 L['time_rift_label'] = '{spell:409045}'

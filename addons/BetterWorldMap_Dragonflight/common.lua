@@ -98,6 +98,12 @@ ns.groups.FACTION_VALDRAKKEN = Group({
     name = 'faction_valdrakken',
 }) -- The Seat of the Aspects
 
+ns.groups.ARCANE_FORGE = Group({
+    atlas = 'Adventures-32x32',
+    label = L['arcane_forge_label'],
+    name = 'arcane_forge'
+}) -- Arcane Forge
+
 ns.groups.GREAT_VAULT = Group({
     atlas = 'greatvault-dragonflight-32x32',
     label = L['great_vault_label'],
@@ -253,6 +259,7 @@ ns.menuGroups = {
             title = L['zone_thaldraszus'],
             groups = {
                 ns.groups.FACTION_VALDRAKKEN,
+                ns.groups.ARCANE_FORGE,
                 ns.groups.GREAT_VAULT,
                 ns.groups.SECRETS_OF_AZEROTH,
                 ns.groups.TIME_RIFT

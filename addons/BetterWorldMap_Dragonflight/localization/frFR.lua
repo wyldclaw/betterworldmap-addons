@@ -36,6 +36,7 @@ L['zone_azure_span'] = 'Travée d’Azur'
 
 --------------------------------- THALDRASZUS ---------------------------------
 
+L['arcane_forge_label'] = 'Forge des arcanes'
 L['faction_valdrakken'] = 'Siège des Aspects'
 L['great_vault_label'] = 'Grande Chambre-forte'
 L['time_rift_label'] = '{spell:409045}'
