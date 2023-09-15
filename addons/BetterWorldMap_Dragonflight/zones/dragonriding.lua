@@ -82,7 +82,7 @@ uld.pins[7508] = KalimdorCup -- Uldum Tour
 wsp.pins[7495] = KalimdorCup -- Winter Wander
 
 -------------------------------------------------------------------------------
----------------------------- Eastern Kingdoms Cup -----------------------------
+---------------------------- EASTERN KINGDOMS CUP -----------------------------
 -------------------------------------------------------------------------------
 
 local EasternKingdomsCup = Pin({group = ns.groups.EASTERN_KINGDOMS_CUP}) -- Eastern Kingdoms Cup
@@ -103,7 +103,7 @@ twi.pins[7574] = EasternKingdomsCup -- Twilight Terror
 twi.pins[7583] = EasternKingdomsCup -- Krazzworks Klash
 
 -------------------------------------------------------------------------------
---------------------------------- Outland Cup ---------------------------------
+--------------------------------- OUTLAND CUP ---------------------------------
 -------------------------------------------------------------------------------
 
 local OutlandCup = Pin({group = ns.groups.OUTLAND_CUP}) -- Outland Cup
