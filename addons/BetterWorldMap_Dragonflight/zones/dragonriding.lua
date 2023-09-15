@@ -47,6 +47,14 @@ local smv = Map({id = 104, parent = 101}) -- Shadowmoon Valley
 local ter = Map({id = 108, parent = 101}) -- Terokkar Forest
 local zan = Map({id = 102, parent = 101}) -- Zangarmarsh
 
+-- Broken Isles
+local azs = Map({id = 630, parent = 619}) -- Azsuna
+local bro = Map({id = 646, parent = 619}) -- Broken Shore
+local mtn = Map({id = 640, parent = 619}) -- Highmountain
+local sto = Map({id = 634, parent = 619}) -- Stormheim
+local sur = Map({id = 680, parent = 619}) -- Suramar
+local vsh = Map({id = 641, parent = 619}) -- Val'sharah
+
 -------------------------------------------------------------------------------
 -------------------------------- KALIMDOR CUP ---------------------------------
 -------------------------------------------------------------------------------
@@ -110,3 +118,9 @@ ter.pins[7594] = OutlandCup -- Auchindoun Coaster
 ter.pins[7596] = OutlandCup -- Shattrath City Sashay
 ter.pins[7600] = OutlandCup -- Skettis Scramble
 zan.pins[7590] = OutlandCup -- Coilfang Caper
+
+-------------------------------------------------------------------------------
+------------------------------ BROKEN ISLES CUP -------------------------------
+-------------------------------------------------------------------------------
+
+local BrokenIslesCup = Pin({group = ns.groups.BROKEN_ISLES_CUP}) -- Broken Isles Cup

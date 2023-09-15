@@ -161,9 +161,18 @@ ns.groups.OUTLAND_CUP = Group({
     label = L['outland_cup'],
     name = 'outland_cup',
     IsVisible = function()
-        return false
+        return ns.CalendarEventIsActive(1407)
     end
 }) -- Outland Cup
+
+ns.groups.BROKEN_ISLES_CUP = Group({
+    atlas = 'racing',
+    label = L['broken_isles_cup'],
+    name = 'broken_isles_cup',
+    IsVisible = function()
+        return ns.CalendarEventIsActive(1431)
+    end
+}) -- Broken Isles Cup
 
 -------------------------------------------------------------------------------
 ------------------------------------ PINS -------------------------------------
@@ -220,6 +229,13 @@ ns.menuGroups = {
         [1] = {
             groups = {
                 ns.groups.OUTLAND_CUP
+            }
+        }
+    },
+    [619] = { -- Broken Isles
+        [1] = {
+            groups = {
+                ns.groups.BROKEN_ISLES_CUP
             }
         }
     },
