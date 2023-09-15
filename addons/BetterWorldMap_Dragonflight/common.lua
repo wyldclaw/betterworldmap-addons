@@ -161,9 +161,18 @@ ns.groups.OUTLAND_CUP = Group({
     label = L['outland_cup'],
     name = 'outland_cup',
     IsVisible = function()
-        return false
+        return ns.CalendarEventIsActive(1407)
     end
 }) -- Outland Cup
+
+ns.groups.PANDARIA_CUP = Group({
+    atlas = 'racing',
+    label = L['pandaria_cup'],
+    name = 'pandaria_cup',
+    IsVisible = function()
+        return ns.CalendarEventIsActive(1430)
+    end
+}) -- Pandaria Cup
 
 -------------------------------------------------------------------------------
 ------------------------------------ PINS -------------------------------------

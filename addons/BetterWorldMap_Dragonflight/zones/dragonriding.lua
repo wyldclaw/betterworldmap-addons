@@ -47,6 +47,14 @@ local smv = Map({id = 104, parent = 101}) -- Shadowmoon Valley
 local ter = Map({id = 108, parent = 101}) -- Terokkar Forest
 local zan = Map({id = 102, parent = 101}) -- Zangarmarsh
 
+-- Pandaria
+local dre = Map({id = 422, parent = 424}) -- Dread Wastes
+local kls = Map({id = 379, parent = 424}) -- Kun-Lai Summit
+local kra = Map({id = 418, parent = 424}) -- Krasarang Wilds
+local tjf = Map({id = 371, parent = 424}) -- The Jade Forest
+local tow = Map({id = 388, parent = 424}) -- Townlong Steppes
+local vfw = Map({id = 376, parent = 424}) -- Valley of the Four Winds
+
 -------------------------------------------------------------------------------
 -------------------------------- KALIMDOR CUP ---------------------------------
 -------------------------------------------------------------------------------
@@ -71,7 +79,7 @@ uld.pins[7508] = KalimdorCup -- Uldum Tour
 wsp.pins[7495] = KalimdorCup -- Winter Wander
 
 -------------------------------------------------------------------------------
----------------------------- Eastern Kingdoms Cup -----------------------------
+---------------------------- EASTERN KINGDOMS CUP -----------------------------
 -------------------------------------------------------------------------------
 
 local EasternKingdomsCup = Pin({group = ns.groups.EASTERN_KINGDOMS_CUP}) -- Eastern Kingdoms Cup
@@ -92,7 +100,7 @@ twi.pins[7574] = EasternKingdomsCup -- Twilight Terror
 twi.pins[7583] = EasternKingdomsCup -- Krazzworks Klash
 
 -------------------------------------------------------------------------------
---------------------------------- Outland Cup ---------------------------------
+--------------------------------- OUTLAND CUP ---------------------------------
 -------------------------------------------------------------------------------
 
 local OutlandCup = Pin({group = ns.groups.OUTLAND_CUP}) -- Outland Cup
@@ -110,3 +118,9 @@ ter.pins[7594] = OutlandCup -- Auchindoun Coaster
 ter.pins[7596] = OutlandCup -- Shattrath City Sashay
 ter.pins[7600] = OutlandCup -- Skettis Scramble
 zan.pins[7590] = OutlandCup -- Coilfang Caper
+
+-------------------------------------------------------------------------------
+-------------------------------- PANDARIA CUP ---------------------------------
+-------------------------------------------------------------------------------
+
+local PandariaCup = Pin({group = ns.groups.PANDRIA_CUP}) -- Pandaria Cup
