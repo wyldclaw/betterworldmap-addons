@@ -161,9 +161,18 @@ ns.groups.OUTLAND_CUP = Group({
     label = L['outland_cup'],
     name = 'outland_cup',
     IsVisible = function()
-        return false
+        return ns.CalendarEventIsActive(1407)
     end
 }) -- Outland Cup
+
+ns.groups.NORTHREND_CUP = Group({
+    atlas = 'racing',
+    label = L['northrend_cup'],
+    name = 'northrend_cup',
+    IsVisible = function()
+        return ns.CalendarEventIsActive(1407)
+    end
+}) -- Northrend Cup
 
 -------------------------------------------------------------------------------
 ------------------------------------ PINS -------------------------------------
@@ -220,6 +229,13 @@ ns.menuGroups = {
         [1] = {
             groups = {
                 ns.groups.OUTLAND_CUP
+            }
+        }
+    },
+    [113] = { -- Northrend
+        [1] = {
+            groups = {
+                ns.groups.NormalTexture
             }
         }
     },

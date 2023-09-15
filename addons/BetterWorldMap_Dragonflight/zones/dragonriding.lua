@@ -47,6 +47,17 @@ local smv = Map({id = 104, parent = 101}) -- Shadowmoon Valley
 local ter = Map({id = 108, parent = 101}) -- Terokkar Forest
 local zan = Map({id = 102, parent = 101}) -- Zangarmarsh
 
+-- Northrend
+local bor = Map({id = 114, parent = 113}) -- Borean Tundra
+local dbt = Map({id = 115, parent = 113}) -- Dragonblight
+local gri = Map({id = 116, parent = 113}) -- Grizzly Hills
+local how = Map({id = 117, parent = 113}) -- Howling Fjord
+local ice = Map({id = 118, parent = 113}) -- Icecrown
+local sho = Map({id = 119, parent = 113}) -- Sholazar Basin
+local tsp = Map({id = 120, parent = 113}) -- The Storm Peaks
+local zdk = Map({id = 121, parent = 113}) -- Zul'Drak
+local cry = Map({id = 127, parent = 113}) -- Crystalsong Forest
+
 -------------------------------------------------------------------------------
 -------------------------------- KALIMDOR CUP ---------------------------------
 -------------------------------------------------------------------------------
@@ -110,3 +121,9 @@ ter.pins[7594] = OutlandCup -- Auchindoun Coaster
 ter.pins[7596] = OutlandCup -- Shattrath City Sashay
 ter.pins[7600] = OutlandCup -- Skettis Scramble
 zan.pins[7590] = OutlandCup -- Coilfang Caper
+
+-------------------------------------------------------------------------------
+-------------------------------- NORTHREND CUP --------------------------------
+-------------------------------------------------------------------------------
+
+local NorthrendCup = Pin({group = ns.groups.NORTHREND_CUP}) -- Northrend Cup
