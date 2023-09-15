@@ -235,7 +235,7 @@ ns.menuGroups = {
     [113] = { -- Northrend
         [1] = {
             groups = {
-                ns.groups.NormalTexture
+                ns.groups.NORTHREND_CUP
             }
         }
     },
