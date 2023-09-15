@@ -232,6 +232,13 @@ ns.menuGroups = {
             }
         }
     },
+    [424] = { -- Pandaria
+        [1] = {
+            groups = {
+                ns.groups.PANDARIA_CUP
+            }
+        }
+    },
     [1978] = { -- Dragon Isles
         [1] = {
             title = L['zone_dragon_isles'],
