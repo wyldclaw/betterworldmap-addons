@@ -52,4 +52,3 @@ L['zone_zaralek_cavern'] = 'Zaralekhöhle'
 
 L['eastern_kingdoms_cup'] = 'Eastern Kingdoms Cup'
 L['kalimdor_cup'] = 'Kalimdor Cup'
-L['outland_cup'] = 'Outland Cup'
