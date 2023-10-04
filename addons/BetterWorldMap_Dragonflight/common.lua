@@ -156,15 +156,6 @@ ns.groups.EASTERN_KINGDOMS_CUP = Group({
     end
 }) -- Eastern Kingdom Cup
 
-ns.groups.OUTLAND_CUP = Group({
-    atlas = 'racing',
-    label = L['outland_cup'],
-    name = 'outland_cup',
-    IsVisible = function()
-        return false
-    end
-}) -- Outland Cup
-
 -------------------------------------------------------------------------------
 ------------------------------------ PINS -------------------------------------
 -------------------------------------------------------------------------------
