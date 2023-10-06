@@ -1,6 +1,7 @@
 <Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
-  <script file="button.lua"/>
   <Script file="core.lua"/>
+  <!-- -->
+  <script file="button.lua"/>
   <script file="dev.lua"/>
   <Script file="groups.lua"/>
   <script file="maps.lua"/>
