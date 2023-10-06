@@ -101,7 +101,13 @@ ns.groups.FACTION_VALDRAKKEN = Group({
 ns.groups.ARCANE_FORGE = Group({
     atlas = 'Adventures-32x32',
     label = L['arcane_forge_label'],
-    name = 'arcane_forge'
+    name = 'arcane_forge',
+    IsVisible = function()
+        local us = ns.CalendarEventIsActive(1396)
+        local eu = ns.CalendarEventIsActive(1398)
+        local tw = ns.CalendarEventIsActive(1399)
+        return us or eu or tw
+    end
 }) -- Arcane Forge
 
 ns.groups.GREAT_VAULT = Group({
