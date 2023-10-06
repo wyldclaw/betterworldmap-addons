@@ -98,35 +98,11 @@ ns.groups.FACTION_VALDRAKKEN = Group({
     name = 'faction_valdrakken',
 }) -- The Seat of the Aspects
 
-ns.groups.ARCANE_FORGE = Group({
-    atlas = 'Adventures-32x32',
-    label = L['arcane_forge_label'],
-    name = 'arcane_forge',
-    IsVisible = function()
-        local us = ns.CalendarEventIsActive(1396)
-        local eu = ns.CalendarEventIsActive(1398)
-        local tw = ns.CalendarEventIsActive(1399)
-        return us or eu or tw
-    end
-}) -- Arcane Forge
-
 ns.groups.GREAT_VAULT = Group({
     atlas = 'greatvault-dragonflight-32x32',
     label = L['great_vault_label'],
     name = 'great_vault'
 }) -- Great Vault
-
-ns.groups.SECRETS_OF_AZEROTH = Group({
-    atlas = 'minimap-genericevent-hornicon',
-    label = L['secrets_of_azeroth_label'],
-    name = 'secrets_of_azeroth',
-    IsVisible = function()
-        local us = ns.CalendarEventIsActive(1396)
-        local eu = ns.CalendarEventIsActive(1398)
-        local tw = ns.CalendarEventIsActive(1399)
-        return us or eu or tw
-    end
-}) -- Secrets of Azeroth
 
 ns.groups.TIME_RIFT = Group({
     atlas = 'minimap-genericevent-hornicon',
@@ -162,6 +138,33 @@ ns.groups.EASTERN_KINGDOMS_CUP = Group({
     end
 }) -- Eastern Kingdom Cup
 
+----------------------------- SECRETS OF AZEROTH ------------------------------
+
+local function IsSecretsOfAzerothActive()
+    local us = ns.CalendarEventIsActive(1396)
+    local eu = ns.CalendarEventIsActive(1398)
+    local tw = ns.CalendarEventIsActive(1399)
+    return us or eu or tw
+end
+
+ns.groups.ARCANE_FORGE = Group({
+    atlas = 'Adventures-32x32',
+    label = L['arcane_forge_label'],
+    name = 'arcane_forge',
+    IsVisible = function()
+        return IsSecretsOfAzerothActive()
+    end
+}) -- Arcane Forge
+
+ns.groups.SECRETS_OF_AZEROTH = Group({
+    atlas = 'minimap-genericevent-hornicon',
+    label = L['secrets_of_azeroth_label'],
+    name = 'secrets_of_azeroth',
+    IsVisible = function()
+        return IsSecretsOfAzerothActive()
+    end
+}) -- Secrets of Azeroth
+
 -------------------------------------------------------------------------------
 ------------------------------------ PINS -------------------------------------
 -------------------------------------------------------------------------------
@@ -173,13 +176,9 @@ local function AncientWaygate(attrs)
     })
 end -- Ancient Waygates
 
-local DragonridingRally = Pin({
-    group = ns.groups.DRAGONRIDING_RALLY
-}) -- Dragonriding Rally
+local DragonridingRally = Pin({group = ns.groups.DRAGONRIDING_RALLY}) -- Dragonriding Rally
 
-local ElementalStorm = Pin({
-    group = ns.groups.ELEMENTAL_STORM
-}) -- Elemental Storm
+local ElementalStorm = Pin({group = ns.groups.ELEMENTAL_STORM}) -- Elemental Storm
 
 local FishingHole = Pin({group = ns.groups.FISHING_HOLE}) -- Fishing Hole
 
