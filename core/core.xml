@@ -3,6 +3,7 @@
   <!-- -->
   <script file="button.lua"/>
   <script file="dev.lua"/>
+  <Script file="flighpoints.lua"/>
   <Script file="groups.lua"/>
   <script file="maps.lua"/>
   <Script file="pins.lua"/>
