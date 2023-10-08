@@ -5,12 +5,12 @@ if not L then return end
 
 ----------------------------------- GLOBAL ------------------------------------
 
-L['addon_description'] = 'Adjust icon display for this map.'
+L['addon_description'] = 'Passe die Symbolanzeige für diese Karte an.'
 
 --------------------------------- DRAGON ISLE ---------------------------------
 
 L['ancient_waygate_label'] = '{spell:386485}'
-L['dragonriding_rally_label'] = 'Dragonriding Rally'
+L['dragonriding_rally_label'] = 'Mehrspieler-Drachenrennen'
 L['elemental_storm_label'] = '{spell:392768}'
 L['tuskarr_fishing_hole_label'] = '{spell:388968}'
 L['zaralek_cavern_entrance_label'] = 'Zaralekhöhle'
@@ -18,7 +18,7 @@ L['zone_dragon_isles'] = 'Dracheninseln'
 
 ------------------------------- THE WAKING SHORE ------------------------------
 
-L['faction_expedition'] = 'Dragonscale Basecamp'
+L['faction_expedition'] = 'Drachenschuppenbasislager'
 L['siege_on_dragonbane_keep_label'] = '{spell:388945}'
 L['zone_the_waking_shores'] = 'Die Küste des Erwachens'
 
@@ -37,10 +37,10 @@ L['zone_azure_span'] = 'Das Azurblaue Gebirge'
 --------------------------------- THALDRASZUS ---------------------------------
 
 L['arcane_forge_label'] = 'Arkane Schmiede'
-L['faction_valdrakken'] = 'The Seat of the Aspects'
-L['great_vault_label'] = 'Great Vault'
+L['faction_valdrakken'] = 'Sitz der Aspekte'
+L['great_vault_label'] = 'Große Schatzkammer'
 L['time_rift_label'] = '{spell:409045}'
-L['secrets_of_azeroth_label'] = 'Secrets of Azeroth'
+L['secrets_of_azeroth_label'] = 'Geheimnisse von Azeroth'
 L['zone_thaldraszus'] = 'Thaldraszus'
 
 -------------------------------- ZARALEK CAVERN -------------------------------
@@ -50,5 +50,5 @@ L['zone_zaralek_cavern'] = 'Zaralekhöhle'
 
 -------------------------------- DRAGONRIDING ---------------------------------
 
-L['eastern_kingdoms_cup'] = 'Eastern Kingdoms Cup'
-L['kalimdor_cup'] = 'Kalimdor Cup'
+L['eastern_kingdoms_cup'] = 'Pokal der Östlichen Königreiche'
+L['kalimdor_cup'] = 'Kalimdorpokal'
