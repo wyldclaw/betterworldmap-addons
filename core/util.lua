@@ -71,8 +71,9 @@ local function IsValidID(childMapID, id)
 end
 
 local function CalendarEventIsActive(eventID)
-    C_Calendar.SetMonth(0)
-    local day = C_DateAndTime.GetCurrentCalendarTime().monthDay
+    local current = C_DateAndTime.GetCurrentCalendarTime()
+    C_Calendar.SetAbsMonth(current.month, current.year)
+    local day = current.monthDay
     for i = 1, C_Calendar.GetNumDayEvents(0, day) do
         local event = C_Calendar.GetDayEvent(0, day, i)
         if event.eventID == eventID then
