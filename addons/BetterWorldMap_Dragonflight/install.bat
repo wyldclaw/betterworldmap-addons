@@ -15,9 +15,9 @@ exit /B
 :show_help
 echo install.bat [-h] [-d] [-i] Path\To\Interface\AddOns
 echo Note: Must be run as administrator to create symlinks
-echo     -h, --help     show this help message and exit
-echo     -h, --install  install this addon
-echo     -d, --delete   delete and exit
+echo     -h, --help      show this help message and exit
+echo     -i, --install   install this addon
+echo     -d, --delete    delete and exit
 exit /B
 
 :delete_addon
