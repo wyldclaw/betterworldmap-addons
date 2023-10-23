@@ -14,7 +14,10 @@ local map = Map({id = 2200, parent = 1978})
 --------------------------------- SUPERBLOOM ----------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7635] = Pin({
+local Superbloom = Pin({
     coordinates = 24805710,
-    group = ns.groups.SUPERBLOOM,
+    group = ns.groups.SUPERBLOOM
 }) -- Superbloom
+
+map.pins[7634] = Superbloom
+map.pins[7635] = Superbloom
