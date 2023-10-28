@@ -45,11 +45,13 @@ function Addon:OnInitialize()
     local template = ADDON_NAME .. 'WorldMapOptionsButtonTemplate'
     ns.libs.WMB:Add(template, 'DROPDOWNTOGGLEBUTTON')
 
-    self:RegisterEvent('PLAYER_ENTERING_WORLD', function()
-        self:UnregisterEvent('PLAYER_ENTERING_WORLD')
-        local expansionName = EJ_GetTierInfo(ns.expansion)
-        ns.addon_name = 'BetterWorldMap: ' .. expansionName
-    end)
+    if ns.expansion then
+        self:RegisterEvent('PLAYER_ENTERING_WORLD', function()
+            self:UnregisterEvent('PLAYER_ENTERING_WORLD')
+            local expansionName = EJ_GetTierInfo(ns.expansion)
+            ns.addon_name = 'BetterWorldMap: ' .. expansionName
+        end)
+    end
 
     self:RegisterChatCommand(ns.chat_command, function(input)
         if input == 'dev true' then
