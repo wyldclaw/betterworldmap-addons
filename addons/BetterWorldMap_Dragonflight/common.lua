@@ -19,7 +19,7 @@ ns.chat_command = 'bwm-df'
 
 ns.groups.ANCIENT_WAYGATES = Group({
     atlas = 'flightmaster_ancientwaygate-taxinode_neutral',
-    label = L['ancient_waygate_label'],
+    label = '{spell:386485}',
     name = 'ancient_waygate',
     type = 'flightpoint'
 }) -- Ancient Waygates
@@ -32,19 +32,19 @@ ns.groups.DRAGONRIDING_RALLY = Group({
 
 ns.groups.ELEMENTAL_STORM = Group({
     atlas = 'ElementalStorm-Lesser-Fire',
-    label = L['elemental_storm_label'],
+    label = '{spell:392768}',
     name = 'elemental_storm'
 }) -- Elemental Storms
 
 ns.groups.FISHING_HOLE = Group({
     atlas = 'Fishing-Hole',
-    label = L['tuskarr_fishing_hole_label'],
+    label = '{spell:388968}',
     name = 'tuskarr_fishing_hole'
 }) -- Tuskarr Fishing Holes
 
 ns.groups.ZARALEK_CAVERN_ENTRANCES = Group({
     atlas = 'CaveUnderground-Down',
-    label = L['zaralek_cavern_entrance_label'],
+    label = C_Map.GetMapInfo(2133).name,
     name = 'zaralek_cavern_entrance'
 }) -- Zaralek Cavern Entrances
 
@@ -58,7 +58,7 @@ ns.groups.FACTION_EXPEDITION = Group({
 
 ns.groups.DRAGONBANE_SIEGE = Group({
     atlas = 'minimap-genericevent-hornicon',
-    label = L['siege_on_dragonbane_keep_label'],
+    label = '{spell:388945}',
     name = 'siege_on_dragonbane_keep'
 }) -- Siege on Dragonbane Keep
 
@@ -86,7 +86,7 @@ ns.groups.FACTION_TUSKARR = Group({
 
 ns.groups.COMMUNITY_FEAST = Group({
     atlas = 'MajorFactions_MapIcons_Tuskarr64',
-    label = L['community_feast_label'],
+    label = '{spell:386441}',
     name = 'community_feast'
 }) -- Community Feast
 
@@ -106,7 +106,7 @@ ns.groups.GREAT_VAULT = Group({
 
 ns.groups.TIME_RIFT = Group({
     atlas = 'minimap-genericevent-hornicon',
-    label = L['time_rift_label'],
+    label = '{spell:409045}',
     name = 'time_rift'
 }) -- Time Rift
 
@@ -117,6 +117,14 @@ ns.groups.FACTION_NIFFEN = Group({
     label = L['faction_niffen'],
     name = 'faction_niffen',
 }) -- Loamm
+
+-------------------------------- EMERALD DREAM --------------------------------
+
+ns.groups.SUPERBLOOM = Group({
+    atlas = 'minimap-genericevent-hornicon',
+    label = '{spell:418272}',
+    name = 'superbloom'
+})
 
 -------------------------------- DRAGONRIDING ---------------------------------
 
@@ -214,7 +222,7 @@ ns.menuGroups = {
     },
     [1978] = { -- Dragon Isles
         [1] = {
-            title = L['zone_dragon_isles'],
+            title = C_Map.GetMapInfo(1978).name,
             groups = {
                 ns.groups.ANCIENT_WAYGATES,
                 ns.groups.DRAGONRIDING_RALLY,
@@ -224,28 +232,28 @@ ns.menuGroups = {
             }
         },
         [2] = {
-            title = L['zone_the_waking_shores'],
+            title = C_Map.GetMapInfo(2022).name,
             groups = {
                 ns.groups.FACTION_EXPEDITION,
                 ns.groups.DRAGONBANE_SIEGE
             }
         },
         [3] = {
-            title = L['zone_ohnahran_plains'],
+            title = C_Map.GetMapInfo(2023).name,
             groups = {
                 ns.groups.FACTION_CENTAUR,
                 ns.groups.AYLAAG_CAMPS
             }
         },
         [4] = {
-            title = L['zone_azure_span'],
+            title = C_Map.GetMapInfo(2024).name,
             groups = {
                 ns.groups.FACTION_TUSKARR,
                 ns.groups.COMMUNITY_FEAST
             }
         },
         [5] = {
-            title = L['zone_thaldraszus'],
+            title = C_Map.GetMapInfo(2025).name,
             groups = {
                 ns.groups.FACTION_VALDRAKKEN,
                 ns.groups.ARCANE_FORGE,
@@ -255,9 +263,15 @@ ns.menuGroups = {
             }
         },
         [6] = {
-            title = L['zone_zaralek_cavern'],
+            title = C_Map.GetMapInfo(2133).name,
             groups = {
                 ns.groups.FACTION_NIFFEN
+            }
+        },
+        [7] = {
+            title = C_Map.GetMapInfo(2200).name,
+            groups = {
+                ns.groups.SUPERBLOOM
             }
         }
     }
