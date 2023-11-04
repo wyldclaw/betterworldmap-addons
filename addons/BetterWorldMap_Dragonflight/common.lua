@@ -44,7 +44,7 @@ ns.groups.FISHING_HOLE = Group({
 
 ns.groups.ZARALEK_CAVERN_ENTRANCES = Group({
     atlas = 'CaveUnderground-Down',
-    label = C_Map.GetMapInfo(2133).name,
+    label = ns.GetMapName(2133),
     name = 'zaralek_cavern_entrance'
 }) -- Zaralek Cavern Entrances
 
@@ -222,7 +222,7 @@ ns.menuGroups = {
     },
     [1978] = { -- Dragon Isles
         [1] = {
-            title = C_Map.GetMapInfo(1978).name,
+            title = ns.GetMapName(1978),
             groups = {
                 ns.groups.ANCIENT_WAYGATES,
                 ns.groups.DRAGONRIDING_RALLY,
@@ -232,28 +232,28 @@ ns.menuGroups = {
             }
         },
         [2] = {
-            title = C_Map.GetMapInfo(2022).name,
+            title = ns.GetMapName(2022),
             groups = {
                 ns.groups.FACTION_EXPEDITION,
                 ns.groups.DRAGONBANE_SIEGE
             }
         },
         [3] = {
-            title = C_Map.GetMapInfo(2023).name,
+            title = ns.GetMapName(2023),
             groups = {
                 ns.groups.FACTION_CENTAUR,
                 ns.groups.AYLAAG_CAMPS
             }
         },
         [4] = {
-            title = C_Map.GetMapInfo(2024).name,
+            title = ns.GetMapName(2024),
             groups = {
                 ns.groups.FACTION_TUSKARR,
                 ns.groups.COMMUNITY_FEAST
             }
         },
         [5] = {
-            title = C_Map.GetMapInfo(2025).name,
+            title = ns.GetMapName(2025),
             groups = {
                 ns.groups.FACTION_VALDRAKKEN,
                 ns.groups.ARCANE_FORGE,
@@ -263,13 +263,13 @@ ns.menuGroups = {
             }
         },
         [6] = {
-            title = C_Map.GetMapInfo(2133).name,
+            title = ns.GetMapName(2133),
             groups = {
                 ns.groups.FACTION_NIFFEN
             }
         },
         [7] = {
-            title = C_Map.GetMapInfo(2200).name,
+            title = ns.GetMapName(2200),
             groups = {
                 ns.groups.SUPERBLOOM
             }

@@ -19,7 +19,7 @@ local function RenderText(str)
     for type, id in str:gmatch('{(%l+):(%d+)(%l*)}') do
         if type == 'spell' then
             local name = GetSpellInfo(tonumber(id))
-            return name
+            return (name) and name or UNKNOWN
         end
     end
     return str
@@ -83,6 +83,11 @@ local function CalendarEventIsActive(eventID)
     return false
 end
 
+local function GetMapName(id)
+    local status, name = pcall(function() return C_Map.GetMapInfo(id).name end)
+    return (status) and name or UNKNOWN
+end
+
 ns.GetXY = GetXY
 ns.GetCoord = GetCoord
 ns.IsActiveMap = IsActiveMap
@@ -91,3 +96,4 @@ ns.IsGroupEnabled = IsGroupEnabled
 ns.IsGroupMember = IsGroupMember
 ns.IsValidID = IsValidID
 ns.CalendarEventIsActive = CalendarEventIsActive
+ns.GetMapName = GetMapName
