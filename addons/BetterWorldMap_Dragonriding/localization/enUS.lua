@@ -3,10 +3,6 @@ local L = LibStub('AceLocale-3.0'):NewLocale(ADDON_NAME, 'enUS', true)
 if not L then return end
 -- English translation by Wyldclaw US-Lightbringer
 
------------------------------------ GLOBAL ------------------------------------
-
-L['addon_description'] = 'Adjust icon display for this map.'
-
 -------------------------------- DRAGONRIDING ---------------------------------
 
 L['eastern_kingdoms_cup'] = 'Eastern Kingdoms Cup'
