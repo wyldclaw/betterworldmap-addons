@@ -146,6 +146,42 @@ ns.groups.EASTERN_KINGDOMS_CUP = Group({
     end
 }) -- Eastern Kingdom Cup
 
+ns.groups.OUTLAND_CUP = Group({
+    atlas = 'racing',
+    label = L['outland_cup'],
+    name = 'outland_cup',
+    IsVisible = function()
+        return ns.CalendarEventIsActive(1407)
+    end
+}) -- Outland Cup
+
+ns.groups.NORTHREND_CUP = Group({
+    atlas = 'racing',
+    label = L['northrend_cup'],
+    name = 'northrend_cup',
+    IsVisible = function()
+        return ns.CalendarEventIsActive(1429)
+    end
+}) -- Northrend Cup
+
+ns.groups.PANDARIA_CUP = Group({
+    atlas = 'racing',
+    label = L['pandaria_cup'],
+    name = 'pandaria_cup',
+    IsVisible = function()
+        return ns.CalendarEventIsActive(1430)
+    end
+}) -- Pandaria Cup
+
+ns.groups.BROKEN_ISLES_CUP = Group({
+    atlas = 'racing',
+    label = L['broken_isles_cup'],
+    name = 'broken_isles_cup',
+    IsVisible = function()
+        return ns.CalendarEventIsActive(1431)
+    end
+}) -- Broken Isles Cup
+
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 
 local function IsSecretsOfAzerothActive()
@@ -217,6 +253,34 @@ ns.menuGroups = {
         [1] = {
             groups = {
                 ns.groups.EASTERN_KINGDOMS_CUP
+            }
+        }
+    },
+    [101] = { -- Outland
+        [1] = {
+            groups = {
+                ns.groups.OUTLAND_CUP
+            }
+        }
+    },
+    [113] = { -- Northrend
+        [1] = {
+            groups = {
+                ns.groups.NORTHREND_CUP
+            }
+        }
+    },
+    [424] = { -- Pandaria
+        [1] = {
+            groups = {
+                ns.groups.PANDARIA_CUP
+            }
+        }
+    },
+    [619] = { -- Broken Isles
+        [1] = {
+            groups = {
+                ns.groups.BROKEN_ISLES_CUP
             }
         }
     },
