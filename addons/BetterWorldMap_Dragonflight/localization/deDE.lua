@@ -3,10 +3,6 @@ local L = LibStub('AceLocale-3.0'):NewLocale(ADDON_NAME, 'deDE')
 if not L then return end
 -- German translation by Dathwada Eu-Eredar and Ioney
 
------------------------------------ GLOBAL ------------------------------------
-
-L['addon_description'] = 'Passe die Symbolanzeige für diese Karte an.'
-
 --------------------------------- DRAGON ISLE ---------------------------------
 
 L['ancient_waygate_label'] = '{spell:386485}'

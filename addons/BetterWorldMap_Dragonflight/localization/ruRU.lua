@@ -3,10 +3,6 @@ local L = LibStub('AceLocale-3.0'):NewLocale(ADDON_NAME, 'ruRU')
 if not L then return end
 -- Russian translation by ZamestoTV
 
------------------------------------ GLOBAL ------------------------------------
-
-L['addon_description'] = 'Настроить отображение значков для этой карты.'
-
 --------------------------------- DRAGON ISLE ---------------------------------
 
 L['ancient_waygate_label'] = '{spell:386485}'
