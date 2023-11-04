@@ -1,4 +1,4 @@
-**An addon for the Dragonflight expansion. It will add icons for points of interest to the Dragon Isles, Kalimdor and Eastern Kingdoms world map.**
+**An addon for the Dragonflight expansion. It will add icons for points of interest to the Dragon Isles, Kalimdor, and Eastern Kingdoms world map.**
 
 Now available on CurseForge! [BetterWorldMap: Dragonflight](https://www.curseforge.com/wow/addons/betterworldmap-dragonflight)
 
@@ -10,6 +10,7 @@ This addon adds information to the Dragon Isles map for the following zones:
 
 * Patch 10.0.0 - The Waking Shores, Ohn'ahran Plains, The Azure Span, and Thaldraszus
 * Patch 10.1.5 - Zaralek Cavern
+* Patch 10.2.0 - Emerald Dream
 
 This addon adds information to the Kalimdor map for the following zones:
 
@@ -52,6 +53,10 @@ This addon adds information to the Eastern Kingdoms map for the following zones:
 ### Zaralek Cavern
 
 * Loamm location. Learn more about the [Loamm Niffen](https://www.wowhead.com/faction=2564/loamm-niffen).
+
+### Emerald Dream
+
+* Superbloom location. Learn more about [Superbloom](https://www.wowhead.com/news/superblooms-emerald-frenzy-and-emerald-bounty-first-look-at-world-events-in-335286)
 
 ### Kalimdor
 

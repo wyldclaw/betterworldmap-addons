@@ -1,4 +1,5 @@
 # BetterWorldMap Addons
+- BetterWorldMap: Dragonriding
 - [BetterWorldMap: Dragonflight](https://www.curseforge.com/wow/addons/betterworldmap-dragonflight)
 
 ## Development
