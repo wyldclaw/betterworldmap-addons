@@ -35,3 +35,7 @@ L['faction_niffen'] = '洛姆'
 
 L['eastern_kingdoms_cup'] = 'Eastern Kingdoms Cup'
 L['kalimdor_cup'] = '卡林多盃'
+L['outland_cup'] = 'Outland Cup'
+L['northrend_cup'] = 'Northrend Cup'
+L['pandaria_cup'] = 'Pandaria Cup'
+L['broken_isles_cup'] = 'Broken Isles'
