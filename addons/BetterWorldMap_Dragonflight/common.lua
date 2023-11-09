@@ -120,6 +120,12 @@ ns.groups.FACTION_NIFFEN = Group({
 
 -------------------------------- EMERALD DREAM --------------------------------
 
+ns.groups.FACTION_DREAM_WARDENS = Group({
+    atlas = 'MajorFactions_MapIcons_Dream64',
+    label = L['faction_dream_wardens'],
+    name = 'faction_dream_wardens'
+})
+
 ns.groups.SUPERBLOOM = Group({
     atlas = 'minimap-genericevent-hornicon',
     label = '{spell:418272}',
@@ -335,6 +341,7 @@ ns.menuGroups = {
         [7] = {
             title = ns.GetMapName(2200),
             groups = {
+                ns.groups.FACTION_DREAM_WARDENS,
                 ns.groups.SUPERBLOOM
             }
         }

@@ -31,6 +31,10 @@ L['secrets_of_azeroth_label'] = 'Secrets d\'Azeroth'
 
 L['faction_niffen'] = 'Loamm'
 
+-------------------------------- EMERAL DREAM ---------------------------------
+
+L['faction_dream_wardens'] = 'Campement Central'
+
 -------------------------------- DRAGONRIDING ---------------------------------
 
 L['eastern_kingdoms_cup'] = 'Coupe des Royaumes de l\'Est'
