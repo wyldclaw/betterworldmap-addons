@@ -25,7 +25,7 @@ L['faction_tuskarr'] = 'Iskaara'
 L['arcane_forge_label'] = 'Arcane Forge'
 L['faction_valdrakken'] = 'The Seat of the Aspects'
 L['great_vault_label'] = 'Great Vault'
-L['secrets_of_azeroth_label'] = 'Secrets of Azeroth'
+L['secrets_of_azeroth_label'] = '아제로스의 비밀'
 
 -------------------------------- ZARALEK CAVERN -------------------------------
 
