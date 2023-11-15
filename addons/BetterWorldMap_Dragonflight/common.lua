@@ -30,6 +30,12 @@ ns.groups.DRAGONRIDING_RALLY = Group({
     name = 'dragonriding_rally'
 }) -- Dragonriding Rally
 
+ns.groups.DREAMSURGE = Group({
+    atlas = 'dreamsurge_hub-icon',
+    label = '{spell:418351}',
+    name = 'dreamsurge'
+}) -- Dreamsurge
+
 ns.groups.ELEMENTAL_STORM = Group({
     atlas = 'ElementalStorm-Lesser-Fire',
     label = '{spell:392768}',
@@ -244,6 +250,23 @@ ns.pin.FishingHole = FishingHole
 ns.pin.ZaralekCavern = ZaralekCavern
 
 -------------------------------------------------------------------------------
+--------------------------------- DREAMSURGE ----------------------------------
+-------------------------------------------------------------------------------
+
+local DREAMSURGE_POIS = {
+    [7553] = true, -- Thaldraszus
+    [7554] = true, -- The Azure Span
+    [7555] = true, -- Ohn'ahran Plains
+    [7556] = true -- The Waking Shores
+}
+
+hooksecurefunc(AreaPOIPinMixin, 'OnAcquired', function(self)
+    if self and DREAMSURGE_POIS[self.areaPoiID] then
+        if not ns.IsGroupEnabled(ns.groups.DREAMSURGE) then self:Hide() end
+    end
+end)
+
+-------------------------------------------------------------------------------
 --------------------------------- MENU GROUPS ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -296,6 +319,7 @@ ns.menuGroups = {
             groups = {
                 ns.groups.ANCIENT_WAYGATES,
                 ns.groups.DRAGONRIDING_RALLY,
+                ns.groups.DREAMSURGE,
                 ns.groups.ELEMENTAL_STORM,
                 ns.groups.FISHING_HOLE,
                 ns.groups.ZARALEK_CAVERN_ENTRANCES
