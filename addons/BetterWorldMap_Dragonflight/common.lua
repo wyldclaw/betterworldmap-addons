@@ -48,6 +48,12 @@ ns.groups.FISHING_HOLE = Group({
     name = 'tuskarr_fishing_hole'
 }) -- Tuskarr Fishing Holes
 
+ns.groups.GRAND_HUNTS = Group({
+    atlas = 'minimap-genericevent-hornicon',
+    label = L['grand_hunts_label'],
+    name = 'grand_hunts'
+}) -- Grand Hunts
+
 ns.groups.ZARALEK_CAVERN_ENTRANCES = Group({
     atlas = 'CaveUnderground-Down',
     label = ns.GetMapName(2133),
@@ -250,6 +256,23 @@ ns.pin.FishingHole = FishingHole
 ns.pin.ZaralekCavern = ZaralekCavern
 
 -------------------------------------------------------------------------------
+--------------------------------- GRAND HUNTS ---------------------------------
+-------------------------------------------------------------------------------
+
+local GRAND_HUNTS_POIS = {
+    [7342] = true, -- Ohn'ahran Plains
+    [7343] = true, -- The Waking Shores
+    [7344] = true, -- Thaldraszus
+    [7345] = true -- The Azure Span
+}
+
+hooksecurefunc(AreaPOIPinMixin, 'OnAcquired', function(self)
+    if self and GRAND_HUNTS_POIS[self.areaPoiID] then
+        if not ns.IsGroupEnabled(ns.groups.GRAND_HUNTS) then self:Hide() end
+    end
+end)
+
+-------------------------------------------------------------------------------
 --------------------------------- DREAMSURGE ----------------------------------
 -------------------------------------------------------------------------------
 
@@ -322,6 +345,7 @@ ns.menuGroups = {
                 ns.groups.DREAMSURGE,
                 ns.groups.ELEMENTAL_STORM,
                 ns.groups.FISHING_HOLE,
+                ns.groups.GRAND_HUNTS,
                 ns.groups.ZARALEK_CAVERN_ENTRANCES
             }
         },

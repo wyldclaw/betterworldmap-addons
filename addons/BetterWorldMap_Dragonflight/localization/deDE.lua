@@ -6,6 +6,7 @@ if not L then return end
 --------------------------------- DRAGON ISLE ---------------------------------
 
 L['dragonriding_rally_label'] = 'Mehrspieler-Drachenrennen'
+L['grand_hunts_label'] = 'Große Jagd'
 
 ------------------------------- THE WAKING SHORE ------------------------------
 

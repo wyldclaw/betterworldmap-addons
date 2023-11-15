@@ -6,6 +6,7 @@ if not L then return end
 --------------------------------- DRAGON ISLE ---------------------------------
 
 L['dragonriding_rally_label'] = 'Dragonriding Rally'
+L['grand_hunts_label'] = '洪荒狩猎'
 
 ------------------------------- THE WAKING SHORE ------------------------------
 
