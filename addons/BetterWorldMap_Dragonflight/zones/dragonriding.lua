@@ -134,7 +134,7 @@ ice.pins[7696] = NorthrendCup -- Citadel Sortie
 sho.pins[7697] = NorthrendCup -- Sholazar Spree
 tsp.pins[7693] = NorthrendCup -- Makers Marathon
 zul.pins[7692] = NorthrendCup -- Zul'Drak Zephyr
-zul.pins[7699] = NorthrendCup -- Gunrak Fast Track
+zul.pins[7699] = NorthrendCup -- Gundrak Fast Track
 
 -------------------------------------------------------------------------------
 -------------------------------- PANDARIA CUP ---------------------------------
