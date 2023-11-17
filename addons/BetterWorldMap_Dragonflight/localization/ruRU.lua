@@ -10,22 +10,22 @@ L['grand_hunts_label'] = 'Великая охота'
 
 ------------------------------- THE WAKING SHORE ------------------------------
 
-L['faction_expedition'] = 'Dragonscale Basecamp'
+L['faction_expedition'] = 'лагерь Драконьей экспедиции'
 
 ------------------------------- OHN'AHRAN PLAINS ------------------------------
 
 L['aylaag_camp_label'] = 'лагерь Айлааг'
-L['faction_centaur'] = 'Maruukai'
+L['faction_centaur'] = 'Марукай'
 
 ---------------------------------- AZURE SPAN ---------------------------------
 
-L['faction_tuskarr'] = 'Iskaara'
+L['faction_tuskarr'] = 'Искара'
 
 --------------------------------- THALDRASZUS ---------------------------------
 
 L['arcane_forge_label'] = 'Чародейская кузня'
-L['faction_valdrakken'] = 'The Seat of the Aspects'
-L['great_vault_label'] = 'Great Vault'
+L['faction_valdrakken'] = 'Престол Аспектов'
+L['great_vault_label'] = 'Великое хранилище'
 L['secrets_of_azeroth_label'] = 'Тайны Азерота'
 
 -------------------------------- ZARALEK CAVERN -------------------------------

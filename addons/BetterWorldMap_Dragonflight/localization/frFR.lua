@@ -15,7 +15,7 @@ L['faction_expedition'] = 'Camp de Base du Dracaret'
 ------------------------------- OHN'AHRAN PLAINS ------------------------------
 
 L['aylaag_camp_label'] = 'Campement Aylaag'
-L['faction_centaur'] = 'Maruukai'
+L['faction_centaur'] = 'Maruukaï'
 
 ---------------------------------- AZURE SPAN ---------------------------------
 
