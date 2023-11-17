@@ -268,7 +268,9 @@ local GRAND_HUNTS_POIS = {
 
 hooksecurefunc(AreaPOIPinMixin, 'OnAcquired', function(self)
     if self and GRAND_HUNTS_POIS[self.areaPoiID] then
-        if not ns.IsGroupEnabled(ns.groups.GRAND_HUNTS) then self:Hide() end
+        if not ns.IsGroupEnabled(ns.groups.GRAND_HUNTS) then
+            self:SetPosition(2,2)
+        end
     end
 end)
 
@@ -285,7 +287,9 @@ local DREAMSURGE_POIS = {
 
 hooksecurefunc(AreaPOIPinMixin, 'OnAcquired', function(self)
     if self and DREAMSURGE_POIS[self.areaPoiID] then
-        if not ns.IsGroupEnabled(ns.groups.DREAMSURGE) then self:Hide() end
+        if not ns.IsGroupEnabled(ns.groups.DREAMSURGE) then
+            self:SetPosition(2,2)
+        end
     end
 end)
 
