@@ -4,7 +4,7 @@
 local _, ns = ...
 local Map = ns.Map
 
-local Pin = ns.pin.Pin
+local OutlandCup = ns.pin.OutlandCup
 
 -------------------------------------------------------------------------------
 
@@ -19,8 +19,6 @@ local zan = Map({id = 102, parent = 101}) -- Zangarmarsh
 -------------------------------------------------------------------------------
 --------------------------------- OUTLAND CUP ---------------------------------
 -------------------------------------------------------------------------------
-
-local OutlandCup = Pin({group = ns.groups.OUTLAND_CUP}) -- Outland Cup
 
 bem.pins[7591] = OutlandCup -- Blade's Edge Brawl
 hel.pins[7589] = OutlandCup -- Hellfire Hustle
