@@ -1,0 +1,12 @@
+## Interface: 102000
+## Title: BetterWorldMap: Dragonriding
+## Version: 01
+## Notes: Add pins to world map for Dragonriding
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
+## SavedVariables: BetterWorldMap_DragonridingDB
+## IconTexture: 1100022
+
+embeds.xml
+core/core.xml
+plugin.xml
