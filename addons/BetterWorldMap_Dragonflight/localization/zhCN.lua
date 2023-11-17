@@ -34,13 +34,13 @@ L['faction_niffen'] = 'Loamm'
 
 -------------------------------- EMERAL DREAM ---------------------------------
 
-L['faction_dream_wardens'] = 'Campamento Central'
+L['faction_dream_wardens'] = 'Central Encampment'
 
 -------------------------------- DRAGONRIDING ---------------------------------
 
-L['eastern_kingdoms_cup'] = 'Eastern Kingdoms Cup'
-L['kalimdor_cup'] = 'Kalimdor Cup'
-L['outland_cup'] = 'Outland Cup'
-L['northrend_cup'] = 'Northrend Cup'
-L['pandaria_cup'] = 'Pandaria Cup'
-L['broken_isles_cup'] = 'Broken Isles'
+L['eastern_kingdoms_cup'] = '东部王国杯'
+L['kalimdor_cup'] = '卡利姆多杯'
+L['outland_cup'] = '外域杯'
+L['northrend_cup'] = '诺森德杯'
+L['pandaria_cup'] = '潘达利亚杯'
+L['broken_isles_cup'] = '破碎群岛杯'

@@ -5,9 +5,9 @@ if not L then return end
 
 -------------------------------- DRAGONRIDING ---------------------------------
 
-L['eastern_kingdoms_cup'] = 'Eastern Kingdoms Cup'
-L['kalimdor_cup'] = 'Kalimdor Cup'
-L['outland_cup'] = 'Outland Cup'
-L['northrend_cup'] = 'Northrend Cup'
-L['pandaria_cup'] = 'Pandaria Cup'
-L['broken_isles_cup'] = 'Broken Isles'
+L['eastern_kingdoms_cup'] = 'Кубок Восточных королевств'
+L['kalimdor_cup'] = 'Кубок Калимдора'
+L['outland_cup'] = 'Кубок Запределья'
+L['northrend_cup'] = 'Кубок Нордскола'
+L['pandaria_cup'] = 'Кубок Пандарии'
+L['broken_isles_cup'] = 'Кубок Расколотых островов'
