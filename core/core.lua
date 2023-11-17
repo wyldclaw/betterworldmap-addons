@@ -45,6 +45,10 @@ function Addon:OnInitialize()
     local template = ADDON_NAME .. 'WorldMapOptionsButtonTemplate'
     ns.libs.WMB:Add(template, 'DROPDOWNTOGGLEBUTTON')
 
+    if ns.addon_name then
+        ns.addon_name = 'BetterWorldMap: ' .. ns.addon_name
+    end
+
     if ns.expansion then
         self:RegisterEvent('PLAYER_ENTERING_WORLD', function()
             self:UnregisterEvent('PLAYER_ENTERING_WORLD')
@@ -53,15 +57,15 @@ function Addon:OnInitialize()
         end)
     end
 
-    self:RegisterChatCommand(ns.chat_command, function(input)
-        if input == 'dev true' then
+    self:RegisterChatCommand('bwm', function(input)
+        if input == 'true' then
             _G[ns.DB].dev_enabled = true
-            self:Print('Dev mode enabled')
-        elseif input == 'dev false' then
+            self:Print('Developer mode \124cFF00FF00enabled\124r')
+        elseif input == 'false' then
             _G[ns.DB].dev_enabled = false
-            self:Print('Dev mode disabled')
+            self:Print('Developer mode \124cFFFF0000disabled\124r')
         end
-        self:Refresh()
+        if WorldMapFrame:IsShown() then self:Refresh() end
     end)
 end
 
