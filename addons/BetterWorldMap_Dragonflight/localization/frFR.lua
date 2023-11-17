@@ -30,7 +30,7 @@ L['secrets_of_azeroth_label'] = 'Secrets d\'Azeroth'
 
 -------------------------------- ZARALEK CAVERN -------------------------------
 
-L['faction_niffen'] = 'Loamm'
+L['faction_niffen'] = 'Terreau'
 
 -------------------------------- EMERAL DREAM ---------------------------------
 
