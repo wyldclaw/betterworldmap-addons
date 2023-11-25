@@ -281,7 +281,11 @@ local DREAMSURGE_POIS = {
     [7553] = true, -- Thaldraszus
     [7554] = true, -- The Azure Span
     [7555] = true, -- Ohn'ahran Plains
-    [7556] = true -- The Waking Shores
+    [7556] = true, -- The Waking Shores
+    [7602] = true, -- Thaldraszus
+    [7603] = true, -- The Waking Shores
+    [7604] = true, -- Ohn'ahran Plains
+    [7605] = true -- The Azure Span
 }
 
 hooksecurefunc(AreaPOIPinMixin, 'OnAcquired', function(self)
