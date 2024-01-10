@@ -1,10 +1,10 @@
-**An addon for the Dragonflight expansion. It will add icons for points of interest to the Dragon Isles, Kalimdor, and Eastern Kingdoms world map.**
+**An addon for the Dragonflight expansion. It will add icons for points of interest to the Dragon Isles, Kalimdor, Eastern Kingdoms, and Outland world maps.**
 
 Now available on CurseForge! [BetterWorldMap: Dragonflight](https://www.curseforge.com/wow/addons/betterworldmap-dragonflight)
 
 ## Features
 
-A quick toggle menu will appear on the Dragon Isles and Kalimdor map which allows you to quickly toggle the visibility of any icons added to the world map.
+A quick toggle menu will appear on the Dragon Isles, Kalimdor, Eastern Kingdoms, and Outland world maps which allows you to quickly toggle the visibility of any icons added to the world map.
 
 This addon adds information to the Dragon Isles map for the following zones:
 
@@ -12,13 +12,17 @@ This addon adds information to the Dragon Isles map for the following zones:
 * Patch 10.1.5 - Zaralek Cavern
 * Patch 10.2.0 - Emerald Dream
 
-This addon adds information to the Kalimdor map for the following zones:
+This addon adds information to the Kalimdor map for the following zones (when a racing event is active):
 
 * Patch 10.1.5 - Ashenvale, Azshara, Desolace, Durotar, Felwood, Feralas, Silithus, Southern Barrens, Stonetalon Mountains, Thousand Needles, Un'Goro Crater, and Winterspring
 
-This addon adds information to the Eastern Kingdoms map for the following zones:
+This addon adds information to the Eastern Kingdoms map for the following zones (when a racing event is active):
 
 * Patch 10.1.7 - Badlands, Blasted Lands, The Cape of Stranglethorn, Dun Morogh, Deadwind Pass, Elwynn Forest, Eastern Plaguelands, Lock Modan, Redridge Mountains, Ruins of Gilneas, Searing Gorge, and Twilight Highlands
+
+This addon adds information to the Outland map for the following zones (when a racing event is active):
+
+* Patch 10.2.5 - Blade's Edge Mountains, Hellfire Penninsula, Nagrand, Netherstorm, Shadowmoon Valley, Terokkar Forest, and Zangarmarsh
 
 ### Dragon Isles
 
@@ -27,6 +31,11 @@ This addon adds information to the Eastern Kingdoms map for the following zones:
 * Elemental Storm locations in all zones. Learn to become a [Storm Chaster](https://www.wowhead.com/achievement=16490/storm-chaser).
 * Tuskarr Fishing Hole locations in all zones. Become a [Tuskarr fishing expert](https://www.wowhead.com/guide/professions/fishing/iskaara-tuskarr-fishing-holes).
 * Zaralek Cavern cave entrances in all zones. Be sure to [Explore Zaralek Cavern](https://www.wowhead.com/achievement=17766/explore-zaralek-cavern).
+
+Control the visibility of the following events on the Dragon Isles world map:
+
+* Grand Hunts locations in all zones.
+* Dreamsurge locations in all zones.
 
 ### The Waking Shores
 
@@ -50,13 +59,9 @@ This addon adds information to the Eastern Kingdoms map for the following zones:
 * Secrets of Azeroth location. Learn more about the [Secrets of Azeroth](https://www.wowhead.com/guide/world-events/secrets-of-azeroth).
 * Time Rift location. Learn to become a [Chronograde Connoisseur](https://www.wowhead.com/achievement=18637/chronograde-connoisseur).
 
-### Zaralek Cavern
+### The Emerald Dream
 
-* Loamm location. Learn more about the [Loamm Niffen](https://www.wowhead.com/faction=2564/loamm-niffen).
-
-### Emerald Dream
-
-* Superbloom location. Learn more about [Superbloom](https://www.wowhead.com/news/superblooms-emerald-frenzy-and-emerald-bounty-first-look-at-world-events-in-335286)
+* Superbloom location. Learn more about [Superbloom](https://www.wowhead.com/news/superblooms-emerald-frenzy-and-emerald-bounty-first-look-at-world-events-in-335286).
 
 ### Kalimdor
 
@@ -66,11 +71,14 @@ This addon adds information to the Eastern Kingdoms map for the following zones:
 
 * Eastern Kingdom Cup locations in all zones. Become a [Eastern Kingdoms Completionist](https://www.wowhead.com/achievement=18942/eastern-kingdoms-racing-completionist-gold).
 
+### Outland
+
+* Outland Cup locations in all zones. Become a [Outland Completionist](https://www.wowhead.com/achievement=19107/outland-racing-completionist-gold).
+
 ## Limitations
 
-Several locations have been removed due to World of Warcraft API limitations. Some locations _cannot_ be shown unless you are in the zone where they are currently active.
+Several locations are unable to be affected by Better World Map due to World of Warcraft API limitations.
 
-* Grand Hunts
 * Researchers Under Fire
 * Storm's Fury
 * Froststone Vault Primal Storm
