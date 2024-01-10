@@ -121,21 +121,7 @@ ns.groups.TIME_RIFT = Group({
     name = 'time_rift'
 }) -- Time Rift
 
--------------------------------- ZARALEK CAVERN -------------------------------
-
-ns.groups.FACTION_NIFFEN = Group({
-    atlas = 'MajorFactions_MapIcons_Niffen64',
-    label = L['faction_niffen'],
-    name = 'faction_niffen',
-}) -- Loamm
-
--------------------------------- EMERALD DREAM --------------------------------
-
-ns.groups.FACTION_DREAM_WARDENS = Group({
-    atlas = 'MajorFactions_MapIcons_Dream64',
-    label = L['faction_dream_wardens'],
-    name = 'faction_dream_wardens'
-})
+------------------------------ THE EMERALD DREAM ------------------------------
 
 ns.groups.SUPERBLOOM = Group({
     atlas = 'minimap-genericevent-hornicon',
@@ -356,28 +342,28 @@ ns.menuGroups = {
                 ns.groups.ZARALEK_CAVERN_ENTRANCES
             }
         },
-        [2] = {
+        [2] = { -- The Waking Shores
             title = ns.GetMapName(2022),
             groups = {
                 ns.groups.FACTION_EXPEDITION,
                 ns.groups.DRAGONBANE_SIEGE
             }
         },
-        [3] = {
+        [3] = { -- Ohn'ahran Plains
             title = ns.GetMapName(2023),
             groups = {
                 ns.groups.FACTION_CENTAUR,
                 ns.groups.AYLAAG_CAMPS
             }
         },
-        [4] = {
+        [4] = { -- The Azure Span
             title = ns.GetMapName(2024),
             groups = {
                 ns.groups.FACTION_TUSKARR,
                 ns.groups.COMMUNITY_FEAST
             }
         },
-        [5] = {
+        [5] = { -- Thaldraszus
             title = ns.GetMapName(2025),
             groups = {
                 ns.groups.FACTION_VALDRAKKEN,
@@ -387,16 +373,9 @@ ns.menuGroups = {
                 ns.groups.TIME_RIFT
             }
         },
-        [6] = {
-            title = ns.GetMapName(2133),
-            groups = {
-                ns.groups.FACTION_NIFFEN
-            }
-        },
-        [7] = {
+        [6] = { -- The Emerald Dream
             title = ns.GetMapName(2200),
             groups = {
-                ns.groups.FACTION_DREAM_WARDENS,
                 ns.groups.SUPERBLOOM
             }
         }
