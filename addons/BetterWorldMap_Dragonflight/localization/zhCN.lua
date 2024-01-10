@@ -28,14 +28,6 @@ L['faction_valdrakken'] = '守护巨龙之座'
 L['great_vault_label'] = '宏伟宝库'
 L['secrets_of_azeroth_label'] = '艾泽拉斯之秘'
 
--------------------------------- ZARALEK CAVERN -------------------------------
-
-L['faction_niffen'] = '峈姆'
-
--------------------------------- EMERAL DREAM ---------------------------------
-
-L['faction_dream_wardens'] = 'Central Encampment'
-
 -------------------------------- DRAGONRIDING ---------------------------------
 
 L['eastern_kingdoms_cup'] = '东部王国杯'

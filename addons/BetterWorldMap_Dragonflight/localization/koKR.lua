@@ -28,14 +28,6 @@ L['faction_valdrakken'] = '위상의 권좌'
 L['great_vault_label'] = '위대한 금고t'
 L['secrets_of_azeroth_label'] = '아제로스의 비밀'
 
--------------------------------- ZARALEK CAVERN -------------------------------
-
-L['faction_niffen'] = '로암'
-
--------------------------------- EMERAL DREAM ---------------------------------
-
-L['faction_dream_wardens'] = 'Central Encampment'
-
 -------------------------------- DRAGONRIDING ---------------------------------
 
 L['eastern_kingdoms_cup'] = '동부 왕국 우승컵'

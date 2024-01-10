@@ -28,14 +28,6 @@ L['faction_valdrakken'] = 'Trono de los Aspectos'
 L['great_vault_label'] = 'Gran Cámara'
 L['secrets_of_azeroth_label'] = 'Secretos de Azeroth'
 
--------------------------------- ZARALEK CAVERN -------------------------------
-
-L['faction_niffen'] = 'Loamm'
-
--------------------------------- EMERAL DREAM ---------------------------------
-
-L['faction_dream_wardens'] = 'Campamento Central'
-
 -------------------------------- DRAGONRIDING ---------------------------------
 
 L['eastern_kingdoms_cup'] = 'Copa de los Reinos del Este'

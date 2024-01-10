@@ -28,14 +28,6 @@ L['faction_valdrakken'] = 'Siège des Aspects'
 L['great_vault_label'] = 'Grande Chambre-forte'
 L['secrets_of_azeroth_label'] = 'Secrets d\'Azeroth'
 
--------------------------------- ZARALEK CAVERN -------------------------------
-
-L['faction_niffen'] = 'Terreau'
-
--------------------------------- EMERAL DREAM ---------------------------------
-
-L['faction_dream_wardens'] = 'Campement Central'
-
 -------------------------------- DRAGONRIDING ---------------------------------
 
 L['eastern_kingdoms_cup'] = 'Coupe des Royaumes de l\'Est'
