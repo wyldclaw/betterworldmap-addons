@@ -51,6 +51,7 @@ Control the visibility of the following events on the Dragon Isles world map:
 
 * Iskaara location. Learn more about the [Iskaara Tuskarr](https://www.wowhead.com/faction=2511/iskaara-tuskarr).
 * Community Feast location. Learn to become a [Soupervisor](https://www.wowhead.com/achievement=16443/soupervisor). Yes chef!
+* The Big Dig location. Learn how [The Archives Called, You Answered](https://www.wowhead.com/achievement=19790/the-archives-called-you-answered).
 
 ### Thaldraszus
 
