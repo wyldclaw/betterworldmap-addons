@@ -20,7 +20,7 @@ L['faction_centaur'] = 'Maruukai'
 ---------------------------------- AZURE SPAN ---------------------------------
 
 L['faction_tuskarr'] = 'Iskaara'
-L['the_big_dig'] = 'The Big Dig'
+L['the_big_dig'] = 'La Gran Excavación'
 
 --------------------------------- THALDRASZUS ---------------------------------
 
