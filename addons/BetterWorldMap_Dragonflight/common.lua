@@ -101,6 +101,12 @@ ns.groups.COMMUNITY_FEAST = Group({
     name = 'community_feast'
 }) -- Community Feast
 
+ns.groups.THE_BIG_DIG = Group({
+    atlas = 'minimap-genericevent-hornicon',
+    label = L['the_big_dig'],
+    name = 'the_big_dig'
+}) -- The Big Dig
+
 --------------------------------- THALDRASZUS ---------------------------------
 
 ns.groups.FACTION_VALDRAKKEN = Group({
@@ -360,7 +366,8 @@ ns.menuGroups = {
             title = ns.GetMapName(2024),
             groups = {
                 ns.groups.FACTION_TUSKARR,
-                ns.groups.COMMUNITY_FEAST
+                ns.groups.COMMUNITY_FEAST,
+                ns.groups.THE_BIG_DIG
             }
         },
         [5] = { -- Thaldraszus
