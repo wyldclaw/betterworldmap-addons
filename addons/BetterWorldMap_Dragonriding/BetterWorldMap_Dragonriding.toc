@@ -1,4 +1,4 @@
-## Interface: 102000
+## Interface: 102050
 ## Title: BetterWorldMap: Dragonriding
 ## Version: 01
 ## Notes: Add pins to world map for Dragonriding

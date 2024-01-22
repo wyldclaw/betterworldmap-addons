@@ -140,6 +140,14 @@ zul.pins[7699] = NorthrendCup -- Gundrak Fast Track
 -------------------------------- PANDARIA CUP ---------------------------------
 -------------------------------------------------------------------------------
 
+local dws = Map({id = 422, parent = 424}) -- Dread Wastes
+local kls = Map({id = 379, parent = 424}) -- Kun-Lai Summit
+local kra = Map({id = 418, parent = 424}) -- Krsarang Wilds
+local tjf = Map({id = 371, parent = 424}) -- The Jade Forest
+local tls = Map({id = 388, parent = 424}) -- Townlong Steppes
+local veb = Map({id = 390, parent = 424}) -- Vale of Eternal Blossoms
+local vfw = Map({id = 376, parent = 424}) -- Valley of the Four Winds
+
 local PandariaCup = Pin({group = ns.groups.PANDARIA_CUP}) -- Pandaria Cup
 
 -------------------------------------------------------------------------------
@@ -147,3 +155,10 @@ local PandariaCup = Pin({group = ns.groups.PANDARIA_CUP}) -- Pandaria Cup
 -------------------------------------------------------------------------------
 
 local BrokenIslesCup = Pin({group = ns.groups.BROKEN_ISLES_CUP}) -- Broken Isles Cup
+
+local azs = Map({id = 630, parent = 619}) -- Azsuna
+local bro = Map({id = 646, parent = 619}) -- The Broken Shore
+local hmt = Map({id = 650, parent = 619}) -- Highmountain
+local stm = Map({id = 634, parent = 619}) -- Stormheim
+local sur = Map({id = 680, parent = 619}) -- Suramar
+local val = Map({id = 641, parent = 619}) -- Val'Sharah

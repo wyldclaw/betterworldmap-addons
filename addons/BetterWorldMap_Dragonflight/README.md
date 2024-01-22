@@ -76,6 +76,19 @@ Control the visibility of the following events on the Dragon Isles world map:
 
 * Outland Cup locations in all zones. Become a [Outland Completionist](https://www.wowhead.com/achievement=19107/outland-racing-completionist-gold).
 
+
+### Pandaria
+
+* Pandaria Cup locations in all zones. Become a [Pandaria Racing Completionist]().
+
+### Northrend
+
+* Northrend Cup locations in all zones. Become a [Northrend Racing Completionist](https://www.wowhead.com/achievement=19723/northrend-racing-completionist-gold).
+
+### Broken Isles
+
+* Broken Isles Cup locations in all zones. Become a [Broken Isles Racign Completionist]().
+
 ## Limitations
 
 Several locations are unable to be affected by Better World Map due to World of Warcraft API limitations.

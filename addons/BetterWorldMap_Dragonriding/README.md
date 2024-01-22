@@ -1,4 +1,4 @@
-**An addon for Dragonriding Cups first introduced in the Dragonflight expansion. It will add icons on the world map for race locations in Kalimdor, Eastern Kingdoms, Outland, and Northrend.**
+**An addon for Dragonriding Cups first introduced in the Dragonflight expansion. It will add icons on the world map for race locations in Kalimdor, Eastern Kingdoms, Outland, Northrend, Pandaria, and the Broken Isles.**
 
 ## Features
 
@@ -30,11 +30,19 @@ This addon adds information to the Northrend map for the following zones:
 
 ### Outland
 
-* Outland Cup locations in all zones. Become a [Outland Racing Completionist]().
+* Outland Cup locations in all zones. Become a [Outland Completionist](https://www.wowhead.com/achievement=19107/outland-racing-completionist-gold).
 
 ### Northrend
 
-* Northrend Cup locations in all zones. Become a [Northrend Racing Completionist]().
+* Northrend Cup locations in all zones. Become a [Northrend Racing Completionist](https://www.wowhead.com/achievement=19723/northrend-racing-completionist-gold).
+
+### Pandaria
+
+* Pandaria Cup locations in all zones. Become a [Pandaria Racing Completionist]().
+
+### Broken Isles
+
+* Broken Isles Cup locations in all zones. Become a [Broken Isles Racign Completionist]().
 
 ## Localization
 
