@@ -34,8 +34,9 @@ This addon adds information to the Outland map for the following zones (when a r
 
 Control the visibility of the following events on the Dragon Isles world map:
 
-* Grand Hunts locations in all zones.
 * Dreamsurge locations in all zones.
+* Fyrakk Assault locations in The Azure Span and the Ohn'ahran Plains.
+* Grand Hunts locations in all zones.
 
 ### The Waking Shores
 
@@ -93,9 +94,9 @@ Control the visibility of the following events on the Dragon Isles world map:
 
 Several locations are unable to be affected by Better World Map due to World of Warcraft API limitations.
 
+* Froststone Vault Primal Storm
 * Researchers Under Fire
 * Storm's Fury
-* Froststone Vault Primal Storm
 
 ## Localization
 
