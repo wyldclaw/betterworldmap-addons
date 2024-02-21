@@ -8,6 +8,7 @@ local AncientWaygate = ns.pin.AncientWaygate
 local DragonridingRally = ns.pin.DragonridingRally
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
+local FyrakkAssault = ns.pin.FyrakkAssault
 local Pin = ns.pin.Pin
 local ZaralekCavern = ns.pin.ZaralekCavern
 
@@ -66,6 +67,16 @@ map.pins[7240] = ElementalStorm -- Imbu - Snowstorm
 -------------------------------------------------------------------------------
 
 map.pins[7266] = FishingHole -- Grimtusks Fishing Hole
+
+-------------------------------------------------------------------------------
+------------------------------- FYRAKK ASSAULT --------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7432] = FyrakkAssault
+map.pins[7433] = FyrakkAssault
+map.pins[7434] = FyrakkAssault
+map.pins[7435] = FyrakkAssault
+map.pins[7488] = FyrakkAssault
 
 -------------------------------------------------------------------------------
 --------------------------------- THE BIG DIG ---------------------------------

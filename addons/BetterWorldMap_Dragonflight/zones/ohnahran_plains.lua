@@ -8,6 +8,7 @@ local AncientWaygate = ns.pin.AncientWaygate
 local DragonridingRally = ns.pin.DragonridingRally
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
+local FyrakkAssault = ns.pin.FyrakkAssault
 local Pin = ns.pin.Pin
 local ZaralekCavern = ns.pin.ZaralekCavern
 
@@ -58,6 +59,16 @@ map.pins[7224] = ElementalStorm -- Nokhudon Hold - Snowstorm
 -------------------------------------------------------------------------------
 
 map.pins[7270] = FishingHole -- Dragonsprings Fishing Hole
+
+-------------------------------------------------------------------------------
+------------------------------- FYRAKK ASSAULT --------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7429] = FyrakkAssault
+map.pins[7471] = FyrakkAssault
+map.pins[7473] = FyrakkAssault
+map.pins[7486] = FyrakkAssault
+map.pins[7487] = FyrakkAssault
 
 -------------------------------------------------------------------------------
 -------------------------- ZARALEK CAVERN ENTRANCES ---------------------------

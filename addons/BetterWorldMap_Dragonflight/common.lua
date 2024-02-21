@@ -47,6 +47,12 @@ ns.groups.FISHING_HOLE = Group({
     name = 'tuskarr_fishing_hole'
 }) -- Tuskarr Fishing Holes
 
+ns.groups.FYRAKK_ASSAULT = Group({
+    atlas = 'Fyrakk-Head-Icon',
+    label = L['fyrakk_assault'],
+    name = 'fyrakk_assault'
+}) -- Fyrakk Assault
+
 ns.groups.GRAND_HUNTS = Group({
     atlas = 'minimap-genericevent-hornicon',
     label = L['grand_hunts_label'],
@@ -235,6 +241,9 @@ local ElementalStorm = Pin({group = ns.groups.ELEMENTAL_STORM}) -- Elemental Sto
 
 local FishingHole = Pin({group = ns.groups.FISHING_HOLE}) -- Fishing Hole
 
+local FyrakkAssault = Pin({group = ns.groups.FYRAKK_ASSAULT}) -- Fyrakk Assault
+
+
 local ZaralekCavern = Pin({
     group = ns.groups.ZARALEK_CAVERN_ENTRANCES,
     passive = true
@@ -244,6 +253,7 @@ ns.pin.AncientWaygate = AncientWaygate
 ns.pin.DragonridingRally = DragonridingRally
 ns.pin.ElementalStorm = ElementalStorm
 ns.pin.FishingHole = FishingHole
+ns.pin.FyrakkAssault = FyrakkAssault
 ns.pin.ZaralekCavern = ZaralekCavern
 
 -------------------------------------------------------------------------------
@@ -344,6 +354,7 @@ ns.menuGroups = {
                 ns.groups.DREAMSURGE,
                 ns.groups.ELEMENTAL_STORM,
                 ns.groups.FISHING_HOLE,
+                ns.groups.FYRAKK_ASSAULT,
                 ns.groups.GRAND_HUNTS,
                 ns.groups.ZARALEK_CAVERN_ENTRANCES
             }
