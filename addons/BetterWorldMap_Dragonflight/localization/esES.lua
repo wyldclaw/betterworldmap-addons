@@ -6,6 +6,7 @@ if not L then return end
 --------------------------------- DRAGON ISLE ---------------------------------
 
 L['dragonriding_rally_label'] = 'Carrera de Jinetes de Dragones'
+L['fyrakk_assault'] = 'Asalto de Fyrakk'
 L['grand_hunts_label'] = 'Grandes Cacerías'
 
 ------------------------------- THE WAKING SHORE ------------------------------

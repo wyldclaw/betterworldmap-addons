@@ -6,6 +6,7 @@ if not L then return end
 --------------------------------- DRAGON ISLE ---------------------------------
 
 L['dragonriding_rally_label'] = 'Mehrspieler-Drachenrennen'
+L['fyrakk_assault'] = 'Angriff von Fyrakk'
 L['grand_hunts_label'] = 'Große Jagd'
 
 ------------------------------- THE WAKING SHORE ------------------------------
@@ -20,7 +21,7 @@ L['faction_centaur'] = 'Maruukai'
 ---------------------------------- AZURE SPAN ---------------------------------
 
 L['faction_tuskarr'] = 'Iskaara'
-L['the_big_dig'] = 'The Big Dig'
+L['the_big_dig'] = 'Das große Buddeln'
 
 --------------------------------- THALDRASZUS ---------------------------------
 

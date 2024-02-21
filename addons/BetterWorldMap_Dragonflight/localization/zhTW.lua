@@ -6,6 +6,7 @@ if not L then return end
 --------------------------------- DRAGON ISLE ---------------------------------
 
 L['dragonriding_rally_label'] = '飛龍騎術競賽'
+L['fyrakk_assault'] = 'Fyrakk Assault'
 L['grand_hunts_label'] = '大狩獵'
 
 ------------------------------- THE WAKING SHORE ------------------------------
@@ -20,14 +21,14 @@ L['faction_centaur'] = '莫魯凱'
 ---------------------------------- AZURE SPAN ---------------------------------
 
 L['faction_tuskarr'] = '伊斯凱拉'
-L['the_big_dig'] = 'The Big Dig'
+L['the_big_dig'] = '重大挖掘'
 
 --------------------------------- THALDRASZUS ---------------------------------
 
 L['arcane_forge_label'] = '奥术熔炉'
 L['faction_valdrakken'] = '守護巨龍之座'
 L['great_vault_label'] = '寶庫'
-L['secrets_of_azeroth_label'] = 'Secrets of Azeroth'
+L['secrets_of_azeroth_label'] = '艾澤拉斯秘聞'
 
 -------------------------------- DRAGONRIDING ---------------------------------
 

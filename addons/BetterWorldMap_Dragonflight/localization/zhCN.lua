@@ -6,6 +6,7 @@ if not L then return end
 --------------------------------- DRAGON ISLE ---------------------------------
 
 L['dragonriding_rally_label'] = 'Dragonriding Rally'
+L['fyrakk_assault'] = 'Fyrakk Assault'
 L['grand_hunts_label'] = '洪荒狩猎'
 
 ------------------------------- THE WAKING SHORE ------------------------------
@@ -20,7 +21,7 @@ L['faction_centaur'] = '马鲁凯'
 ---------------------------------- AZURE SPAN ---------------------------------
 
 L['faction_tuskarr'] = '伊斯卡拉'
-L['the_big_dig'] = 'The Big Dig'
+L['the_big_dig'] = '盛大发掘'
 
 --------------------------------- THALDRASZUS ---------------------------------
 

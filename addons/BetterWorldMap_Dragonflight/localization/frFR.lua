@@ -6,6 +6,7 @@ if not L then return end
 --------------------------------- DRAGON ISLE ---------------------------------
 
 L['dragonriding_rally_label'] = 'Course Draconique'
+L['fyrakk_assault'] = 'Assaut de Fyrakka'
 L['grand_hunts_label'] = 'Grande Chasse'
 
 ------------------------------- THE WAKING SHORE ------------------------------
@@ -20,7 +21,7 @@ L['faction_centaur'] = 'Maruukaï'
 ---------------------------------- AZURE SPAN ---------------------------------
 
 L['faction_tuskarr'] = 'Iskaara'
-L['the_big_dig'] = 'The Big Dig'
+L['the_big_dig'] = 'La grande fouille'
 
 --------------------------------- THALDRASZUS ---------------------------------
 
