@@ -13,6 +13,6 @@ To enable development for BetterWorldMap: Dragonflight type the following in the
 BetterWorldMap_Dragonflight: Developer mode enabled
 
 /bwm false
-BetterWorldMap_Dragonflight: Devveloper mode disabled
+BetterWorldMap_Dragonflight: Developer mode disabled
 ```
 BetterWorldMap will append additional detail to the tooltip on hover including `mapID` for the current map, `areaPoiID` for the hovered Area POI, `atlas` for the hovered Area POI, and `coordinates` for the hoverd Area POI on the current map.
