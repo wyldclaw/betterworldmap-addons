@@ -235,14 +235,21 @@ local function AncientWaygate(attrs)
     })
 end -- Ancient Waygates
 
-local DragonridingRally = Pin({group = ns.groups.DRAGONRIDING_RALLY}) -- Dragonriding Rally
+local DragonridingRally = Pin({
+    group = ns.groups.DRAGONRIDING_RALLY
+}) -- Dragonriding Rally
 
-local ElementalStorm = Pin({group = ns.groups.ELEMENTAL_STORM}) -- Elemental Storm
+local ElementalStorm = Pin({
+    group = ns.groups.ELEMENTAL_STORM
+}) -- Elemental Storm
 
-local FishingHole = Pin({group = ns.groups.FISHING_HOLE}) -- Fishing Hole
+local FishingHole = Pin({
+    group = ns.groups.FISHING_HOLE
+}) -- Fishing Hole
 
-local FyrakkAssault = Pin({group = ns.groups.FYRAKK_ASSAULT}) -- Fyrakk Assault
-
+local FyrakkAssault = Pin({
+    group = ns.groups.FYRAKK_ASSAULT
+}) -- Fyrakk Assault
 
 local ZaralekCavern = Pin({
     group = ns.groups.ZARALEK_CAVERN_ENTRANCES,
