@@ -63,7 +63,13 @@ map.pins[7271] = FishingHole -- Tyrhold Fishing Hole
 --------------------------------- GREAT VAULT ---------------------------------
 -------------------------------------------------------------------------------
 
-val.pins[7455] = Pin({group = ns.groups.GREAT_VAULT}) -- Great Vault
+local GreatVault = Pin({group = ns.groups.GREAT_VAULT}) -- Great Vault
+
+val.pins[7296] = GreatVault -- Vault of the Incarnates
+val.pins[7297] = GreatVault -- Rewards Available
+val.pins[7455] = GreatVault -- Aberrus, the Shadowed Crucible
+val.pins[7552] = GreatVault -- Amirdrassil
+val.pins[7739] = GreatVault -- Awakened Dragonflight Raids
 
 -------------------------------------------------------------------------------
 ----------------------------- SECRETS OF AZEROTH ------------------------------
