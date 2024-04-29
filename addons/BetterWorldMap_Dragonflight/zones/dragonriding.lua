@@ -154,11 +154,11 @@ local PandariaCup = Pin({group = ns.groups.PANDARIA_CUP}) -- Pandaria Cup
 ------------------------------ BROKEN ISLES CUP -------------------------------
 -------------------------------------------------------------------------------
 
-local BrokenIslesCup = Pin({group = ns.groups.BROKEN_ISLES_CUP}) -- Broken Isles Cup
-
 local azs = Map({id = 630, parent = 619}) -- Azsuna
 local bro = Map({id = 646, parent = 619}) -- The Broken Shore
 local hmt = Map({id = 650, parent = 619}) -- Highmountain
 local stm = Map({id = 634, parent = 619}) -- Stormheim
 local sur = Map({id = 680, parent = 619}) -- Suramar
 local val = Map({id = 641, parent = 619}) -- Val'Sharah
+
+local BrokenIslesCup = Pin({group = ns.groups.BROKEN_ISLES_CUP}) -- Broken Isles Cup
