@@ -1,10 +1,12 @@
-**An addon for the Dragonflight expansion. It will add icons for points of interest to the Dragon Isles, Kalimdor, Eastern Kingdoms, and Outland world maps.**
-
-Now available on CurseForge! [BetterWorldMap: Dragonflight](https://www.curseforge.com/wow/addons/betterworldmap-dragonflight)
+**An addon for the Dragonflight expansion. It will add icons for points of interest to the Dragon Isles, Kalimdor, Eastern Kingdoms, Outland, and Northrend world maps.**
 
 ## Features
 
-A quick toggle menu will appear on the Dragon Isles, Kalimdor, Eastern Kingdoms, and Outland world maps which allows you to quickly toggle the visibility of any icons added to the world map.
+A quick toggle menu will appear on the Dragon Isles, Kalimdor, Eastern Kingdoms, Outland, and Northrend world maps which allows you to quickly toggle the visibility of any icons added to the world map.
+
+* Moving map icons from their zone map to the world map helps with navigation.
+* Many icons provide helpful information in the tooltip such as countdown times, items needed, rewards available, and more.
+* Even click behavior such as the Great Vault in Valdrakken is enabled.
 
 This addon adds information to the Dragon Isles map for the following zones:
 
@@ -12,91 +14,84 @@ This addon adds information to the Dragon Isles map for the following zones:
 * Patch 10.1.5 - Zaralek Cavern
 * Patch 10.2.0 - Emerald Dream
 
-This addon adds information to the Kalimdor map for the following zones (when a racing event is active):
+This addon adds information to the Kalimdor map for the following zones when a racing event is active:
 
 * Patch 10.1.5 - Ashenvale, Azshara, Desolace, Durotar, Felwood, Feralas, Silithus, Southern Barrens, Stonetalon Mountains, Thousand Needles, Un'Goro Crater, and Winterspring
 
-This addon adds information to the Eastern Kingdoms map for the following zones (when a racing event is active):
+This addon adds information to the Eastern Kingdoms map for the following zones when a racing event is active:
 
 * Patch 10.1.7 - Badlands, Blasted Lands, The Cape of Stranglethorn, Dun Morogh, Deadwind Pass, Elwynn Forest, Eastern Plaguelands, Lock Modan, Redridge Mountains, Ruins of Gilneas, Searing Gorge, and Twilight Highlands
 
-This addon adds information to the Outland map for the following zones (when a racing event is active):
+This addon adds information to the Outland map for the following zones when a racing event is active:
 
 * Patch 10.2.5 - Blade's Edge Mountains, Hellfire Penninsula, Nagrand, Netherstorm, Shadowmoon Valley, Terokkar Forest, and Zangarmarsh
 
+This addon adds information to the Northrend map for the following zones when a racing event is active:
+
+* Patch 10.2.6 - Borean Tundra, Crystalsong Forest, Dragonblight, Howling Fjord, Grizzly Hills, Icecrown, Sholazar Basin, The Storm Peaks, and Zul'Drak
+
 ### Dragon Isles
 
-* Ancient Waygate locations in all zones. Learn more about [Mastering the Waygates](https://www.wowhead.com/achievement=16292/mastering-the-waygates).
-* Dragonriding Rally in all zones. Race against other racers in [Dragonriding](https://www.wowhead.com/guide/dragonriding/races-overview-rewards).
-* Elemental Storm locations in all zones. Learn to become a [Storm Chaster](https://www.wowhead.com/achievement=16490/storm-chaser).
-* Tuskarr Fishing Hole locations in all zones. Become a [Tuskarr fishing expert](https://www.wowhead.com/guide/professions/fishing/iskaara-tuskarr-fishing-holes).
-* Zaralek Cavern cave entrances in all zones. Be sure to [Explore Zaralek Cavern](https://www.wowhead.com/achievement=17766/explore-zaralek-cavern).
-
-Control the visibility of the following events on the Dragon Isles world map:
-
-* Dreamsurge locations in all zones.
-* Fyrakk Assault locations in The Azure Span and the Ohn'ahran Plains.
-* Grand Hunts locations in all zones.
+* Ancient Waygate locations
+* Dragonriding Race locations
+* Dreamsurge locations
+* Elemental Storm locations
+* Grand Hunts locations
+* Tuskarr Fishing Hole locations
+* Zaralek Cavern entrance locations
 
 ### The Waking Shores
 
-* Dragonscale Basecamp location. Learn more about the [Dragonscale Expedition](https://www.wowhead.com/faction=2507/dragonscale-expedition).
-* Siege on Dragonbane Keep location. Learn more about the [Siege on Dragonbane Keep](https://www.wowhead.com/achievement=16411/siege-on-dragonbane-keep-home-sweet-home).
+* Dragonscale Basecamp location
+* Siege on Dragonbane Keep location
 
 ### Ohn'ahran Plains
 
-* Maruukai location. Learn more about the [Maruuk Centaur](https://www.wowhead.com/faction=2503/maruuk-centaur).
-* Aylaag Camp locations. Learn more about the [The Ohn'ahran Trail](https://www.wowhead.com/achievement=16462/the-ohnahran-trail).
+* Maruukai location
+* Aylaag Camp locations
+* Fyrakk Assault location
 
 ### The Azure Span
 
-* Iskaara location. Learn more about the [Iskaara Tuskarr](https://www.wowhead.com/faction=2511/iskaara-tuskarr).
-* Community Feast location. Learn to become a [Soupervisor](https://www.wowhead.com/achievement=16443/soupervisor). Yes chef!
-* The Big Dig location. Learn how [The Archives Called, You Answered](https://www.wowhead.com/achievement=19790/the-archives-called-you-answered).
+* Iskaara location
+* Community Feast location. Yes chef!
+* The Big Dig location
+* Fyrakk Assault location
 
 ### Thaldraszus
 
-* The Seat of the Aspects location. Learn more about the [Valdrakken Accord](https://www.wowhead.com/faction=2510/valdrakken-accord).
-* Great Vault location. Get your weekly reward at [The Great Vault](https://www.wowhead.com/quest=72354/the-great-vault).
-* Secrets of Azeroth location. Learn more about the [Secrets of Azeroth](https://www.wowhead.com/guide/world-events/secrets-of-azeroth).
-* Time Rift location. Learn to become a [Chronograde Connoisseur](https://www.wowhead.com/achievement=18637/chronograde-connoisseur).
+* The Seat of the Aspects location
+* Great Vault location
+* Secrets of Azeroth location
+* Time Rift location
 
 ### The Emerald Dream
 
-* Superbloom location. Learn more about [Superbloom](https://www.wowhead.com/news/superblooms-emerald-frenzy-and-emerald-bounty-first-look-at-world-events-in-335286).
+* Superbloom location
 
 ### Kalimdor
 
-* Kalimdor Cup locations in all zones. Become a [Kalimdor Racing Completionist](https://www.wowhead.com/achievement=17723/kalimdor-racing-completionist-gold).
+* Kalimdor Cup race locations in all zones
 
 ### Eastern Kingdom
 
-* Eastern Kingdom Cup locations in all zones. Become a [Eastern Kingdoms Completionist](https://www.wowhead.com/achievement=18942/eastern-kingdoms-racing-completionist-gold).
+* Eastern Kingdom Cup race locations in all zones
 
 ### Outland
 
-* Outland Cup locations in all zones. Become a [Outland Completionist](https://www.wowhead.com/achievement=19107/outland-racing-completionist-gold).
-
-
-### Pandaria
-
-* Pandaria Cup locations in all zones. Become a [Pandaria Racing Completionist]().
+* Outland Cup race locations in all zones
 
 ### Northrend
 
-* Northrend Cup locations in all zones. Become a [Northrend Racing Completionist](https://www.wowhead.com/achievement=19723/northrend-racing-completionist-gold).
-
-### Broken Isles
-
-* Broken Isles Cup locations in all zones. Become a [Broken Isles Racign Completionist]().
+* Northrend Cup race locations in all zones
 
 ## Limitations
 
 Several locations are unable to be affected by Better World Map due to World of Warcraft API limitations.
 
-* Froststone Vault Primal Storm
 * Researchers Under Fire
 * Storm's Fury
+* Froststone Vault Primal Storm
 
 ## Localization
 
