@@ -6,7 +6,7 @@ if not L then return end
 --------------------------------- DRAGON ISLE ---------------------------------
 
 L['dragonriding_race_label'] = '飛龍騎術競賽'
-L['fyrakk_assault'] = 'Fyrakk Assault'
+L['fyrakk_assault'] = '菲拉卡襲擊'
 L['grand_hunts_label'] = '大狩獵'
 
 ------------------------------- THE WAKING SHORE ------------------------------
@@ -32,9 +32,9 @@ L['secrets_of_azeroth_label'] = '艾澤拉斯秘聞'
 
 -------------------------------- DRAGONRIDING ---------------------------------
 
-L['eastern_kingdoms_cup'] = 'Eastern Kingdoms Cup'
+L['eastern_kingdoms_cup'] = '東部王國杯'
 L['kalimdor_cup'] = '卡林多盃'
-L['outland_cup'] = 'Outland Cup'
-L['northrend_cup'] = 'Northrend Cup'
-L['pandaria_cup'] = 'Pandaria Cup'
-L['broken_isles_cup'] = 'Broken Isles'
+L['outland_cup'] = '外域杯'
+L['northrend_cup'] = '北裂境杯'
+L['pandaria_cup'] = '潘達利亞杯'
+L['broken_isles_cup'] = '破碎群島杯'
