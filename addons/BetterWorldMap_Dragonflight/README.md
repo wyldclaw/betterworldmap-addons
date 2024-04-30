@@ -30,6 +30,8 @@ This addon adds information to the Northrend map for the following zones when a 
 
 * Patch 10.2.6 - Borean Tundra, Crystalsong Forest, Dragonblight, Howling Fjord, Grizzly Hills, Icecrown, Sholazar Basin, The Storm Peaks, and Zul'Drak
 
+## Map Pins
+
 ### Dragon Isles
 
 * Ancient Waygate locations
