@@ -139,7 +139,7 @@ ns.groups.SUPERBLOOM = Group({
     atlas = 'minimap-genericevent-hornicon',
     label = '{spell:418272}',
     name = 'superbloom'
-})
+}) -- Superbloom
 
 -------------------------------- DRAGONRIDING ---------------------------------
 
