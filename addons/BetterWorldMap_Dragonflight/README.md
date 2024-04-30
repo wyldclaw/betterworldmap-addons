@@ -8,37 +8,41 @@ A quick toggle menu will appear on the Dragon Isles, Kalimdor, Eastern Kingdoms,
 * Many icons provide helpful information in the tooltip such as countdown times, reputation gains, rewards available, and more
 * Some icons provide access to additional UI with more important information when clicked
 
-This addon adds information to the world map for the following zones:
-
-* `Patch 10.0.0` - The Waking Shores, Ohn'ahran Plains, The Azure Span, and Thaldraszus
-* `Patch 10.1.5` - Zaralek Cavern
-* `Patch 10.1.5` - Ashenvale, Azshara, Desolace, Durotar, Felwood, Feralas, Silithus, Southern Barrens, Stonetalon Mountains, Thousand Needles, Un'Goro Crater, and Winterspring
-* `Patch 10.1.7` - Badlands, Blasted Lands, The Cape of Stranglethorn, Dun Morogh, Deadwind Pass, Elwynn Forest, Eastern Plaguelands, Lock Modan, Redridge Mountains, Ruins of Gilneas, Searing Gorge, and Twilight Highlands
-* `Patch 10.2.0` - Emerald Dream
-* `Patch 10.2.5` - Blade's Edge Mountains, Hellfire Penninsula, Nagrand, Netherstorm, Shadowmoon Valley, Terokkar Forest, and Zangarmarsh
-* `Patch 10.2.6` - Borean Tundra, Crystalsong Forest, Dragonblight, Howling Fjord, Grizzly Hills, Icecrown, Sholazar Basin, The Storm Peaks, and Zul'Drak
-
-## Map Pins
+## Pins
 
 ### Dragon Isles
 
-* Ancient Waygates, Dragonriding Race locations, current Dreamsurge, current Elemental Storms, current Grand Hunt, Tuskarr Fishing Holes, Zaralek Caveren entraces, and current Fyrakk Assault location
+* Ancient Waygate locations
+* Dragonriding Race locations
+* Current Dreamsurge location
+* Current Elemental Storms locations
+* Tuskarr Fishing Hole locations
+* Current Fyrakk Assault location
+* Current Grand Hunt location
+* Zaralek Caveren entrance locations
 
 ### The Waking Shores
 
-* Dragonscale Basecamp and Siege on Dragonbane Keep
+* Dragonscale Basecamp
+* Siege on Dragonbane Keep
 
 ### Ohn'ahran Plains
 
-* Maruukai, current Aylaag Camp location, and  Fyrakk Assault
+* Maruukai
+* Current Aylaag Camp location
 
 ### The Azure Span
 
-* Iskaara, Community Feast, and The Big Dig
+* Iskaara
+* Community Feast
+* The Big Dig
 
 ### Thaldraszus
 
-* The Seat of the Aspects, the Great Vault, Secrets of Azeroth, and Time Rift
+* The Seat of the Aspects
+* Great Vault
+* Secrets of Azeroth
+* Time Rift
 
 ### The Emerald Dream
 
@@ -59,6 +63,18 @@ This addon adds information to the world map for the following zones:
 ### Northrend
 
 * Northrend Cup race locations in all zones
+
+## Zones
+
+This addon adds information to the world map for the following zones:
+
+* `Patch 10.0.0` - The Waking Shores, Ohn'ahran Plains, The Azure Span, and Thaldraszus
+* `Patch 10.1.5` - Zaralek Cavern
+* `Patch 10.1.5` - Ashenvale, Azshara, Desolace, Durotar, Felwood, Feralas, Silithus, Southern Barrens, Stonetalon Mountains, Thousand Needles, Un'Goro Crater, and Winterspring
+* `Patch 10.1.7` - Badlands, Blasted Lands, The Cape of Stranglethorn, Dun Morogh, Deadwind Pass, Elwynn Forest, Eastern Plaguelands, Lock Modan, Redridge Mountains, Ruins of Gilneas, Searing Gorge, and Twilight Highlands
+* `Patch 10.2.0` - Emerald Dream
+* `Patch 10.2.5` - Blade's Edge Mountains, Hellfire Penninsula, Nagrand, Netherstorm, Shadowmoon Valley, Terokkar Forest, and Zangarmarsh
+* `Patch 10.2.6` - Borean Tundra, Crystalsong Forest, Dragonblight, Howling Fjord, Grizzly Hills, Icecrown, Sholazar Basin, The Storm Peaks, and Zul'Drak
 
 ## Limitations
 
