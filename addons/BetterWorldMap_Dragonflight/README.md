@@ -4,72 +4,45 @@
 
 A quick toggle menu will appear on the Dragon Isles, Kalimdor, Eastern Kingdoms, Outland, and Northrend world maps which allows you to quickly toggle the visibility of any icons added to the world map.
 
-* Moving map icons from their zone map to the world map helps with navigation.
-* Many icons provide helpful information in the tooltip such as countdown times, items needed, rewards available, and more.
-* Even click behavior such as the Great Vault in Valdrakken is enabled.
+* Showing map icons both on the zone map and the world map helps with navigation for events with random locations
+* Many icons provide helpful information in the tooltip such as countdown times, reputation gains, rewards available, and more
+* Some icons provide access to additional UI with more important information when clicked
 
-This addon adds information to the Dragon Isles map for the following zones:
+This addon adds information to the world map for the following zones:
 
-* Patch 10.0.0 - The Waking Shores, Ohn'ahran Plains, The Azure Span, and Thaldraszus
-* Patch 10.1.5 - Zaralek Cavern
-* Patch 10.2.0 - Emerald Dream
-
-This addon adds information to the Kalimdor map for the following zones when a racing event is active:
-
-* Patch 10.1.5 - Ashenvale, Azshara, Desolace, Durotar, Felwood, Feralas, Silithus, Southern Barrens, Stonetalon Mountains, Thousand Needles, Un'Goro Crater, and Winterspring
-
-This addon adds information to the Eastern Kingdoms map for the following zones when a racing event is active:
-
-* Patch 10.1.7 - Badlands, Blasted Lands, The Cape of Stranglethorn, Dun Morogh, Deadwind Pass, Elwynn Forest, Eastern Plaguelands, Lock Modan, Redridge Mountains, Ruins of Gilneas, Searing Gorge, and Twilight Highlands
-
-This addon adds information to the Outland map for the following zones when a racing event is active:
-
-* Patch 10.2.5 - Blade's Edge Mountains, Hellfire Penninsula, Nagrand, Netherstorm, Shadowmoon Valley, Terokkar Forest, and Zangarmarsh
-
-This addon adds information to the Northrend map for the following zones when a racing event is active:
-
-* Patch 10.2.6 - Borean Tundra, Crystalsong Forest, Dragonblight, Howling Fjord, Grizzly Hills, Icecrown, Sholazar Basin, The Storm Peaks, and Zul'Drak
+* `Patch 10.0.0` - The Waking Shores, Ohn'ahran Plains, The Azure Span, and Thaldraszus
+* `Patch 10.1.5` - Zaralek Cavern
+* `Patch 10.1.5` - Ashenvale, Azshara, Desolace, Durotar, Felwood, Feralas, Silithus, Southern Barrens, Stonetalon Mountains, Thousand Needles, Un'Goro Crater, and Winterspring
+* `Patch 10.1.7` - Badlands, Blasted Lands, The Cape of Stranglethorn, Dun Morogh, Deadwind Pass, Elwynn Forest, Eastern Plaguelands, Lock Modan, Redridge Mountains, Ruins of Gilneas, Searing Gorge, and Twilight Highlands
+* `Patch 10.2.0` - Emerald Dream
+* `Patch 10.2.5` - Blade's Edge Mountains, Hellfire Penninsula, Nagrand, Netherstorm, Shadowmoon Valley, Terokkar Forest, and Zangarmarsh
+* `Patch 10.2.6` - Borean Tundra, Crystalsong Forest, Dragonblight, Howling Fjord, Grizzly Hills, Icecrown, Sholazar Basin, The Storm Peaks, and Zul'Drak
 
 ## Map Pins
 
 ### Dragon Isles
 
-* Ancient Waygate locations
-* Dragonriding Race locations
-* Dreamsurge locations
-* Elemental Storm locations
-* Grand Hunts locations
-* Tuskarr Fishing Hole locations
-* Zaralek Cavern entrance locations
+* Ancient Waygates, Dragonriding Race locations, current Dreamsurge, current Elemental Storms, current Grand Hunt, Tuskarr Fishing Holes, Zaralek Caveren entraces, and current Fyrakk Assault location
 
 ### The Waking Shores
 
-* Dragonscale Basecamp location
-* Siege on Dragonbane Keep location
+* Dragonscale Basecamp and Siege on Dragonbane Keep
 
 ### Ohn'ahran Plains
 
-* Maruukai location
-* Aylaag Camp locations
-* Fyrakk Assault location
+* Maruukai, current Aylaag Camp location, and  Fyrakk Assault
 
 ### The Azure Span
 
-* Iskaara location
-* Community Feast location. Yes chef!
-* The Big Dig location
-* Fyrakk Assault location
+* Iskaara, Community Feast, and The Big Dig
 
 ### Thaldraszus
 
-* The Seat of the Aspects location
-* Great Vault location
-* Secrets of Azeroth location
-* Time Rift location
+* The Seat of the Aspects, the Great Vault, Secrets of Azeroth, and Time Rift
 
 ### The Emerald Dream
 
-* Superbloom location
+* Superbloom
 
 ### Kalimdor
 
