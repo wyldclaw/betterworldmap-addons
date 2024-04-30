@@ -5,6 +5,7 @@ local _, ns = ...
 local Map = ns.Map
 
 local AncientWaygate = ns.pin.AncientWaygate
+local DragonridingRace = ns.pin.DragonridingRace
 local DragonridingRally = ns.pin.DragonridingRally
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
@@ -36,6 +37,19 @@ local DragonbaneSiege = Pin({group = ns.groups.DRAGONBANE_SIEGE}) -- Seige on Dr
 map.pins[7267] = DragonbaneSiege -- Siege on Dragonbane Keep - Before
 map.pins[7104] = DragonbaneSiege -- Siege on Dragonbane Keep - During
 map.pins[7413] = DragonbaneSiege -- Siege on Dragonbane Keep - After
+
+-------------------------------------------------------------------------------
+------------------------------ DRAGONRIDING RACE ------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7744] = DragonridingRace -- Apex Canopy River Run
+map.pins[7743] = DragonridingRace -- Emberflow Flight
+map.pins[7741] = DragonridingRace -- Flashfrost Flyover
+map.pins[7740] = DragonridingRace -- Ruby Lifeshrine Loop
+map.pins[7745] = DragonridingRace -- Uktulut Coaster
+map.pins[7747] = DragonridingRace -- Wild Preserve Circuit
+map.pins[7742] = DragonridingRace -- Wild Preserve Slalom
+map.pins[7746] = DragonridingRace -- Wingrest Roundabout
 
 -------------------------------------------------------------------------------
 ------------------------------ DRAGONRIDING RALLY -----------------------------

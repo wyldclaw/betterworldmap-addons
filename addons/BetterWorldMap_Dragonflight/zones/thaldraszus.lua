@@ -5,6 +5,7 @@ local _, ns = ...
 local Map = ns.Map
 
 local AncientWaygate = ns.pin.AncientWaygate
+local DragonridingRace = ns.pin.DragonridingRace
 local DragonridingRally = ns.pin.DragonridingRally
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
@@ -33,6 +34,17 @@ val.pins[7614] = Pin({group = ns.groups.ARCANE_FORGE}) -- Arcane Forge
 
 map.pins[2834] = AncientWaygate({coordinates = 60925612}) -- Eon's Fringe
 map.pins[2836] = AncientWaygate({coordinates = 64934099}) -- Algeth'era
+
+-------------------------------------------------------------------------------
+------------------------------ DRAGONRIDING RACE ------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7764] = DragonridingRace -- Academy Ascent
+map.pins[7766] = DragonridingRace -- Caverns Criss-Cross
+map.pins[7763] = DragonridingRace -- Cliffside Circuit
+map.pins[7761] = DragonridingRace -- Flowing Forest Flight
+map.pins[7765] = DragonridingRace -- Garden Gallivant
+map.pins[7762] = DragonridingRace -- Tyrhold Trial
 
 -------------------------------------------------------------------------------
 ------------------------------ DRAGONRIDING RALLY -----------------------------

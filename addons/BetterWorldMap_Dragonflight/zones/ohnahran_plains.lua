@@ -5,6 +5,7 @@ local _, ns = ...
 local Map = ns.Map
 
 local AncientWaygate = ns.pin.AncientWaygate
+local DragonridingRace = ns.pin.DragonridingRace
 local DragonridingRally = ns.pin.DragonridingRally
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
@@ -38,6 +39,18 @@ local AylaagCamp = Pin({group = ns.groups.AYLAAG_CAMPS}) -- Aylaag Camp
 map.pins[7101] = AylaagCamp -- Aylaag Camp - River Camp
 map.pins[7102] = AylaagCamp -- Aylaag Camp - Aylaag Outpost
 map.pins[7103] = AylaagCamp -- Aylaag Camp - Eaglewatch Outpost
+
+-------------------------------------------------------------------------------
+------------------------------ DRAGONRIDING RACE ------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7751] = DragonridingRace -- Emerald Gardens Ascent
+map.pins[7749] = DragonridingRace -- Fen Flythrough
+map.pins[7753] = DragonridingRace -- Maruukai Dash
+map.pins[7754] = DragonridingRace -- Mirror of the Sky Dash
+map.pins[7750] = DragonridingRace -- Ravine River Run
+map.pins[7752] = DragonridingRace -- River Rapids Route
+map.pins[7748] = DragonridingRace -- Sundapple Copse Circuit
 
 -------------------------------------------------------------------------------
 ------------------------------ DRAGONRIDING RALLY -----------------------------

@@ -5,6 +5,7 @@ local _, ns = ...
 local Map = ns.Map
 
 local AncientWaygate = ns.pin.AncientWaygate
+local DragonridingRace = ns.pin.DragonridingRace
 local DragonridingRally = ns.pin.DragonridingRally
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
@@ -38,6 +39,17 @@ local CommunityFeast = Pin({group = ns.groups.COMMUNITY_FEAST}) -- Community Fea
 map.pins[7218] = CommunityFeast -- Community Feast - Before
 map.pins[7219] = CommunityFeast -- Community Feast - During
 map.pins[7220] = CommunityFeast -- Community Feast - After
+
+-------------------------------------------------------------------------------
+------------------------------ DRAGONRIDING RACE ------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7760] = DragonridingRace -- Archive Ambit
+map.pins[7756] = DragonridingRace -- Azure Span Slalom
+map.pins[7755] = DragonridingRace -- Azure Span Sprint
+map.pins[7759] = DragonridingRace -- Frostland Flyover
+map.pins[7758] = DragonridingRace -- Iskaara Tour
+map.pins[7757] = DragonridingRace -- Vakthros Ascent
 
 -------------------------------------------------------------------------------
 ------------------------------ DRAGONRIDING RALLY -----------------------------

@@ -23,6 +23,12 @@ ns.groups.ANCIENT_WAYGATES = Group({
     type = 'flightpoint'
 }) -- Ancient Waygates
 
+ns.groups.DRAGONRIDING_RACE = Group({
+    atlas = 'racing',
+    label = L['dragonriding_race_label'],
+    name = 'dragonriding_race'
+}) -- Dragonriding Race
+
 ns.groups.DRAGONRIDING_RALLY = Group({
     atlas = 'racing',
     label = L['dragonriding_rally_label'],
@@ -235,6 +241,11 @@ local function AncientWaygate(attrs)
     })
 end -- Ancient Waygates
 
+local DragonridingRace = Pin({
+    group = ns.groups.DRAGONRIDING_RACE,
+    passive = true
+}) -- Dragonriding Race
+
 local DragonridingRally = Pin({
     group = ns.groups.DRAGONRIDING_RALLY
 }) -- Dragonriding Rally
@@ -257,6 +268,7 @@ local ZaralekCavern = Pin({
 }) -- Zaralek Cavern
 
 ns.pin.AncientWaygate = AncientWaygate
+ns.pin.DragonridingRace = DragonridingRace
 ns.pin.DragonridingRally = DragonridingRally
 ns.pin.ElementalStorm = ElementalStorm
 ns.pin.FishingHole = FishingHole
@@ -357,6 +369,7 @@ ns.menuGroups = {
             title = ns.GetMapName(1978),
             groups = {
                 ns.groups.ANCIENT_WAYGATES,
+                ns.groups.DRAGONRIDING_RACE,
                 ns.groups.DRAGONRIDING_RALLY,
                 ns.groups.DREAMSURGE,
                 ns.groups.ELEMENTAL_STORM,

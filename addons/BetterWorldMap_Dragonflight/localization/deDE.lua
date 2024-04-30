@@ -5,6 +5,7 @@ if not L then return end
 
 --------------------------------- DRAGON ISLE ---------------------------------
 
+L['dragonriding_race_label'] = 'Drachenreitenrennen'
 L['dragonriding_rally_label'] = 'Mehrspieler-Drachenrennen'
 L['fyrakk_assault'] = 'Angriff von Fyrakk'
 L['grand_hunts_label'] = 'Große Jagd'

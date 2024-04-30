@@ -5,6 +5,7 @@ if not L then return end
 
 --------------------------------- DRAGON ISLE ---------------------------------
 
+L['dragonriding_race_label'] = 'Гонка драконов'
 L['dragonriding_rally_label'] = 'Dragonriding Rally'
 L['fyrakk_assault'] = 'Налеты Фиракка'
 L['grand_hunts_label'] = 'Великая охота'
