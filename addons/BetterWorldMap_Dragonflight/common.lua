@@ -29,12 +29,6 @@ ns.groups.DRAGONRIDING_RACE = Group({
     name = 'dragonriding_race'
 }) -- Dragonriding Race
 
-ns.groups.DRAGONRIDING_RALLY = Group({
-    atlas = 'racing',
-    label = L['dragonriding_rally_label'],
-    name = 'dragonriding_rally'
-}) -- Dragonriding Rally
-
 ns.groups.DREAMSURGE = Group({
     atlas = 'dreamsurge_hub-icon',
     label = '{spell:418351}',
@@ -246,10 +240,6 @@ local DragonridingRace = Pin({
     passive = true
 }) -- Dragonriding Race
 
-local DragonridingRally = Pin({
-    group = ns.groups.DRAGONRIDING_RALLY
-}) -- Dragonriding Rally
-
 local ElementalStorm = Pin({
     group = ns.groups.ELEMENTAL_STORM
 }) -- Elemental Storm
@@ -269,7 +259,6 @@ local ZaralekCavern = Pin({
 
 ns.pin.AncientWaygate = AncientWaygate
 ns.pin.DragonridingRace = DragonridingRace
-ns.pin.DragonridingRally = DragonridingRally
 ns.pin.ElementalStorm = ElementalStorm
 ns.pin.FishingHole = FishingHole
 ns.pin.FyrakkAssault = FyrakkAssault
@@ -370,7 +359,6 @@ ns.menuGroups = {
             groups = {
                 ns.groups.ANCIENT_WAYGATES,
                 ns.groups.DRAGONRIDING_RACE,
-                ns.groups.DRAGONRIDING_RALLY,
                 ns.groups.DREAMSURGE,
                 ns.groups.ELEMENTAL_STORM,
                 ns.groups.FISHING_HOLE,

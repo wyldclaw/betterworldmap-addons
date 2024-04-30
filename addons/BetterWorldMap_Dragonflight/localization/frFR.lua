@@ -6,7 +6,6 @@ if not L then return end
 --------------------------------- DRAGON ISLE ---------------------------------
 
 L['dragonriding_race_label'] = 'Course Draconique'
-L['dragonriding_rally_label'] = 'Course Draconique'
 L['fyrakk_assault'] = 'Assaut de Fyrakka'
 L['grand_hunts_label'] = 'Grande Chasse'
 
