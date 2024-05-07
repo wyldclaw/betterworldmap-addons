@@ -6,7 +6,6 @@ local Map = ns.Map
 
 local AncientWaygate = ns.pin.AncientWaygate
 local DragonridingRace = ns.pin.DragonridingRace
-local DragonridingRally = ns.pin.DragonridingRally
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
 local FyrakkAssault = ns.pin.FyrakkAssault
