@@ -15,3 +15,7 @@ L['faction_gundargaz'] = 'Gundargaz' -- TODO
 --------------------------------- HALLOWFALL ----------------------------------
 
 L['faction_mereldar'] = 'Mereldar' -- TODO
+
+---------------------------------- AZJ-KAHET ----------------------------------
+
+L['faction_weavers_lair'] = 'The Weaver\'s Lair' -- TODO
