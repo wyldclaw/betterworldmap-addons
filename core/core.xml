@@ -2,6 +2,8 @@
   <Include file="localization\locales.xml"/>
   <!-- -->
   <Script file="core.lua"/>
+  <Script file="util.lua"/>
+  <Script file="class.lua"/>
   <!-- -->
   <script file="button.lua"/>
   <script file="dev.lua"/>
@@ -10,5 +12,4 @@
   <script file="maps.lua"/>
   <Script file="pins.lua"/>
   <Script file="pois.lua"/>
-  <Script file="util.lua"/>
 </Ui>
