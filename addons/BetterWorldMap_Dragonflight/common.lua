@@ -2,6 +2,7 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local _, ns = ...
+local Class = ns.Class
 local L = ns.locale
 
 local Group = ns.Group
@@ -22,12 +23,6 @@ ns.groups.ANCIENT_WAYGATES = Group({
     name = 'ancient_waygate',
     type = 'flightpoint'
 }) -- Ancient Waygates
-
-ns.groups.DRAGONRIDING_RACE = Group({
-    atlas = 'racing',
-    label = L['dragonriding_race_label'],
-    name = 'dragonriding_race'
-}) -- Dragonriding Race
 
 ns.groups.DREAMSURGE = Group({
     atlas = 'dreamsurge_hub-icon',
@@ -70,7 +65,7 @@ ns.groups.ZARALEK_CAVERN_ENTRANCES = Group({
 ns.groups.FACTION_EXPEDITION = Group({
     atlas = 'MajorFactions_MapIcons_Expedition64',
     label = L['faction_expedition'],
-    name = 'faction_expedition',
+    name = 'faction_expedition'
 }) -- Dragonscale Basecamp
 
 ns.groups.DRAGONBANE_SIEGE = Group({
@@ -84,7 +79,7 @@ ns.groups.DRAGONBANE_SIEGE = Group({
 ns.groups.FACTION_CENTAUR = Group({
     atlas = 'MajorFactions_MapIcons_Centaur64',
     label = L['faction_centaur'],
-    name = 'faction_centaur',
+    name = 'faction_centaur'
 }) -- Maruukai
 
 ns.groups.AYLAAG_CAMPS = Group({
@@ -98,7 +93,7 @@ ns.groups.AYLAAG_CAMPS = Group({
 ns.groups.FACTION_TUSKARR = Group({
     atlas = 'MajorFactions_MapIcons_Tuskarr64',
     label = L['faction_tuskarr'],
-    name = 'faction_tuskarr',
+    name = 'faction_tuskarr'
 }) -- Iskaara
 
 ns.groups.COMMUNITY_FEAST = Group({
@@ -228,37 +223,28 @@ ns.groups.SECRETS_OF_AZEROTH = Group({
 ------------------------------------ PINS -------------------------------------
 -------------------------------------------------------------------------------
 
-local function AncientWaygate(attrs)
-    return Pin({
-        group = ns.groups.ANCIENT_WAYGATES,
-        coordinates = attrs.coordinates
-    })
-end -- Ancient Waygates
+local AncientWaygate = Class('AncientWaygate', Pin, {
+    group = ns.groups.ANCIENT_WAYGATES
+}) -- Ancient Waygates
 
-local DragonridingRace = Pin({
-    group = ns.groups.DRAGONRIDING_RACE,
-    passive = true
-}) -- Dragonriding Race
-
-local ElementalStorm = Pin({
+local ElementalStorm = Class('ElementalStorm', Pin, {
     group = ns.groups.ELEMENTAL_STORM
 }) -- Elemental Storm
 
-local FishingHole = Pin({
+local FishingHole = Class('FishingHole', Pin, {
     group = ns.groups.FISHING_HOLE
 }) -- Fishing Hole
 
-local FyrakkAssault = Pin({
+local FyrakkAssault = Class('FyrakkAssault', Pin, {
     group = ns.groups.FYRAKK_ASSAULT
 }) -- Fyrakk Assault
 
-local ZaralekCavern = Pin({
+local ZaralekCavern = Class('ZaralekCavern', Pin, {
     group = ns.groups.ZARALEK_CAVERN_ENTRANCES,
     passive = true
 }) -- Zaralek Cavern
 
 ns.pin.AncientWaygate = AncientWaygate
-ns.pin.DragonridingRace = DragonridingRace
 ns.pin.ElementalStorm = ElementalStorm
 ns.pin.FishingHole = FishingHole
 ns.pin.FyrakkAssault = FyrakkAssault
@@ -277,7 +263,7 @@ local GRAND_HUNTS_POIS = {
 
 hooksecurefunc(AreaPOIPinMixin, 'OnAcquired', function(self)
     if self and GRAND_HUNTS_POIS[self.areaPoiID] then
-        if not ns.IsGroupEnabled(ns.groups.GRAND_HUNTS) then
+        if not ns.groups.GRAND_HUNTS:IsEnabled() then
             self:SetPosition(2,2)
         end
     end
@@ -300,7 +286,7 @@ local DREAMSURGE_POIS = {
 
 hooksecurefunc(AreaPOIPinMixin, 'OnAcquired', function(self)
     if self and DREAMSURGE_POIS[self.areaPoiID] then
-        if not ns.IsGroupEnabled(ns.groups.DREAMSURGE) then
+        if not ns.groups.DREAMSURGE:IsEnabled() then
             self:SetPosition(2,2)
         end
     end
@@ -360,10 +346,12 @@ ns.menuGroups = {
                 ns.groups.ANCIENT_WAYGATES,
                 ns.groups.DRAGONRIDING_RACE,
                 ns.groups.DREAMSURGE,
+                ns.groups.DUNGEON,
                 ns.groups.ELEMENTAL_STORM,
                 ns.groups.FISHING_HOLE,
                 ns.groups.FYRAKK_ASSAULT,
                 ns.groups.GRAND_HUNTS,
+                ns.groups.RAID,
                 ns.groups.ZARALEK_CAVERN_ENTRANCES
             }
         },
