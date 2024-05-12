@@ -6,3 +6,9 @@ if not L then return end
 ----------------------------------- GLOBAL ------------------------------------
 
 L['addon_description'] = 'Adjust icon display for this map.'
+
+------------------------------------ PINS -------------------------------------
+
+L['dragonriding_race_label'] = 'Dragonriding Race'
+L['dungeon_label'] = 'Dungeon'
+L['raid_label'] = 'Raid'

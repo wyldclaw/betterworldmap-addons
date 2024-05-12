@@ -6,3 +6,9 @@ if not L then return end
 ----------------------------------- GLOBAL ------------------------------------
 
 L['addon_description'] = 'Passe die Symbolanzeige für diese Karte an.'
+
+------------------------------------ PINS -------------------------------------
+
+L['dragonriding_race_label'] = 'Drachenreitenrennen'
+L['dungeon_label'] = 'Dungeon'
+L['raid_label'] = 'Schlachtzug'

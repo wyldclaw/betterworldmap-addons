@@ -6,3 +6,9 @@ if not L then return end
 ----------------------------------- GLOBAL ------------------------------------
 
 L['addon_description'] = 'Régler l\'affichage des icônes pour cette carte.'
+
+------------------------------------ PINS -------------------------------------
+
+L['dragonriding_race_label'] = 'Course Draconique'
+L['dungeon_label'] = 'Donjon'
+L['raid_label'] = 'Raid'
