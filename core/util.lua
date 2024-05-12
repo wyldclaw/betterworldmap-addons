@@ -51,15 +51,11 @@ local function HasVisibleGroups(mapID)
     for _, map in pairs(ns.maps) do
         if map.parent == mapID then
             for _, pin in pairs(map.pins) do
-                if pin.group.IsVisible() == true then return true end
+                if pin.group:IsVisible() == true then return true end
             end
         end
     end
     return false
-end
-
-local function IsGroupEnabled(group)
-    return ns.GetOpt('enable_' .. group.name)
 end
 
 local function IsGroupMember(childMapID, id, group)
@@ -92,7 +88,6 @@ ns.GetXY = GetXY
 ns.GetCoord = GetCoord
 ns.IsActiveMap = IsActiveMap
 ns.HasVisibleGroups = HasVisibleGroups
-ns.IsGroupEnabled = IsGroupEnabled
 ns.IsGroupMember = IsGroupMember
 ns.IsValidID = IsValidID
 ns.CalendarEventIsActive = CalendarEventIsActive
