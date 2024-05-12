@@ -2,20 +2,50 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local _, ns = ...
-
-ns.pin = {}
+local Class = ns.Class
 
 -------------------------------------------------------------------------------
 ------------------------------------- PIN -------------------------------------
 -------------------------------------------------------------------------------
 
-local function Pin(attrs)
-    local pin = {}
-    if attrs then for k, v in pairs(attrs) do pin[k] = v end end
+local Pin = Class('Pin')
 
-    if not pin.group then error('Pin must have a group!') end
-
-    return pin
+function Pin:Initialize(attrs)
+    if attrs then for k, v in pairs(attrs) do self[k] = v end end
 end
 
-ns.pin.Pin = Pin
+-------------------------------------------------------------------------------
+----------------------------------- DUNGEON -----------------------------------
+-------------------------------------------------------------------------------
+
+local Dungeon = Class('Dungeon', Pin, {
+    group = ns.groups.DUNGEON,
+    passive = true
+}) -- Dungeon
+
+-------------------------------------------------------------------------------
+------------------------------ DRAGONRIDING RACE ------------------------------
+-------------------------------------------------------------------------------
+
+local DragonridingRace = Class('DragonridingRace', Pin, {
+    group = ns.groups.DRAGONRIDING_RACE,
+    passive = true
+}) -- Dragonriding Race
+
+-------------------------------------------------------------------------------
+------------------------------------ RAID -------------------------------------
+-------------------------------------------------------------------------------
+
+local Raid = Class('Raid', Pin, {
+    group = ns.groups.RAID,
+    passive = true
+}) -- Raid
+
+-------------------------------------------------------------------------------
+
+ns.pin = {
+    DragonridingRace = DragonridingRace,
+    Dungeon = Dungeon,
+    Pin = Pin,
+    Raid = Raid
+}
