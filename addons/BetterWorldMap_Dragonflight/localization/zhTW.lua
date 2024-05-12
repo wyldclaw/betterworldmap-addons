@@ -5,7 +5,6 @@ if not L then return end
 
 --------------------------------- DRAGON ISLE ---------------------------------
 
-L['dragonriding_race_label'] = '飛龍騎術競賽'
 L['fyrakk_assault'] = '菲拉卡襲擊'
 L['grand_hunts_label'] = '大狩獵'
 

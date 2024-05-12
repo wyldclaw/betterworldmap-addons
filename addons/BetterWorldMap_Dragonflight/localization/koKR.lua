@@ -5,7 +5,6 @@ if not L then return end
 
 --------------------------------- DRAGON ISLE ---------------------------------
 
-L['dragonriding_race_label'] = '용 조련술 경주'
 L['fyrakk_assault'] = '피락의 습격'
 L['grand_hunts_label'] = '사냥의 제전'
 
