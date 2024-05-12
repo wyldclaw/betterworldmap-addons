@@ -16,18 +16,6 @@ ns.expansion = 11 -- The War Within
 ----------------------------------- GROUPS ------------------------------------
 -------------------------------------------------------------------------------
 
-ns.groups.DELVE = Group({
-    atlas = 'delves-regular',
-    label = L['delve_label'],
-    name = 'delve'
-}) -- Delve
-
-ns.groups.DRAGONRIDING_RACE = Group({
-    atlas = 'racing',
-    label = L['dragonriding_race_label'],
-    name = 'dragonriding_race'
-}) -- Dragonriding Race
-
 -------------------------------- ISLE OF DORN ---------------------------------
 
 ns.groups.FACTION_DORNOGAL = Group({
@@ -67,23 +55,6 @@ ns.groups.FACTION_WEAVERS_LAIR = Group({
 }) -- The Weaver's Lair
 
 -------------------------------------------------------------------------------
------------------------------------- PINS -------------------------------------
--------------------------------------------------------------------------------
-
-local Delve = Pin({
-    group = ns.groups.DELVE,
-    passive = true
-}) -- Delve
-
-local DragonridingRace = Pin({
-    group = ns.groups.DRAGONRIDING_RACE,
-    passive = true
-}) -- Dragonriding Race
-
-ns.pin.Delve = Delve
-ns.pin.DragonridingRace = DragonridingRace
-
--------------------------------------------------------------------------------
 --------------------------------- MENU GROUPS ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -93,7 +64,9 @@ ns.menuGroups = {
             title = ns.GetMapName(2274),
             groups = {
                 ns.groups.DELVE,
-                ns.groups.DRAGONRIDING_RACE
+                ns.groups.DRAGONRIDING_RACE,
+                ns.groups.DUNGEON,
+                ns.groups.RAID
             }
         },
         [1] = { -- Isle of Dorn
@@ -117,7 +90,9 @@ ns.menuGroups = {
         },
         [4] = { -- Azj-Kahet
             title = ns.GetMapName(2255),
-            groups = {}
+            groups = {
+                ns.groups.FACTION_WEAVERS_LAIR
+            }
         }
     }
 }

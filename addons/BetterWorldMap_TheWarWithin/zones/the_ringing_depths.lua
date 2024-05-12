@@ -5,7 +5,8 @@ local _, ns = ...
 local Map = ns.Map
 
 local Delve = ns.pin.Delve
-local DragonridingRace = ns.pins.DragonridingRace
+local DragonridingRace = ns.pin.DragonridingRace
+local Dungeon = ns.pin.Dungeon
 
 -------------------------------------------------------------------------------
 
@@ -35,7 +36,16 @@ map.pins[7803] = DragonridingRace -- Taelloch Twist
 map.pins[7804] = DragonridingRace -- Opportunity Point Amble
 
 -------------------------------------------------------------------------------
+---------------------------------- DUNGEONS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7820] = Dungeon -- The Stonevault
+map.pins[7821] = Dungeon -- Darkflame Cleft
+
+-------------------------------------------------------------------------------
 ---------------------------------- GUNDARGAZ ----------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7911] = Pin({group = ns.groups.FACTION_GUNDARGAZ}) -- Gundargaz
+map.pins[7911] = Pin({
+	group = ns.groups.FACTION_GUNDARGAZ
+}) -- Gundargaz

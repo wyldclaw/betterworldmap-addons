@@ -5,7 +5,9 @@ local _, ns = ...
 local Map = ns.Map
 
 local Delve = ns.pin.Delve
-local DragonridingRace = ns.pins.DragonridingRace
+local DragonridingRace = ns.pin.DragonridingRace
+local Dungeon = ns.pin.Dungeon
+local Raid = ns.pin.Raid
 
 -------------------------------------------------------------------------------
 
@@ -38,7 +40,22 @@ map.pins[7815] = DragonridingRace -- Pit Plunge
 map.pins[7816] = DragonridingRace -- Siegehold Scuttle
 
 -------------------------------------------------------------------------------
+---------------------------------- DUNGEONS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7545] = Dungeon -- Ara-Kara, City of Echoes
+map.pins[7548] = Dungeon -- City of Threads
+
+-------------------------------------------------------------------------------
+------------------------------------ RAID -------------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7546] = Raid -- Nerub'ar Palace
+
+-------------------------------------------------------------------------------
 ------------------------------ THE WEAVER'S LAIR ------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7940] = Pin({group = ns.groups.FACTION_WEAVERS_LAIR}) -- The Weaver's Lair
+map.pins[7940] = Pin({
+	group = ns.groups.FACTION_WEAVERS_LAIR
+}) -- The Weaver's Lair

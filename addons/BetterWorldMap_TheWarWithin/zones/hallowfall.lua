@@ -5,7 +5,8 @@ local _, ns = ...
 local Map = ns.Map
 
 local Delve = ns.pin.Delve
-local DragonridingRace = ns.pins.DragonridingRace
+local DragonridingRace = ns.pin.DragonridingRace
+local Dungeon = ns.pin.Dungeon
 
 -------------------------------------------------------------------------------
 
@@ -39,7 +40,16 @@ map.pins[7809] = DragonridingRace -- Mereldar Meander
 map.pins[7810] = DragonridingRace -- Velhan's Venture
 
 -------------------------------------------------------------------------------
+---------------------------------- DUNGEONS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7858] = Dungeon -- Priory of the Sacred Flame
+map.pins[7892] = Dungeon -- The Dawnbreaker
+
+-------------------------------------------------------------------------------
 ----------------------------------- MERELDAR ----------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7893] = Pin({group = ns.groups.FACTION_MERELDAR}) -- Mereldar
+map.pins[7893] = Pin({
+	group = ns.groups.FACTION_MERELDAR
+}) -- Mereldar

@@ -5,7 +5,8 @@ local _, ns = ...
 local Map = ns.Map
 
 local Delve = ns.pin.Delve
-local DragonridingRace = ns.pins.DragonridingRace
+local DragonridingRace = ns.pin.DragonridingRace
+local Dungeon = ns.pin.Dungeon
 
 -------------------------------------------------------------------------------
 
@@ -29,7 +30,9 @@ map.pins[7787] = Delve -- Earthcrawl Mines
 ----------------------------------- DORNOGAL ----------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7898] = Pin({group = ns.groups.FACTION_DORNOGAL}) -- Dornogal
+map.pins[7898] = Pin({
+	group = ns.groups.FACTION_DORNOGAL
+}) -- Dornogal
 
 -------------------------------------------------------------------------------
 ------------------------------ DRAGONRIDING RACE ------------------------------
@@ -43,9 +46,18 @@ map.pins[7797] = DragonridingRace -- Thunderhead Trail
 map.pins[7798] = DragonridingRace -- Orecreg's Doglegs
 
 -------------------------------------------------------------------------------
+---------------------------------- DUNGEONS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7655] = Dungeon -- The Rookery
+map.pins[7857] = Dungeon -- Cinderbrew Meadery
+
+-------------------------------------------------------------------------------
 --------------------------------- GREAT VAULT ---------------------------------
 -------------------------------------------------------------------------------
 
-local GreatVault = Pin({group = ns.groups.GREAT_VAULT}) -- Great Vault
+local GreatVault = Pin({
+	group = ns.groups.GREAT_VAULT
+}) -- Great Vault
 
 map.pins[7831] = GreatVault -- Nerub-ar Palace
