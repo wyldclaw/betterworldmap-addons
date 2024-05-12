@@ -4,7 +4,7 @@
 local _, ns = ...
 local Map = ns.Map
 
-local EasternKingdomsCup = ns.pin.EasternKingdomsCup
+local Pin = ns.pin.Pin
 
 -------------------------------------------------------------------------------
 
@@ -25,6 +25,10 @@ local twi = Map({id = 241, parent = 13}) -- Twilight Highlands
 -------------------------------------------------------------------------------
 ---------------------------- EASTERN KINGDOMS CUP -----------------------------
 -------------------------------------------------------------------------------
+
+local EasternKingdomsCup = Pin({
+    group = ns.groups.EASTERN_KINGDOMS_CUP
+}) -- Eastern Kingdoms Cup
 
 bad.pins[7582] = EasternKingdomsCup -- Fuselight Night Flight
 bla.pins[7579] = EasternKingdomsCup -- Blasted Lands Bolt

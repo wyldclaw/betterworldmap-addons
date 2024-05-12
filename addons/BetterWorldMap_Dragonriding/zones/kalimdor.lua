@@ -4,7 +4,7 @@
 local _, ns = ...
 local Map = ns.Map
 
-local KalimdorCup = ns.pin.KalimdorCup
+local Pin = ns.pin.Pin
 
 -------------------------------------------------------------------------------
 
@@ -26,6 +26,10 @@ local wsp = Map({id = 83, parent = 12}) -- Winterspring
 -------------------------------------------------------------------------------
 -------------------------------- KALIMDOR CUP ---------------------------------
 -------------------------------------------------------------------------------
+
+local KalimdorCup = Pin({
+    group = ns.groups.KALIMDOR_CUP
+}) -- Kalimdor Cup
 
 ash.pins[7499] = KalimdorCup -- Ashenvale Ambit
 azs.pins[7498] = KalimdorCup -- Rocketway Ride

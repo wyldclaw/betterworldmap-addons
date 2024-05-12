@@ -4,7 +4,7 @@
 local _, ns = ...
 local Map = ns.Map
 
-local PandariaCup = ns.pin.PandariaCup
+local Pin = ns.pin.Pin
 
 -------------------------------------------------------------------------------
 
@@ -19,3 +19,7 @@ local vfw = Map({id = 376, parent = 424}) -- Valley of the Four Winds
 -------------------------------------------------------------------------------
 -------------------------------- PANDARIA CUP ---------------------------------
 -------------------------------------------------------------------------------
+
+local PandariaCup = Pin({
+    group = ns.groups.PANDARIA_CUP
+}) -- Pandaria Cup

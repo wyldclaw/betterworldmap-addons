@@ -4,7 +4,7 @@
 local _, ns = ...
 local Map = ns.Map
 
-local NorthrendCup = ns.pin.NorthrendCup
+local Pin = ns.pin.Pin
 
 -------------------------------------------------------------------------------
 
@@ -21,6 +21,10 @@ local zul = Map({id = 121, parent = 113}) -- Zul'Drak
 -------------------------------------------------------------------------------
 -------------------------------- NORTHREND CUP --------------------------------
 -------------------------------------------------------------------------------
+
+local NorthrendCup = Pin({
+    group = ns.groups.NORTHREND_CUP
+}) -- Northrend Cup
 
 bor.pins[7698] = NorthrendCup -- Geothermal Jaunt
 bor.pins[7700] = NorthrendCup -- Coldarra Climb
