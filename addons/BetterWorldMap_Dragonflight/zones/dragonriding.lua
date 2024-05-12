@@ -25,7 +25,9 @@ local ugc = Map({id = 78, parent = 12}) -- Un'Goro Crater
 local uld = Map({id = 249, parent = 12}) -- Uldum
 local wsp = Map({id = 83, parent = 12}) -- Winterspring
 
-local KalimdorCup = Pin({group = ns.groups.KALIMDOR_CUP}) -- Kalimdor Cup
+local KalimdorCup = Pin({
+    group = ns.groups.KALIMDOR_CUP
+}) -- Kalimdor Cup
 
 ash.pins[7499] = KalimdorCup -- Ashenvale Ambit
 azs.pins[7498] = KalimdorCup -- Rocketway Ride
@@ -62,7 +64,9 @@ local rrm = Map({id = 49, parent = 13}) -- Redridge Mountains
 local sea = Map({id = 32, parent = 13}) -- Searing Gorge
 local twi = Map({id = 241, parent = 13}) -- Twilight Highlands
 
-local EasternKingdomsCup = Pin({group = ns.groups.EASTERN_KINGDOMS_CUP}) -- Eastern Kingdoms Cup
+local EasternKingdomsCup = Pin({
+    group = ns.groups.EASTERN_KINGDOMS_CUP
+}) -- Eastern Kingdoms Cup
 
 bad.pins[7582] = EasternKingdomsCup -- Fuselight Night Flight
 bla.pins[7579] = EasternKingdomsCup -- Blasted Lands Bolt
@@ -91,7 +95,9 @@ local smv = Map({id = 104, parent = 101}) -- Shadowmoon Valley
 local ter = Map({id = 108, parent = 101}) -- Terokkar Forest
 local zan = Map({id = 102, parent = 101}) -- Zangarmarsh
 
-local OutlandCup = Pin({group = ns.groups.OUTLAND_CUP}) -- Outland Cup
+local OutlandCup = Pin({
+    group = ns.groups.OUTLAND_CUP
+}) -- Outland Cup
 
 bem.pins[7591] = OutlandCup -- Blade's Edge Brawl
 hel.pins[7589] = OutlandCup -- Hellfire Hustle
@@ -121,7 +127,9 @@ local sho = Map({id = 119, parent = 113}) -- Sholazar Basin
 local tsp = Map({id = 120, parent = 113}) -- The Storm Peaks
 local zul = Map({id = 121, parent = 113}) -- Zul'Drak
 
-local NorthrendCup = Pin({group = ns.groups.NORTHREND_CUP}) -- Northrend Cup
+local NorthrendCup = Pin({
+    group = ns.groups.NORTHREND_CUP
+}) -- Northrend Cup
 
 bor.pins[7698] = NorthrendCup -- Geothermal Jaunt
 bor.pins[7700] = NorthrendCup -- Coldarra Climb
@@ -148,7 +156,9 @@ local tls = Map({id = 388, parent = 424}) -- Townlong Steppes
 local veb = Map({id = 390, parent = 424}) -- Vale of Eternal Blossoms
 local vfw = Map({id = 376, parent = 424}) -- Valley of the Four Winds
 
-local PandariaCup = Pin({group = ns.groups.PANDARIA_CUP}) -- Pandaria Cup
+local PandariaCup = Pin({
+    group = ns.groups.PANDARIA_CUP
+}) -- Pandaria Cup
 
 -------------------------------------------------------------------------------
 ------------------------------ BROKEN ISLES CUP -------------------------------
@@ -161,4 +171,6 @@ local stm = Map({id = 634, parent = 619}) -- Stormheim
 local sur = Map({id = 680, parent = 619}) -- Suramar
 local val = Map({id = 641, parent = 619}) -- Val'Sharah
 
-local BrokenIslesCup = Pin({group = ns.groups.BROKEN_ISLES_CUP}) -- Broken Isles Cup
+local BrokenIslesCup = Pin({
+    group = ns.groups.BROKEN_ISLES_CUP
+}) -- Broken Isles Cup
