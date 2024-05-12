@@ -12,22 +12,27 @@ A quick toggle menu will appear on the Khaz Algar world map which allows you to 
 
 ### Khaz Algar
 
-* Ancient Waygate locations
+* Delve and Bountiful Delve locations
 * Dragonriding Race locations
-* Current Dreamsurge location
-* Current Elemental Storms locations
-* Tuskarr Fishing Hole locations
-* Current Fyrakk Assault location
-* Current Grand Hunt location
-* Zaralek Caveren entrance locations
+* Dungeon locations
+* Raid locations
 
 ### Isle of Dorn
 
+* Dornogal location
+* Great Vault location
+
 ### The Ringing Deeps
+
+* Gundargaz location
 
 ### Hallowfall
 
+* Mereldar location
+
 ### Azj-Kahet
+
+* The Weaver's Lair location
 
 ## Zones
 
