@@ -4,12 +4,14 @@
 local _, ns = ...
 local Map = ns.Map
 
+local Dungeon = ns.pin.Dungeon
+local Pin = ns.pin.Pin
+
 local AncientWaygate = ns.pin.AncientWaygate
 local DragonridingRace = ns.pin.DragonridingRace
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
 local FyrakkAssault = ns.pin.FyrakkAssault
-local Pin = ns.pin.Pin
 local ZaralekCavern = ns.pin.ZaralekCavern
 
 -------------------------------------------------------------------------------
@@ -26,14 +28,21 @@ map.pins[7393] = Pin({group = ns.groups.FACTION_TUSKARR}) -- Iskaara
 ------------------------------ ANCIENT WAYGATES -------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[2838] = AncientWaygate({coordinates = 51466802}) -- Cobalt Assembly
-map.pins[2837] = AncientWaygate({coordinates = 63966829}) -- Vakthros
+map.pins[2838] = AncientWaygate({
+	coordinates = 51466802
+}) -- Cobalt Assembly
+
+map.pins[2837] = AncientWaygate({
+	coordinates = 63966829
+}) -- Vakthros
 
 -------------------------------------------------------------------------------
 ------------------------------- COMMUNITY FEAST -------------------------------
 -------------------------------------------------------------------------------
 
-local CommunityFeast = Pin({group = ns.groups.COMMUNITY_FEAST}) -- Community Feast
+local CommunityFeast = Pin({
+	group = ns.groups.COMMUNITY_FEAST
+}) -- Community Feast
 
 map.pins[7218] = CommunityFeast -- Community Feast - Before
 map.pins[7219] = CommunityFeast -- Community Feast - During
@@ -49,6 +58,13 @@ map.pins[7755] = DragonridingRace -- Azure Span Sprint
 map.pins[7759] = DragonridingRace -- Frostland Flyover
 map.pins[7758] = DragonridingRace -- Iskaara Tour
 map.pins[7757] = DragonridingRace -- Vakthros Ascent
+
+-------------------------------------------------------------------------------
+---------------------------------- DUNGEONS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7209] = Dungeon -- Brakenhide Hallow
+map.pins[7214] = Dungeon -- Azure Archives
 
 -------------------------------------------------------------------------------
 ------------------------------- ELEMENTAL STORM -------------------------------
@@ -87,7 +103,9 @@ map.pins[7488] = FyrakkAssault
 --------------------------------- THE BIG DIG ---------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7657] = Pin({group = ns.groups.THE_BIG_DIG})
+map.pins[7657] = Pin({
+	group = ns.groups.THE_BIG_DIG
+})
 
 -------------------------------------------------------------------------------
 -------------------------- ZARALEK CAVERN ENTRANCES ---------------------------

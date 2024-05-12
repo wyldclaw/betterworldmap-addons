@@ -4,12 +4,14 @@
 local _, ns = ...
 local Map = ns.Map
 
+local Dungeon = ns.pin.Dungeon
+local Pin = ns.pin.Pin
+
 local AncientWaygate = ns.pin.AncientWaygate
 local DragonridingRace = ns.pin.DragonridingRace
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
 local FyrakkAssault = ns.pin.FyrakkAssault
-local Pin = ns.pin.Pin
 local ZaralekCavern = ns.pin.ZaralekCavern
 
 -------------------------------------------------------------------------------
@@ -20,20 +22,29 @@ local map = Map({id = 2023, parent = 1978})
 ----------------------------------- MARUUKAI ----------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7392] = Pin({group = ns.groups.FACTION_CENTAUR}) -- Maruukai
+map.pins[7392] = Pin({
+	group = ns.groups.FACTION_CENTAUR
+}) -- Maruukai
 
 -------------------------------------------------------------------------------
 ------------------------------ ANCIENT WAYGATES -------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[2840] = AncientWaygate({coordinates = 34705779}) -- Shady Sanctuary
-map.pins[2839] = AncientWaygate({coordinates = 49765289}) -- Ruszathar Reach
+map.pins[2840] = AncientWaygate({
+	coordinates = 34705779
+}) -- Shady Sanctuary
+
+map.pins[2839] = AncientWaygate({
+	coordinates = 49765289
+}) -- Ruszathar Reach
 
 -------------------------------------------------------------------------------
 -------------------------------- AYLAAG CAMPS ---------------------------------
 -------------------------------------------------------------------------------
 
-local AylaagCamp = Pin({group = ns.groups.AYLAAG_CAMPS}) -- Aylaag Camp
+local AylaagCamp = Pin({
+	group = ns.groups.AYLAAG_CAMPS
+}) -- Aylaag Camp
 
 map.pins[7101] = AylaagCamp -- Aylaag Camp - River Camp
 map.pins[7102] = AylaagCamp -- Aylaag Camp - Aylaag Outpost
@@ -50,6 +61,12 @@ map.pins[7754] = DragonridingRace -- Mirror of the Sky Dash
 map.pins[7750] = DragonridingRace -- Ravine River Run
 map.pins[7752] = DragonridingRace -- River Rapids Route
 map.pins[7748] = DragonridingRace -- Sundapple Copse Circuit
+
+-------------------------------------------------------------------------------
+---------------------------------- DUNGEONS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7215] = Dungeon -- The Nokhud Offensive
 
 -------------------------------------------------------------------------------
 ------------------------------- ELEMENTAL STORM -------------------------------

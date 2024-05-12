@@ -4,11 +4,14 @@
 local _, ns = ...
 local Map = ns.Map
 
+local Dungeon = ns.pin.Dungeon
+local Pin = ns.pin.Pin
+local Raid = ns.pin.Raid
+
 local AncientWaygate = ns.pin.AncientWaygate
 local DragonridingRace = ns.pin.DragonridingRace
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
-local Pin = ns.pin.Pin
 
 -------------------------------------------------------------------------------
 
@@ -19,20 +22,29 @@ local val = Map({id = 2112, parent = 1978})
 --------------------------- THE SEAT OF THE ASPECTS ---------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7391] = Pin({group = ns.groups.FACTION_VALDRAKKEN}) -- The Seat of the Aspects
+map.pins[7391] = Pin({
+	group = ns.groups.FACTION_VALDRAKKEN
+}) -- The Seat of the Aspects
 
 -------------------------------------------------------------------------------
 -------------------------------- ARCANE FORGE ---------------------------------
 -------------------------------------------------------------------------------
 
-val.pins[7614] = Pin({group = ns.groups.ARCANE_FORGE}) -- Arcane Forge
+val.pins[7614] = Pin({
+	group = ns.groups.ARCANE_FORGE
+}) -- Arcane Forge
 
 -------------------------------------------------------------------------------
 ------------------------------ ANCIENT WAYGATES -------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[2834] = AncientWaygate({coordinates = 60925612}) -- Eon's Fringe
-map.pins[2836] = AncientWaygate({coordinates = 64934099}) -- Algeth'era
+map.pins[2834] = AncientWaygate({
+	coordinates = 60925612
+}) -- Eon's Fringe
+
+map.pins[2836] = AncientWaygate({
+	coordinates = 64934099
+}) -- Algeth'era
 
 -------------------------------------------------------------------------------
 ------------------------------ DRAGONRIDING RACE ------------------------------
@@ -44,6 +56,14 @@ map.pins[7763] = DragonridingRace -- Cliffside Circuit
 map.pins[7761] = DragonridingRace -- Flowing Forest Flight
 map.pins[7765] = DragonridingRace -- Garden Gallivant
 map.pins[7762] = DragonridingRace -- Tyrhold Trial
+
+-------------------------------------------------------------------------------
+---------------------------------- DUNGEONS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7210] = Dungeon -- Halls of Infusion
+map.pins[7213] = Dungeon -- Algeth'ar Academy
+map.pins[7525] = Dungeon -- Dawn of the Infinite
 
 -------------------------------------------------------------------------------
 ------------------------------- ELEMENTAL STORM -------------------------------
@@ -68,7 +88,9 @@ map.pins[7271] = FishingHole -- Tyrhold Fishing Hole
 --------------------------------- GREAT VAULT ---------------------------------
 -------------------------------------------------------------------------------
 
-local GreatVault = Pin({group = ns.groups.GREAT_VAULT}) -- Great Vault
+local GreatVault = Pin({
+	group = ns.groups.GREAT_VAULT
+}) -- Great Vault
 
 val.pins[7296] = GreatVault -- Vault of the Incarnates
 val.pins[7297] = GreatVault -- Rewards Available
@@ -80,10 +102,20 @@ val.pins[7739] = GreatVault -- Awakened Dragonflight Raids
 ----------------------------- SECRETS OF AZEROTH ------------------------------
 -------------------------------------------------------------------------------
 
-val.pins[7544] = Pin({group = ns.groups.SECRETS_OF_AZEROTH}) -- Secrets of Azeroth
+val.pins[7544] = Pin({
+	group = ns.groups.SECRETS_OF_AZEROTH
+}) -- Secrets of Azeroth
+
+-------------------------------------------------------------------------------
+------------------------------------ RAID -------------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7048] = Raid -- Vault of the Incarnates
 
 -------------------------------------------------------------------------------
 ---------------------------------- TIME RIFT ----------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7492] = Pin({group = ns.groups.TIME_RIFT}) -- Time Rift
+map.pins[7492] = Pin({
+	group = ns.groups.TIME_RIFT
+}) -- Time Rift

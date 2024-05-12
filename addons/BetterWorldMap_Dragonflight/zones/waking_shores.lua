@@ -4,11 +4,13 @@
 local _, ns = ...
 local Map = ns.Map
 
+local Dungeon = ns.pin.Dungeon
+local Pin = ns.pin.Pin
+
 local AncientWaygate = ns.pin.AncientWaygate
 local DragonridingRace = ns.pin.DragonridingRace
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
-local Pin = ns.pin.Pin
 
 -------------------------------------------------------------------------------
 
@@ -18,20 +20,29 @@ local map = Map({id = 2022, parent = 1978})
 ----------------------------- DRAGONSCALE BASECAMP ----------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7365] = Pin({group = ns.groups.FACTION_EXPEDITION}) -- Dragonscale Basecamp
+map.pins[7365] = Pin({
+	group = ns.groups.FACTION_EXPEDITION
+}) -- Dragonscale Basecamp
 
 -------------------------------------------------------------------------------
 ------------------------------ ANCIENT WAYGATES -------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[2842] = AncientWaygate({coordinates = 48904632}) -- Rubyscale Outpost
-map.pins[2841] = AncientWaygate({coordinates = 57673589}) -- Skytop Observatory
+map.pins[2842] = AncientWaygate({
+	coordinates = 48904632
+}) -- Rubyscale Outpost
+
+map.pins[2841] = AncientWaygate({
+	coordinates = 57673589
+}) -- Skytop Observatory
 
 -------------------------------------------------------------------------------
 ------------------------------ DRAGONBANE SIEGE -------------------------------
 -------------------------------------------------------------------------------
 
-local DragonbaneSiege = Pin({group = ns.groups.DRAGONBANE_SIEGE}) -- Seige on Dragonbane Keep
+local DragonbaneSiege = Pin({
+	group = ns.groups.DRAGONBANE_SIEGE
+}) -- Seige on Dragonbane Keep
 
 map.pins[7267] = DragonbaneSiege -- Siege on Dragonbane Keep - Before
 map.pins[7104] = DragonbaneSiege -- Siege on Dragonbane Keep - During
@@ -49,6 +60,13 @@ map.pins[7745] = DragonridingRace -- Uktulut Coaster
 map.pins[7747] = DragonridingRace -- Wild Preserve Circuit
 map.pins[7742] = DragonridingRace -- Wild Preserve Slalom
 map.pins[7746] = DragonridingRace -- Wingrest Roundabout
+
+-------------------------------------------------------------------------------
+---------------------------------- DUNGEONS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7211] = Dungeon -- Neltharus
+map.pins[7212] = Dungeon -- Ruby Life Pools
 
 -------------------------------------------------------------------------------
 ------------------------------- ELEMENTAL STORM -------------------------------
