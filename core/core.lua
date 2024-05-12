@@ -8,6 +8,7 @@ local L = LibStub('AceLocale-3.0'):GetLocale(ADDON_NAME)
 
 ns.addon = Addon
 ns.locale = L
+ns.maps = {}
 
 ns.DB = ADDON_NAME .. 'DB'
 
