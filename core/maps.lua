@@ -2,26 +2,26 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local _, ns = ...
-
-ns.maps = {}
+local Class = ns.Class
 
 -------------------------------------------------------------------------------
 ------------------------------------- MAP -------------------------------------
 -------------------------------------------------------------------------------
 
-local function Map(attrs)
-    local map = {}
-    if attrs then for k, v in pairs(attrs) do map[k] = v end end
+local Map = Class('Map')
 
-    if not map.id then error('Map must have an id!') end
-    if not map.parent then error('Map must have a parent!') end
+function Map:Initialize(attrs)
+    if attrs then for k, v in pairs(attrs) do self[k] = v end end
 
-    map.pins = {}
+    if not self.id then error('Map must have an id!') end
+    if not self.parent then error('Map must have a parent!') end
 
-    if ns.maps[map.id] then error('Map already added: ' .. map.id) end
-    ns.maps[map.id] = map
+    self.pins = {}
 
-    return map
+    if ns.maps[self.id] then error('Map already added: ' .. self.id) end
+    ns.maps[self.id] = self
 end
+
+-------------------------------------------------------------------------------
 
 ns.Map = Map
