@@ -11,7 +11,7 @@ ns.POI = {}
 
 ns.POI.ProcessPOIInfo = function(self, map, mapID, childMapID, poiInfo)
     local poi = ns.maps[childMapID].pins[poiInfo.areaPoiID]
-    if ns.IsGroupEnabled(poi.group) then
+    if poi.group:IsEnabled() then
         if poi.coordinates then
             local x, y = ns.GetXY(poi.coordinates)
             poiInfo.position:SetXY(x, y)

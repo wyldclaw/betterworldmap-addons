@@ -57,7 +57,7 @@ end
 
 ns.FP.UpdateFlightPoints = function(mapID, group)
     if ns.IsActiveMap(mapID) then
-        if ns.IsGroupEnabled(group) then
+        if group:IsEnabled() then
             ns.FP.ProcessChildMap(mapID, group)
         else
             ns.libs.PIN:RemoveAllWorldMapIcons(ADDON_NAME)
