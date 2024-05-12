@@ -71,24 +71,6 @@ ns.groups.BROKEN_ISLES_CUP = Group({
 }) -- Broken Isles Cup
 
 -------------------------------------------------------------------------------
------------------------------------- PINS -------------------------------------
--------------------------------------------------------------------------------
-
-local KalimdorCup = Pin({group = ns.groups.KALIMDOR_CUP})
-local EasternKingdomsCup = Pin({group = ns.groups.EASTERN_KINGDOMS_CUP})
-local OutlandCup = Pin({group = ns.groups.OUTLAND_CUP})
-local NorthrendCup = Pin({group = ns.groups.NORTHREND_CUP})
-local PandariaCup = Pin({group = ns.groups.PANDARIA_CUP})
-local BrokenIslesCup = Pin({group = ns.groups.BROKEN_ISLES_CUP})
-
-ns.pin.KalimdorCup = KalimdorCup
-ns.pin.EasternKingdomsCup = EasternKingdomsCup
-ns.pin.OutlandCup = OutlandCup
-ns.pin.NorthrendCup = NorthrendCup
-ns.pin.PandariaCup = PandariaCup
-ns.pin.BrokenIslesCup = BrokenIslesCup
-
--------------------------------------------------------------------------------
 --------------------------------- MENU GROUPS ---------------------------------
 -------------------------------------------------------------------------------
 
