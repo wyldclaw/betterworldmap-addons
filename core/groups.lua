@@ -2,28 +2,47 @@
 ---------------------------------- NAMESPACE ----------------------------------
 -------------------------------------------------------------------------------
 local ADDON_NAME, ns = ...
-
-ns.groups = {}
+local Class = ns.Class
+local L = ns.locale
 
 -------------------------------------------------------------------------------
 ------------------------------------ GROUP ------------------------------------
 -------------------------------------------------------------------------------
 
-local function Group(attrs)
-    local group = {}
-    if attrs then for k, v in pairs(attrs) do group[k] = v end end
+local Group = Class('Group')
 
-    if not group.atlas then error('Group must have an atlas!') end
-    if not group.label then error('Group must have a label!') end
-    if not group.name then error('Group must have a name!') end
+function Group:Initialize(attrs)
+    if attrs then for k, v in pairs(attrs) do self[k] = v end end
 
-    if not group.IsVisible then
-        group.IsVisible = function() return true end
-    end
+    if not self.atlas then error('Group must have an atlas!') end
+    if not self.label then error('Group must have a label!') end
+    if not self.name then error('Group must have a name!') end
 
-    ns.PrepareText(group.label)
-
-    return group
+    ns.PrepareText(self.label)
 end
 
+function Group:IsVisible() return true end
+
+function Group:IsEnabled() return ns.GetOpt('enable_' .. self.name) end
+
+-------------------------------------------------------------------------------
+
 ns.Group = Group
+
+ns.groups = {
+    DUNGEON = Group({
+        atlas = 'dungeon',
+        label = L['dungeon_label'],
+        name = 'dungeon'
+    }),
+    DRAGONRIDING_RACE = Group({
+        atlas = 'racing',
+        label = L['dragonriding_race_label'],
+        name = 'dragonriding_race'
+    }),
+    RAID = Group({
+        atlas = 'raid',
+        label = L['raid_label'],
+        name = 'raid'
+    })
+}
