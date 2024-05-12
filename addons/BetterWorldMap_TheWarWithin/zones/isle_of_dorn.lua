@@ -11,6 +11,7 @@ local Dungeon = ns.pin.Dungeon
 -------------------------------------------------------------------------------
 
 local map = Map({id = 2248, parent = 2274})
+local dor = Map({id = 2339, parent = 2274})
 
 -------------------------------------------------------------------------------
 ----------------------------------- DELVES ------------------------------------
@@ -60,4 +61,4 @@ local GreatVault = Pin({
 	group = ns.groups.GREAT_VAULT
 }) -- Great Vault
 
-map.pins[7831] = GreatVault -- Nerub-ar Palace
+dor.pins[7831] = GreatVault -- Nerub-ar Palace
