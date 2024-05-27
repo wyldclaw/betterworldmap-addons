@@ -87,13 +87,13 @@ twi.pins[7583] = EasternKingdomsCup -- Krazzworks Klash
 --------------------------------- OUTLAND CUP ---------------------------------
 -------------------------------------------------------------------------------
 
-local bem = ns.mamps[105] or Map({id = 105, parent = 101}) -- Blade's Edge Mountains
-local hel = ns.mamps[100] or Map({id = 100, parent = 101}) -- Hellfire Peninsula
-local nag = ns.mamps[107] or Map({id = 107, parent = 101}) -- Nagrand
-local net = ns.mamps[109] or Map({id = 109, parent = 101}) -- Netherstorm
-local smv = ns.mamps[104] or Map({id = 104, parent = 101}) -- Shadowmoon Valley
-local ter = ns.mamps[108] or Map({id = 108, parent = 101}) -- Terokkar Forest
-local zan = ns.mamps[102] or Map({id = 102, parent = 101}) -- Zangarmarsh
+local bem = ns.maps[105] or Map({id = 105, parent = 101}) -- Blade's Edge Mountains
+local hel = ns.maps[100] or Map({id = 100, parent = 101}) -- Hellfire Peninsula
+local nag = ns.maps[107] or Map({id = 107, parent = 101}) -- Nagrand
+local net = ns.maps[109] or Map({id = 109, parent = 101}) -- Netherstorm
+local smv = ns.maps[104] or Map({id = 104, parent = 101}) -- Shadowmoon Valley
+local ter = ns.maps[108] or Map({id = 108, parent = 101}) -- Terokkar Forest
+local zan = ns.maps[102] or Map({id = 102, parent = 101}) -- Zangarmarsh
 
 local OutlandCup = Pin({
     group = ns.groups.OUTLAND_CUP
