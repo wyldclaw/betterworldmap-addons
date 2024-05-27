@@ -37,3 +37,8 @@ L['outland_cup'] = 'Scherbenweltpokal'
 L['northrend_cup'] = 'Nordendpokal'
 L['pandaria_cup'] = 'Pandariapokal'
 L['broken_isles_cup'] = 'Pokal der Verheerten Inseln'
+
+------------------------ WOW REMIX: MISTS OF PANDARIA -------------------------
+
+L['infinite_bazaar'] = 'Ewiger Basar'
+

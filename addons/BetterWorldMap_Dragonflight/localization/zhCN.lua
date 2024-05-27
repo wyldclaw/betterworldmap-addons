@@ -37,3 +37,7 @@ L['outland_cup'] = '外域杯'
 L['northrend_cup'] = '诺森德杯'
 L['pandaria_cup'] = '潘达利亚杯'
 L['broken_isles_cup'] = '破碎群岛杯'
+
+------------------------ WOW REMIX: MISTS OF PANDARIA -------------------------
+
+L['infinite_bazaar'] = '永恒集市'

@@ -37,3 +37,7 @@ L['outland_cup'] = 'Outland Cup'
 L['northrend_cup'] = 'Northrend Cup'
 L['pandaria_cup'] = 'Pandaria Cup'
 L['broken_isles_cup'] = 'Broken Isles Cup'
+
+------------------------ WOW REMIX: MISTS OF PANDARIA -------------------------
+
+L['infinite_bazaar'] = 'Infinite Bazaar'
