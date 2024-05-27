@@ -223,7 +223,7 @@ ns.groups.SECRETS_OF_AZEROTH = Group({
 
 ns.groups.INFINITE_BAZAAR = Group({
     atlas = 'timerunninghub',
-    label = 'Infinite Bazaar',
+    label = L['infinite_bazaar'],
     name = 'infinite_bazaar',
     IsVisible = function()
         return ns.CalendarEventIsActive(1525)
