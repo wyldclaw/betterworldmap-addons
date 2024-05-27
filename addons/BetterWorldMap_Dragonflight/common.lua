@@ -219,6 +219,17 @@ ns.groups.SECRETS_OF_AZEROTH = Group({
     end
 }) -- Secrets of Azeroth
 
+------------------------ WOW REMIX: MISTS OF PANDARIA -------------------------
+
+ns.groups.INFINITE_BAZAAR = Group({
+    atlas = 'timerunninghub',
+    label = 'Infinite Bazaar',
+    name = 'infinite_bazaar',
+    IsVisible = function()
+        return ns.CalendarEventIsActive(1525)
+    end
+}) -- Infinite Bazaar
+
 -------------------------------------------------------------------------------
 ------------------------------------ PINS -------------------------------------
 -------------------------------------------------------------------------------
@@ -328,7 +339,10 @@ ns.menuGroups = {
     [424] = { -- Pandaria
         [1] = {
             groups = {
-                ns.groups.PANDARIA_CUP
+                ns.groups.DUNGEON,
+                ns.groups.INFINITE_BAZAAR,
+                ns.groups.PANDARIA_CUP,
+                ns.groups.RAID
             }
         }
     },
