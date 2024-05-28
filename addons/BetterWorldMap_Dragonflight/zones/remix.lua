@@ -43,7 +43,8 @@ dws.pins[7721] = InfiniteBazaar
 kls.pins[7719] = InfiniteBazaar
 tjf.pins[7718] = InfiniteBazaar
 tls.pins[7720] = InfiniteBazaar
-veb.pins[7724] = InfiniteBazaar
+veb.pins[7724] = InfiniteBazaar -- Alliance
+veb.pins[7723] = InfiniteBazaar -- Horde
 vfw.pins[7722] = InfiniteBazaar
 
 -------------------------------------------------------------------------------
