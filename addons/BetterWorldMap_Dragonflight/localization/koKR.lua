@@ -37,3 +37,8 @@ L['outland_cup'] = '아웃랜드 우승컵'
 L['northrend_cup'] = '노스렌드 우승컵'
 L['pandaria_cup'] = '판다리아 우승컵'
 L['broken_isles_cup'] = '부서진 섬 우승컵'
+
+------------------------ WOW REMIX: MISTS OF PANDARIA -------------------------
+
+L['infinite_bazaar'] = '무한의 시장'
+

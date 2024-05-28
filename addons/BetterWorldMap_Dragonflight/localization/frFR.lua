@@ -37,3 +37,8 @@ L['outland_cup'] = 'Coupe de l’Outreterre'
 L['northrend_cup'] = 'Coupe de Norfendre'
 L['pandaria_cup'] = 'Coupe de Pandarie'
 L['broken_isles_cup'] = 'Coupe des îles Brisées'
+
+------------------------ WOW REMIX: MISTS OF PANDARIA -------------------------
+
+L['infinite_bazaar'] = 'Bazar Infini'
+

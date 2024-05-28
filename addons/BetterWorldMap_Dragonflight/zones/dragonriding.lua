@@ -10,20 +10,20 @@ local Pin = ns.pin.Pin
 -------------------------------- KALIMDOR CUP ---------------------------------
 -------------------------------------------------------------------------------
 
-local ash = Map({id = 63, parent = 12}) -- Ashenvale
-local azs = Map({id = 76, parent = 12}) -- Azshara
-local des = Map({id = 66, parent = 12}) -- Desolace
-local dur = Map({id = 1, parent = 12}) -- Durotar
-local fel = Map({id = 77, parent = 12}) -- Felwood
-local fer = Map({id = 69, parent = 12}) -- Feralas
-local hyj = Map({id = 198, parent = 12}) -- Mount Hyjal
-local nee = Map({id = 64, parent = 12}) -- Thousand Needles
-local sbs = Map({id = 199, parent = 12}) -- Southern Barrens
-local sil = Map({id = 81, parent = 12}) -- Silithus
-local stm = Map({id = 65, parent = 12}) -- Stonetalon Mountains
-local ugc = Map({id = 78, parent = 12}) -- Un'Goro Crater
-local uld = Map({id = 249, parent = 12}) -- Uldum
-local wsp = Map({id = 83, parent = 12}) -- Winterspring
+local ash = ns.maps[63] or Map({id = 63, parent = 12}) -- Ashenvale
+local azs = ns.maps[76] or Map({id = 76, parent = 12}) -- Azshara
+local des = ns.maps[66] or Map({id = 66, parent = 12}) -- Desolace
+local dur = ns.maps[1] or Map({id = 1, parent = 12}) -- Durotar
+local fel = ns.maps[77] or Map({id = 77, parent = 12}) -- Felwood
+local fer = ns.maps[69] or Map({id = 69, parent = 12}) -- Feralas
+local hyj = ns.maps[198] or Map({id = 198, parent = 12}) -- Mount Hyjal
+local nee = ns.maps[64] or Map({id = 64, parent = 12}) -- Thousand Needles
+local sbs = ns.maps[199] or Map({id = 199, parent = 12}) -- Southern Barrens
+local sil = ns.maps[81] or Map({id = 81, parent = 12}) -- Silithus
+local stm = ns.maps[65] or Map({id = 65, parent = 12}) -- Stonetalon Mountains
+local ugc = ns.maps[78] or Map({id = 78, parent = 12}) -- Un'Goro Crater
+local uld = ns.maps[249] or Map({id = 249, parent = 12}) -- Uldum
+local wsp = ns.maps[83] or Map({id = 83, parent = 12}) -- Winterspring
 
 local KalimdorCup = Pin({
     group = ns.groups.KALIMDOR_CUP
@@ -50,19 +50,19 @@ wsp.pins[7495] = KalimdorCup -- Winter Wander
 ---------------------------- EASTERN KINGDOMS CUP -----------------------------
 -------------------------------------------------------------------------------
 
-local bad = Map({id = 15, parent = 13}) -- Badlands
-local bla = Map({id = 17, parent = 13}) -- Blasted Lands
-local cos = Map({id = 210, parent = 13}) -- The Cape of Stranglethorn
-local dun = Map({id = 27, parent = 13}) -- Dun Morogh
-local dwp = Map({id = 42, parent = 13}) -- Deadwind Pass
-local elw = Map({id = 37, parent = 13}) -- Elwynn Forest
-local epl = Map({id = 23, parent = 13}) -- Eastern Plaguelands
-local lmd = Map({id = 48, parent = 13}) -- Lock Modan
-local nst = Map({id = 50, parent = 13}) -- Northern Stranglethorn
-local rog = Map({id = 217, parent = 13}) -- Ruins of Gilneas
-local rrm = Map({id = 49, parent = 13}) -- Redridge Mountains
-local sea = Map({id = 32, parent = 13}) -- Searing Gorge
-local twi = Map({id = 241, parent = 13}) -- Twilight Highlands
+local bad = ns.maps[15] or Map({id = 15, parent = 13}) -- Badlands
+local bla = ns.maps[17] or Map({id = 17, parent = 13}) -- Blasted Lands
+local cos = ns.maps[210] or Map({id = 210, parent = 13}) -- The Cape of Stranglethorn
+local dun = ns.maps[27] or Map({id = 27, parent = 13}) -- Dun Morogh
+local dwp = ns.maps[42] or Map({id = 42, parent = 13}) -- Deadwind Pass
+local elw = ns.maps[37] or Map({id = 37, parent = 13}) -- Elwynn Forest
+local epl = ns.maps[23] or Map({id = 23, parent = 13}) -- Eastern Plaguelands
+local lmd = ns.maps[48] or Map({id = 48, parent = 13}) -- Lock Modan
+local nst = ns.maps[50] or Map({id = 50, parent = 13}) -- Northern Stranglethorn
+local rog = ns.maps[217] or Map({id = 217, parent = 13}) -- Ruins of Gilneas
+local rrm = ns.maps[49] or Map({id = 49, parent = 13}) -- Redridge Mountains
+local sea = ns.maps[32] or Map({id = 32, parent = 13}) -- Searing Gorge
+local twi = ns.maps[241] or Map({id = 241, parent = 13}) -- Twilight Highlands
 
 local EasternKingdomsCup = Pin({
     group = ns.groups.EASTERN_KINGDOMS_CUP
@@ -87,13 +87,13 @@ twi.pins[7583] = EasternKingdomsCup -- Krazzworks Klash
 --------------------------------- OUTLAND CUP ---------------------------------
 -------------------------------------------------------------------------------
 
-local bem = Map({id = 105, parent = 101}) -- Blade's Edge Mountains
-local hel = Map({id = 100, parent = 101}) -- Hellfire Peninsula
-local nag = Map({id = 107, parent = 101}) -- Nagrand
-local net = Map({id = 109, parent = 101}) -- Netherstorm
-local smv = Map({id = 104, parent = 101}) -- Shadowmoon Valley
-local ter = Map({id = 108, parent = 101}) -- Terokkar Forest
-local zan = Map({id = 102, parent = 101}) -- Zangarmarsh
+local bem = ns.maps[105] or Map({id = 105, parent = 101}) -- Blade's Edge Mountains
+local hel = ns.maps[100] or Map({id = 100, parent = 101}) -- Hellfire Peninsula
+local nag = ns.maps[107] or Map({id = 107, parent = 101}) -- Nagrand
+local net = ns.maps[109] or Map({id = 109, parent = 101}) -- Netherstorm
+local smv = ns.maps[104] or Map({id = 104, parent = 101}) -- Shadowmoon Valley
+local ter = ns.maps[108] or Map({id = 108, parent = 101}) -- Terokkar Forest
+local zan = ns.maps[102] or Map({id = 102, parent = 101}) -- Zangarmarsh
 
 local OutlandCup = Pin({
     group = ns.groups.OUTLAND_CUP
@@ -117,15 +117,15 @@ zan.pins[7590] = OutlandCup -- Coilfang Caper
 -------------------------------- NORTHREND CUP --------------------------------
 -------------------------------------------------------------------------------
 
-local bor = Map({id = 114, parent = 113}) -- Borean Tundra
-local cry = Map({id = 127, parent = 113}) -- Crystalsong Forest
-local dbl = Map({id = 115, parent = 113}) -- Dragonblight
-local fjo = Map({id = 117, parent = 113}) -- Howling Fjord
-local gri = Map({id = 116, parent = 113}) -- Grizzly Hills
-local ice = Map({id = 118, parent = 113}) -- Icecrown
-local sho = Map({id = 119, parent = 113}) -- Sholazar Basin
-local tsp = Map({id = 120, parent = 113}) -- The Storm Peaks
-local zul = Map({id = 121, parent = 113}) -- Zul'Drak
+local bor = ns.maps[114] or Map({id = 114, parent = 113}) -- Borean Tundra
+local cry = ns.maps[127] or Map({id = 127, parent = 113}) -- Crystalsong Forest
+local dbl = ns.maps[115] or Map({id = 115, parent = 113}) -- Dragonblight
+local fjo = ns.maps[117] or Map({id = 117, parent = 113}) -- Howling Fjord
+local gri = ns.maps[116] or Map({id = 116, parent = 113}) -- Grizzly Hills
+local ice = ns.maps[118] or Map({id = 118, parent = 113}) -- Icecrown
+local sho = ns.maps[119] or Map({id = 119, parent = 113}) -- Sholazar Basin
+local tsp = ns.maps[120] or Map({id = 120, parent = 113}) -- The Storm Peaks
+local zul = ns.maps[121] or Map({id = 121, parent = 113}) -- Zul'Drak
 
 local NorthrendCup = Pin({
     group = ns.groups.NORTHREND_CUP
@@ -148,13 +148,13 @@ zul.pins[7699] = NorthrendCup -- Gundrak Fast Track
 -------------------------------- PANDARIA CUP ---------------------------------
 -------------------------------------------------------------------------------
 
-local dws = Map({id = 422, parent = 424}) -- Dread Wastes
-local kls = Map({id = 379, parent = 424}) -- Kun-Lai Summit
-local kra = Map({id = 418, parent = 424}) -- Krsarang Wilds
-local tjf = Map({id = 371, parent = 424}) -- The Jade Forest
-local tls = Map({id = 388, parent = 424}) -- Townlong Steppes
-local veb = Map({id = 390, parent = 424}) -- Vale of Eternal Blossoms
-local vfw = Map({id = 376, parent = 424}) -- Valley of the Four Winds
+local dws = ns.maps[422] or Map({id = 422, parent = 424}) -- Dread Wastes
+local kls = ns.maps[379] or Map({id = 379, parent = 424}) -- Kun-Lai Summit
+local kra = ns.maps[418] or Map({id = 418, parent = 424}) -- Krsarang Wilds
+local tjf = ns.maps[371] or Map({id = 371, parent = 424}) -- The Jade Forest
+local tls = ns.maps[388] or Map({id = 388, parent = 424}) -- Townlong Steppes
+local veb = ns.maps[390] or Map({id = 390, parent = 424}) -- Vale of Eternal Blossoms
+local vfw = ns.maps[376] or Map({id = 376, parent = 424}) -- Valley of the Four Winds
 
 local PandariaCup = Pin({
     group = ns.groups.PANDARIA_CUP
@@ -164,12 +164,12 @@ local PandariaCup = Pin({
 ------------------------------ BROKEN ISLES CUP -------------------------------
 -------------------------------------------------------------------------------
 
-local azs = Map({id = 630, parent = 619}) -- Azsuna
-local bro = Map({id = 646, parent = 619}) -- The Broken Shore
-local hmt = Map({id = 650, parent = 619}) -- Highmountain
-local stm = Map({id = 634, parent = 619}) -- Stormheim
-local sur = Map({id = 680, parent = 619}) -- Suramar
-local val = Map({id = 641, parent = 619}) -- Val'Sharah
+local azs = ns.maps[630] or Map({id = 630, parent = 619}) -- Azsuna
+local bro = ns.maps[646] or Map({id = 646, parent = 619}) -- The Broken Shore
+local hmt = ns.maps[650] or Map({id = 650, parent = 619}) -- Highmountain
+local stm = ns.maps[634] or Map({id = 634, parent = 619}) -- Stormheim
+local sur = ns.maps[680] or Map({id = 680, parent = 619}) -- Suramar
+local val = ns.maps[641] or Map({id = 641, parent = 619}) -- Val'Sharah
 
 local BrokenIslesCup = Pin({
     group = ns.groups.BROKEN_ISLES_CUP
