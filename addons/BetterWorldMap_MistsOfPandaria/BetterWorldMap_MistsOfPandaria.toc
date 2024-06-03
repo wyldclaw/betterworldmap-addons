@@ -1,0 +1,12 @@
+## Interface: 102070
+## Title: BetterWorldMap: Mists of Pandaria
+## Version: 1
+## Notes: Add pins to world map for Mists of Pandaria
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
+## SavedVariables: BetterWorldMap_MistsOfPandariaDB
+## IconTexture: 630786
+
+embeds.xml
+core/core.xml
+plugin.xml
