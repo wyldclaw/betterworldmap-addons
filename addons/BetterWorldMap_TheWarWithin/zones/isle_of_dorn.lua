@@ -7,6 +7,7 @@ local Map = ns.Map
 local Delve = ns.pin.Delve
 local DragonridingRace = ns.pin.DragonridingRace
 local Dungeon = ns.pin.Dungeon
+local Pin = ns.pin.Pin
 
 -------------------------------------------------------------------------------
 
@@ -62,3 +63,19 @@ local GreatVault = Pin({
 }) -- Great Vault
 
 dor.pins[7831] = GreatVault -- Nerub-ar Palace
+
+-------------------------------------------------------------------------------
+------------------------------- THEATER TROUPE --------------------------------
+-------------------------------------------------------------------------------
+
+local TheaterTroupe = Pin({
+	group = ns.groups.THEATER_TROUPE
+}) -- Theater Troupe
+
+map.pins[7654] = TheaterTroupe -- The Rivals
+map.pins[7899] = TheaterTroupe -- The Wanderer
+map.pins[7900] = TheaterTroupe -- Forget Me Not
+map.pins[7901] = TheaterTroupe -- The Cruelty of Dornic
+map.pins[7902] = TheaterTroupe -- The Thraegar's Descent
+map.pins[7941] = TheaterTroupe -- The Rivals
+map.pins[7943] = TheaterTroupe -- The Wanderer
