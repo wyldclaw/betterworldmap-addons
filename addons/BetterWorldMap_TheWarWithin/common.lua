@@ -30,6 +30,12 @@ ns.groups.GREAT_VAULT = Group({
     name = 'great_vault'
 }) -- Great Vault
 
+ns.groups.THEATER_TROUPE = Group({
+    atlas = 'minimap-genericevent-hornicon',
+    label = L['theater_troupe_label'],
+    name = 'theater_troupe'
+}) -- Theater Troupe
+
 ------------------------------ THE RINGING DEEPS ------------------------------
 
 ns.groups.FACTION_GUNDARGAZ = Group({
@@ -73,7 +79,8 @@ ns.menuGroups = {
             title = ns.GetMapName(2248),
             groups = {
                 ns.groups.FACTION_DORNOGAL,
-                ns.groups.GREAT_VAULT
+                ns.groups.GREAT_VAULT,
+                ns.groups.THEATER_TROUPE
             }
         },
         [2] = { -- The Ringing Deeps
