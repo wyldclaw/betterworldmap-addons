@@ -4,7 +4,7 @@
 local _, ns = ...
 local Map = ns.Map
 
-local Delve = ns.pin.Delve
+local Delves = ns.pin.Delves
 local DragonridingRace = ns.pin.DragonridingRace
 local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
@@ -18,16 +18,16 @@ local map = Map({id = 2255, parent = 2274})
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
--- DELVE
-map.pins[7872] = Delve -- The Underkeep
-map.pins[7873] = Delve -- Tak-Rethan Abyss
-map.pins[7874] = Delve -- The Spiral Weave
-map.pins[7875] = Delve -- Zekvir's Lair
+-- DELVES
+map.pins[7872] = Delves -- The Underkeep
+map.pins[7873] = Delves -- Tak-Rethan Abyss
+map.pins[7874] = Delves -- The Spiral Weave
+map.pins[7875] = Delves -- Zekvir's Lair
 
--- BOUNTIFUL DELVE
-map.pins[7786] = Delve -- The Underkeep
-map.pins[7784] = Delve -- Tak-Rethan Abyss
-map.pins[7790] = Delve -- The Spiral Weave
+-- BOUNTIFUL DELVES
+map.pins[7786] = Delves -- The Underkeep
+map.pins[7784] = Delves -- Tak-Rethan Abyss
+map.pins[7790] = Delves -- The Spiral Weave
 
 -------------------------------------------------------------------------------
 ------------------------------ DRAGONRIDING RACE ------------------------------

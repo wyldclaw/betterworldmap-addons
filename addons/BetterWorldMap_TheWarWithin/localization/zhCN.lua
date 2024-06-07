@@ -5,7 +5,7 @@ if not L then return end
 
 --------------------------------- KHAZ ALGAR ----------------------------------
 
-L['delve_label'] = 'Delves' -- TODO
+L['delves_label'] = 'Delves' -- TODO
 
 -------------------------------- ISLE OF DORN ---------------------------------
 

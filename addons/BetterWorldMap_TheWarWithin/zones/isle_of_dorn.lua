@@ -4,7 +4,7 @@
 local _, ns = ...
 local Map = ns.Map
 
-local Delve = ns.pin.Delve
+local Delves = ns.pin.Delves
 local DragonridingRace = ns.pin.DragonridingRace
 local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
@@ -18,15 +18,15 @@ local dor = Map({id = 2339, parent = 2274})
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
--- DELVE
-map.pins[7863] = Delve -- Earthcrawl Mines
-map.pins[7864] = Delve -- Fungal Folly
-map.pins[7865] = Delve -- Kriegval's Rest
+-- DELVES
+map.pins[7863] = Delves -- Earthcrawl Mines
+map.pins[7864] = Delves -- Fungal Folly
+map.pins[7865] = Delves -- Kriegval's Rest
 
--- BOUNTIFUL DELVE
-map.pins[7779] = Delve -- Fungal Folly
-map.pins[7781] = Delve -- Kriegval's Rest
-map.pins[7787] = Delve -- Earthcrawl Mines
+-- BOUNTIFUL DELVES
+map.pins[7779] = Delves -- Fungal Folly
+map.pins[7781] = Delves -- Kriegval's Rest
+map.pins[7787] = Delves -- Earthcrawl Mines
 
 -------------------------------------------------------------------------------
 ----------------------------------- DORNOGAL ----------------------------------

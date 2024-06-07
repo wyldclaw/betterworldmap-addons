@@ -4,7 +4,7 @@
 local _, ns = ...
 local Map = ns.Map
 
-local Delve = ns.pin.Delve
+local Delves = ns.pin.Delves
 local DragonridingRace = ns.pin.DragonridingRace
 local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
@@ -17,13 +17,13 @@ local map = Map({id = 2214, parent = 2274})
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
--- DELVE
-map.pins[7866] = Delve -- The Waterworks
-map.pins[7867] = Delve -- The Dread Pit
+-- DELVES
+map.pins[7866] = Delves -- The Waterworks
+map.pins[7867] = Delves -- The Dread Pit
 
--- BOUNTIFUL DELVE
-map.pins[7782] = Delve -- The Waterworks
-map.pins[7788] = Delve -- The Dread Pit
+-- BOUNTIFUL DELVES
+map.pins[7782] = Delves -- The Waterworks
+map.pins[7788] = Delves -- The Dread Pit
 
 -------------------------------------------------------------------------------
 ------------------------------ DRAGONRIDING RACE ------------------------------

@@ -4,7 +4,7 @@
 local _, ns = ...
 local Map = ns.Map
 
-local Delve = ns.pin.Delve
+local Delves = ns.pin.Delves
 local DragonridingRace = ns.pin.DragonridingRace
 local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
@@ -17,17 +17,17 @@ local map = Map({id = 2215, parent = 2274})
 ----------------------------------- DELVES ------------------------------------
 -------------------------------------------------------------------------------
 
--- DELVE
-map.pins[7868] = Delve -- Nightfall Sanctum
-map.pins[7869] = Delve -- Mycomancer Cavern
-map.pins[7870] = Delve -- The Sinkhole
-map.pins[7871] = Delve -- Skittering Breach
+-- DELVES
+map.pins[7868] = Delves -- Nightfall Sanctum
+map.pins[7869] = Delves -- Mycomancer Cavern
+map.pins[7870] = Delves -- The Sinkhole
+map.pins[7871] = Delves -- Skittering Breach
 
--- BOUNTIFUL DELVE
-map.pins[7780] = Delve -- Mycomancer Cavern
-map.pins[7783] = Delve -- The Sinkhole
-map.pins[7785] = Delve -- Nightfall Sanctum
-map.pins[7789] = Delve -- Skittering Breach
+-- BOUNTIFUL DELVES
+map.pins[7780] = Delves -- Mycomancer Cavern
+map.pins[7783] = Delves -- The Sinkhole
+map.pins[7785] = Delves -- Nightfall Sanctum
+map.pins[7789] = Delves -- Skittering Breach
 
 -------------------------------------------------------------------------------
 ------------------------------ DRAGONRIDING RACE ------------------------------

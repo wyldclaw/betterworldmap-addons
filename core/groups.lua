@@ -30,11 +30,6 @@ function Group:IsEnabled() return ns.GetOpt('enable_' .. self.name) end
 ns.Group = Group
 
 ns.groups = {
-    DELVE = Group({
-        atlas = 'delves-regular',
-        label = L['delve_label'],
-        name = 'delve'
-    }),
     DRAGONRIDING_RACE = Group({
         atlas = 'racing',
         label = L['dragonriding_race_label'],
