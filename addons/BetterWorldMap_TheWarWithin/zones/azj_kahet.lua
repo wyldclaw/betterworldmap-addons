@@ -7,6 +7,7 @@ local Map = ns.Map
 local Delve = ns.pin.Delve
 local DragonridingRace = ns.pin.DragonridingRace
 local Dungeon = ns.pin.Dungeon
+local Pin = ns.pin.Pin
 local Raid = ns.pin.Raid
 
 -------------------------------------------------------------------------------
