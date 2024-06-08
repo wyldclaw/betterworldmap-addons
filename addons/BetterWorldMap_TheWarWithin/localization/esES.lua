@@ -5,22 +5,22 @@ if not L then return end
 
 --------------------------------- KHAZ ALGAR ----------------------------------
 
-L['delves_label'] = 'Delves' -- TODO
+L['delves_label'] = 'Profundidades'
 
 -------------------------------- ISLE OF DORN ---------------------------------
 
-L['faction_dornogal'] = 'Dornogal' -- TODO
+L['faction_dornogal'] = 'Dornogal'
 L['great_vault_label'] = 'Gran Cámara'
-L['theater_troupe_label'] = 'Theater Troupe' -- TODO
+L['theater_troupe_label'] = 'Theater Troupe' -- NTY
 
 ------------------------------ THE RINGING DEEPS ------------------------------
 
-L['faction_gundargaz'] = 'Gundargaz' -- TODO
+L['faction_gundargaz'] = 'Gundargaz'
 
 --------------------------------- HALLOWFALL ----------------------------------
 
-L['faction_mereldar'] = 'Mereldar' -- TODO
+L['faction_mereldar'] = 'Mereldar'
 
 ---------------------------------- AZJ-KAHET ----------------------------------
 
-L['faction_weavers_lair'] = 'The Weaver\'s Lair' -- TODO
+L['faction_weavers_lair'] = 'Guarida de la Tejedora'
