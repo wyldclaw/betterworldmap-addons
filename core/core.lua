@@ -51,11 +51,7 @@ function Addon:OnInitialize()
     end
 
     if ns.expansion then
-        self:RegisterEvent('PLAYER_ENTERING_WORLD', function()
-            self:UnregisterEvent('PLAYER_ENTERING_WORLD')
-            local expansionName = EJ_GetTierInfo(ns.expansion)
-            ns.addon_name = 'BetterWorldMap: ' .. expansionName
-        end)
+        ns.addon_name = 'BetterWorldMap: ' .. ns.expansion
     end
 
     self:RegisterChatCommand('bwm', function(input)
