@@ -41,4 +41,3 @@ L['broken_isles_cup'] = 'Pokal der Verheerten Inseln'
 ------------------------ WOW REMIX: MISTS OF PANDARIA -------------------------
 
 L['infinite_bazaar'] = 'Ewiger Basar'
-

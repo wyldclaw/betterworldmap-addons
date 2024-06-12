@@ -41,4 +41,3 @@ L['broken_isles_cup'] = '부서진 섬 우승컵'
 ------------------------ WOW REMIX: MISTS OF PANDARIA -------------------------
 
 L['infinite_bazaar'] = '무한의 시장'
-
