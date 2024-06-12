@@ -90,9 +90,9 @@ ns.menuGroups = {
             title = ns.GetMapName(2274),
             groups = {
                 ns.groups.DELVES,
-                ns.groups.SKYRIDING_RACE,
                 ns.groups.DUNGEON,
-                ns.groups.RAID
+                ns.groups.RAID,
+                ns.groups.SKYRIDING_RACE
             }
         },
         [1] = { -- Isle of Dorn
