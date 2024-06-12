@@ -11,7 +11,7 @@ L['delves_label'] = 'Profundidades'
 
 L['faction_dornogal'] = 'Dornogal'
 L['great_vault_label'] = 'Gran Cámara'
-L['theater_troupe_label'] = 'Theater Troupe' -- NTY
+L['theater_troupe_label'] = 'Compañía de Teatro'
 
 ------------------------------ THE RINGING DEEPS ------------------------------
 
