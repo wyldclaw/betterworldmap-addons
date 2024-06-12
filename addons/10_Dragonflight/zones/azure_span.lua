@@ -8,10 +8,10 @@ local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
 
 local AncientWaygate = ns.pin.AncientWaygate
-local DragonridingRace = ns.pin.DragonridingRace
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
 local FyrakkAssault = ns.pin.FyrakkAssault
+local SkyridingRace = ns.pin.SkyridingRace
 local ZaralekCavern = ns.pin.ZaralekCavern
 
 -------------------------------------------------------------------------------
@@ -22,7 +22,9 @@ local map = Map({id = 2024, parent = 1978})
 ----------------------------------- ISKAARA -----------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7393] = Pin({group = ns.groups.FACTION_TUSKARR}) -- Iskaara
+map.pins[7393] = Pin({
+	group = ns.groups.FACTION_TUSKARR
+}) -- Iskaara
 
 -------------------------------------------------------------------------------
 ------------------------------ ANCIENT WAYGATES -------------------------------
@@ -47,17 +49,6 @@ local CommunityFeast = Pin({
 map.pins[7218] = CommunityFeast -- Community Feast - Before
 map.pins[7219] = CommunityFeast -- Community Feast - During
 map.pins[7220] = CommunityFeast -- Community Feast - After
-
--------------------------------------------------------------------------------
------------------------------- DRAGONRIDING RACE ------------------------------
--------------------------------------------------------------------------------
-
-map.pins[7760] = DragonridingRace -- Archive Ambit
-map.pins[7756] = DragonridingRace -- Azure Span Slalom
-map.pins[7755] = DragonridingRace -- Azure Span Sprint
-map.pins[7759] = DragonridingRace -- Frostland Flyover
-map.pins[7758] = DragonridingRace -- Iskaara Tour
-map.pins[7757] = DragonridingRace -- Vakthros Ascent
 
 -------------------------------------------------------------------------------
 ---------------------------------- DUNGEONS -----------------------------------
@@ -98,6 +89,17 @@ map.pins[7433] = FyrakkAssault
 map.pins[7434] = FyrakkAssault
 map.pins[7435] = FyrakkAssault
 map.pins[7488] = FyrakkAssault
+
+-------------------------------------------------------------------------------
+------------------------------ DRAGONRIDING RACE ------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7760] = SkyridingRace -- Archive Ambit
+map.pins[7756] = SkyridingRace -- Azure Span Slalom
+map.pins[7755] = SkyridingRace -- Azure Span Sprint
+map.pins[7759] = SkyridingRace -- Frostland Flyover
+map.pins[7758] = SkyridingRace -- Iskaara Tour
+map.pins[7757] = SkyridingRace -- Vakthros Ascent
 
 -------------------------------------------------------------------------------
 --------------------------------- THE BIG DIG ---------------------------------

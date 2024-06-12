@@ -358,7 +358,6 @@ ns.menuGroups = {
             title = ns.GetMapName(1978),
             groups = {
                 ns.groups.ANCIENT_WAYGATES,
-                ns.groups.DRAGONRIDING_RACE,
                 ns.groups.DREAMSURGE,
                 ns.groups.DUNGEON,
                 ns.groups.ELEMENTAL_STORM,
@@ -366,6 +365,7 @@ ns.menuGroups = {
                 ns.groups.FYRAKK_ASSAULT,
                 ns.groups.GRAND_HUNTS,
                 ns.groups.RAID,
+                ns.groups.SKYRIDING_RACE,
                 ns.groups.ZARALEK_CAVERN_ENTRANCES
             }
         },

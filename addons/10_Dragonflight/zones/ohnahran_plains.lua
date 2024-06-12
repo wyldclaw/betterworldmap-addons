@@ -8,10 +8,10 @@ local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
 
 local AncientWaygate = ns.pin.AncientWaygate
-local DragonridingRace = ns.pin.DragonridingRace
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
 local FyrakkAssault = ns.pin.FyrakkAssault
+local SkyridingRace = ns.pin.SkyridingRace
 local ZaralekCavern = ns.pin.ZaralekCavern
 
 -------------------------------------------------------------------------------
@@ -51,18 +51,6 @@ map.pins[7102] = AylaagCamp -- Aylaag Camp - Aylaag Outpost
 map.pins[7103] = AylaagCamp -- Aylaag Camp - Eaglewatch Outpost
 
 -------------------------------------------------------------------------------
------------------------------- DRAGONRIDING RACE ------------------------------
--------------------------------------------------------------------------------
-
-map.pins[7751] = DragonridingRace -- Emerald Gardens Ascent
-map.pins[7749] = DragonridingRace -- Fen Flythrough
-map.pins[7753] = DragonridingRace -- Maruukai Dash
-map.pins[7754] = DragonridingRace -- Mirror of the Sky Dash
-map.pins[7750] = DragonridingRace -- Ravine River Run
-map.pins[7752] = DragonridingRace -- River Rapids Route
-map.pins[7748] = DragonridingRace -- Sundapple Copse Circuit
-
--------------------------------------------------------------------------------
 ---------------------------------- DUNGEONS -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -92,6 +80,18 @@ map.pins[7471] = FyrakkAssault
 map.pins[7473] = FyrakkAssault
 map.pins[7486] = FyrakkAssault
 map.pins[7487] = FyrakkAssault
+
+-------------------------------------------------------------------------------
+------------------------------- SKYRIDING RACE --------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7751] = SkyridingRace -- Emerald Gardens Ascent
+map.pins[7749] = SkyridingRace -- Fen Flythrough
+map.pins[7753] = SkyridingRace -- Maruukai Dash
+map.pins[7754] = SkyridingRace -- Mirror of the Sky Dash
+map.pins[7750] = SkyridingRace -- Ravine River Run
+map.pins[7752] = SkyridingRace -- River Rapids Route
+map.pins[7748] = SkyridingRace -- Sundapple Copse Circuit
 
 -------------------------------------------------------------------------------
 -------------------------- ZARALEK CAVERN ENTRANCES ---------------------------

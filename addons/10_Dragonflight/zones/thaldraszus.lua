@@ -9,7 +9,7 @@ local Pin = ns.pin.Pin
 local Raid = ns.pin.Raid
 
 local AncientWaygate = ns.pin.AncientWaygate
-local DragonridingRace = ns.pin.DragonridingRace
+local SkyridingRace = ns.pin.SkyridingRace
 local ElementalStorm = ns.pin.ElementalStorm
 local FishingHole = ns.pin.FishingHole
 
@@ -45,17 +45,6 @@ map.pins[2834] = AncientWaygate({
 map.pins[2836] = AncientWaygate({
 	coordinates = 64934099
 }) -- Algeth'era
-
--------------------------------------------------------------------------------
------------------------------- DRAGONRIDING RACE ------------------------------
--------------------------------------------------------------------------------
-
-map.pins[7764] = DragonridingRace -- Academy Ascent
-map.pins[7766] = DragonridingRace -- Caverns Criss-Cross
-map.pins[7763] = DragonridingRace -- Cliffside Circuit
-map.pins[7761] = DragonridingRace -- Flowing Forest Flight
-map.pins[7765] = DragonridingRace -- Garden Gallivant
-map.pins[7762] = DragonridingRace -- Tyrhold Trial
 
 -------------------------------------------------------------------------------
 ---------------------------------- DUNGEONS -----------------------------------
@@ -105,6 +94,17 @@ val.pins[7739] = GreatVault -- Awakened Dragonflight Raids
 val.pins[7544] = Pin({
 	group = ns.groups.SECRETS_OF_AZEROTH
 }) -- Secrets of Azeroth
+
+-------------------------------------------------------------------------------
+------------------------------- SKYRIDING RACE --------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7764] = SkyridingRace -- Academy Ascent
+map.pins[7766] = SkyridingRace -- Caverns Criss-Cross
+map.pins[7763] = SkyridingRace -- Cliffside Circuit
+map.pins[7761] = SkyridingRace -- Flowing Forest Flight
+map.pins[7765] = SkyridingRace -- Garden Gallivant
+map.pins[7762] = SkyridingRace -- Tyrhold Trial
 
 -------------------------------------------------------------------------------
 ------------------------------------ RAID -------------------------------------
