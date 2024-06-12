@@ -9,6 +9,6 @@ L['addon_description'] = 'Настроить отображение значко
 
 ------------------------------------ PINS -------------------------------------
 
-L['dragonriding_race_label'] = 'Гонка драконов'
 L['dungeon_label'] = 'Подземелье'
 L['raid_label'] = 'Рейд'
+L['skyriding_race_label'] = 'Skyriding Race' -- TODO

@@ -15,15 +15,6 @@ function Pin:Initialize(attrs)
 end
 
 -------------------------------------------------------------------------------
------------------------------- DRAGONRIDING RACE ------------------------------
--------------------------------------------------------------------------------
-
-local DragonridingRace = Class('DragonridingRace', Pin, {
-    group = ns.groups.DRAGONRIDING_RACE,
-    passive = true
-}) -- Dragonriding Race
-
--------------------------------------------------------------------------------
 ----------------------------------- DUNGEON -----------------------------------
 -------------------------------------------------------------------------------
 
@@ -42,10 +33,19 @@ local Raid = Class('Raid', Pin, {
 }) -- Raid
 
 -------------------------------------------------------------------------------
+------------------------------- SKYRIDING RACE --------------------------------
+-------------------------------------------------------------------------------
+
+local SkyridingRace = Class('SkyridingRace', Pin, {
+    group = ns.groups.SKYRIDING_RACE,
+    passive = true
+}) -- Skyriding Race
+
+-------------------------------------------------------------------------------
 
 ns.pin = {
-    DragonridingRace = DragonridingRace,
     Dungeon = Dungeon,
     Pin = Pin,
-    Raid = Raid
+    Raid = Raid,
+    SkyridingRace = SkyridingRace
 }

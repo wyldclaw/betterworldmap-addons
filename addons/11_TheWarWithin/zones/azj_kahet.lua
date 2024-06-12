@@ -5,7 +5,7 @@ local _, ns = ...
 local Map = ns.Map
 
 local Delves = ns.pin.Delves
-local DragonridingRace = ns.pin.DragonridingRace
+local SkyridingRace = ns.pin.SkyridingRace
 local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
 local Raid = ns.pin.Raid
@@ -30,15 +30,15 @@ map.pins[7784] = Delves -- Tak-Rethan Abyss
 map.pins[7790] = Delves -- The Spiral Weave
 
 -------------------------------------------------------------------------------
------------------------------- DRAGONRIDING RACE ------------------------------
+------------------------------- SKYRIDING RACE --------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7811] = DragonridingRace -- City of Threads Twist
-map.pins[7812] = DragonridingRace -- Maddening Deep Dip
-map.pins[7813] = DragonridingRace -- The Weaver's Wing
-map.pins[7814] = DragonridingRace -- Rak-Ahat Rush
-map.pins[7815] = DragonridingRace -- Pit Plunge
-map.pins[7816] = DragonridingRace -- Siegehold Scuttle
+map.pins[7811] = SkyridingRace -- City of Threads Twist
+map.pins[7812] = SkyridingRace -- Maddening Deep Dip
+map.pins[7813] = SkyridingRace -- The Weaver's Wing
+map.pins[7814] = SkyridingRace -- Rak-Ahat Rush
+map.pins[7815] = SkyridingRace -- Pit Plunge
+map.pins[7816] = SkyridingRace -- Siegehold Scuttle
 
 -------------------------------------------------------------------------------
 ---------------------------------- DUNGEONS -----------------------------------

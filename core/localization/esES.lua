@@ -9,6 +9,6 @@ L['addon_description'] = 'Ajustar la visualización de iconos para este mapa.'
 
 ------------------------------------ PINS -------------------------------------
 
-L['dragonriding_race_label'] = 'Carrera de Jinetes de Dragones'
 L['dungeon_label'] = 'Mazmorra'
 L['raid_label'] = 'Banda'
+L['skyriding_race_label'] = 'Skyriding Race' -- TODO

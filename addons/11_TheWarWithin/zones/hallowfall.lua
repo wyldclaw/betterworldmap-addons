@@ -5,7 +5,7 @@ local _, ns = ...
 local Map = ns.Map
 
 local Delves = ns.pin.Delves
-local DragonridingRace = ns.pin.DragonridingRace
+local SkyridingRace = ns.pin.SkyridingRace
 local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
 
@@ -30,15 +30,15 @@ map.pins[7785] = Delves -- Nightfall Sanctum
 map.pins[7789] = Delves -- Skittering Breach
 
 -------------------------------------------------------------------------------
------------------------------- DRAGONRIDING RACE ------------------------------
+------------------------------- SKYRIDING RACE --------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7805] = DragonridingRace -- Dunelle's Detour
-map.pins[7806] = DragonridingRace -- Tenir's Traversal
-map.pins[7807] = DragonridingRace -- Light's Redoubt Descent
-map.pins[7808] = DragonridingRace -- Stillstone Slalom
-map.pins[7809] = DragonridingRace -- Mereldar Meander
-map.pins[7810] = DragonridingRace -- Velhan's Venture
+map.pins[7805] = SkyridingRace -- Dunelle's Detour
+map.pins[7806] = SkyridingRace -- Tenir's Traversal
+map.pins[7807] = SkyridingRace -- Light's Redoubt Descent
+map.pins[7808] = SkyridingRace -- Stillstone Slalom
+map.pins[7809] = SkyridingRace -- Mereldar Meander
+map.pins[7810] = SkyridingRace -- Velhan's Venture
 
 -------------------------------------------------------------------------------
 ---------------------------------- DUNGEONS -----------------------------------

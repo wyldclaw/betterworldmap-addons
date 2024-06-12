@@ -90,7 +90,7 @@ ns.menuGroups = {
             title = ns.GetMapName(2274),
             groups = {
                 ns.groups.DELVES,
-                ns.groups.DRAGONRIDING_RACE,
+                ns.groups.SKYRIDING_RACE,
                 ns.groups.DUNGEON,
                 ns.groups.RAID
             }

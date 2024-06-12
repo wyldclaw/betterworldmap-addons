@@ -9,6 +9,6 @@ L['addon_description'] = '調整此地圖的圖示顯示。'
 
 ------------------------------------ PINS -------------------------------------
 
-L['dragonriding_race_label'] = '飛龍騎術競賽'
 L['dungeon_label'] = '地城'
 L['raid_label'] = '團隊'
+L['skyriding_race_label'] = 'Skyriding Race' -- TODO

@@ -5,7 +5,7 @@ local _, ns = ...
 local Map = ns.Map
 
 local Delves = ns.pin.Delves
-local DragonridingRace = ns.pin.DragonridingRace
+local SkyridingRace = ns.pin.SkyridingRace
 local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
 
@@ -37,15 +37,15 @@ map.pins[7898] = Pin({
 }) -- Dornogal
 
 -------------------------------------------------------------------------------
------------------------------- DRAGONRIDING RACE ------------------------------
+------------------------------- SKYRIDING RACE --------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7793] = DragonridingRace -- Basin Bypass
-map.pins[7793] = DragonridingRace -- Dornogal Drift
-map.pins[7794] = DragonridingRace -- Storm's Watch Survey
-map.pins[7796] = DragonridingRace -- The Wold Ways
-map.pins[7797] = DragonridingRace -- Thunderhead Trail
-map.pins[7798] = DragonridingRace -- Orecreg's Doglegs
+map.pins[7793] = SkyridingRace -- Basin Bypass
+map.pins[7793] = SkyridingRace -- Dornogal Drift
+map.pins[7794] = SkyridingRace -- Storm's Watch Survey
+map.pins[7796] = SkyridingRace -- The Wold Ways
+map.pins[7797] = SkyridingRace -- Thunderhead Trail
+map.pins[7798] = SkyridingRace -- Orecreg's Doglegs
 
 -------------------------------------------------------------------------------
 ---------------------------------- DUNGEONS -----------------------------------

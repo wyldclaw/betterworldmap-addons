@@ -9,6 +9,6 @@ L['addon_description'] = 'Régler l\'affichage des icônes pour cette carte.'
 
 ------------------------------------ PINS -------------------------------------
 
-L['dragonriding_race_label'] = 'Course Draconique'
 L['dungeon_label'] = 'Donjon'
 L['raid_label'] = 'Raid'
+L['skyriding_race_label'] = 'Skyriding Race' -- TODO

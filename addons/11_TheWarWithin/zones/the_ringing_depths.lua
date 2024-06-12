@@ -5,7 +5,7 @@ local _, ns = ...
 local Map = ns.Map
 
 local Delves = ns.pin.Delves
-local DragonridingRace = ns.pin.DragonridingRace
+local SkyridingRace = ns.pin.SkyridingRace
 local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
 
@@ -26,15 +26,15 @@ map.pins[7782] = Delves -- The Waterworks
 map.pins[7788] = Delves -- The Dread Pit
 
 -------------------------------------------------------------------------------
------------------------------- DRAGONRIDING RACE ------------------------------
+------------------------------- SKYRIDING RACE --------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7799] = DragonridingRace -- Earthenworks Weave
-map.pins[7800] = DragonridingRace -- Ringing Deeps Ramble
-map.pins[7801] = DragonridingRace -- Chittering Concourse
-map.pins[7802] = DragonridingRace -- Cataract River Cruise
-map.pins[7803] = DragonridingRace -- Taelloch Twist
-map.pins[7804] = DragonridingRace -- Opportunity Point Amble
+map.pins[7799] = SkyridingRace -- Earthenworks Weave
+map.pins[7800] = SkyridingRace -- Ringing Deeps Ramble
+map.pins[7801] = SkyridingRace -- Chittering Concourse
+map.pins[7802] = SkyridingRace -- Cataract River Cruise
+map.pins[7803] = SkyridingRace -- Taelloch Twist
+map.pins[7804] = SkyridingRace -- Opportunity Point Amble
 
 -------------------------------------------------------------------------------
 ---------------------------------- DUNGEONS -----------------------------------
