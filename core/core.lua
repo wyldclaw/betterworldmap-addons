@@ -51,7 +51,8 @@ function Addon:OnInitialize()
     end
 
     if ns.expansion then
-        ns.addon_name = 'BetterWorldMap: ' .. ns.expansion
+        local expansion_name = _G['EXPANSION_NAME' .. (ns.expansion - 1)]
+        ns.addon_name = 'BetterWorldMap: ' .. expansion_name
     end
 
     self:RegisterChatCommand('bwm', function(input)
