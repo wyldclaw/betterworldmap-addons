@@ -21,7 +21,7 @@ ns.expansion = 11 -- The War Within
 
 ns.groups.DELVES = Group({
     atlas = 'delves-regular',
-    label = L['delve_label'],
+    label = L['delves_label'],
     name = 'delve'
 }) -- Delves
 
@@ -78,7 +78,7 @@ local Delves = Class('Delves', Pin, {
     passive = true
 }) -- Delves
 
-ns.pins.Delves = Delves
+ns.pin.Delves = Delves
 
 -------------------------------------------------------------------------------
 --------------------------------- MENU GROUPS ---------------------------------
