@@ -11,4 +11,4 @@ L['addon_description'] = 'Ajustar la visualización de iconos para este mapa.'
 
 L['dungeon_label'] = 'Mazmorra'
 L['raid_label'] = 'Banda'
-L['skyriding_race_label'] = 'Skyriding Race' -- TODO
+L['skyriding_race_label'] = 'Carrera de Surcacielos'
