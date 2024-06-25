@@ -16,9 +16,13 @@ local function PrepareText(str)
 end
 
 local function RenderText(str)
+    local GetSpellInfo = GetSpellInfo or function(id)
+        return select(1, C_Spell.GetSpellName(id))
+    end
+
     for type, id in str:gmatch('{(%l+):(%d+)(%l*)}') do
         if type == 'spell' then
-            local name = GetSpellInfo(tonumber(id))
+            local name = select(1, GetSpellInfo(tonumber(id)))
             return (name) and name or UNKNOWN
         end
     end
