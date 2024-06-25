@@ -22,7 +22,7 @@ ns.expansion = 11
 ns.groups.DELVES = Group({
     atlas = 'delves-regular',
     label = L['delves_label'],
-    name = 'delve'
+    name = 'delves'
 }) -- Delves
 
 -------------------------------- ISLE OF DORN ---------------------------------
@@ -95,7 +95,7 @@ ns.menuGroups = {
                 ns.groups.SKYRIDING_RACE
             }
         },
-        [1] = { -- Isle of Dorn
+        [2] = { -- Isle of Dorn
             title = ns.GetMapName(2248),
             groups = {
                 ns.groups.FACTION_DORNOGAL,
@@ -103,19 +103,19 @@ ns.menuGroups = {
                 ns.groups.THEATER_TROUPE
             }
         },
-        [2] = { -- The Ringing Deeps
+        [3] = { -- The Ringing Deeps
             title = ns.GetMapName(2214),
             groups = {
                 ns.groups.FACTION_GUNDARGAZ
             }
         },
-        [3] = { -- Hallowfall
+        [4] = { -- Hallowfall
             title = ns.GetMapName(2215),
             groups = {
                 ns.groups.FACTION_MERELDAR
             }
         },
-        [4] = { -- Azj-Kahet
+        [5] = { -- Azj-Kahet
             title = ns.GetMapName(2255),
             groups = {
                 ns.groups.FACTION_WEAVERS_LAIR
