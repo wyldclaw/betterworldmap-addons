@@ -25,21 +25,10 @@ ns.POI.ProcessPOIInfo = function(self, map, mapID, childMapID, poiInfo)
     end
 end
 
-ns.POI.ProcessPassiveMapPOIs = function(self, map, mapID, childMapID)
+ns.POI.ProcessMapPOIs = function(self, map, mapID, childMapID)
     for poiID, poiData in pairs(ns.maps[childMapID].pins) do
-        if poiData.passive and poiData.passive == true then
-            local poiInfo = C_AreaPoiInfo.GetAreaPOIInfo(childMapID, poiID)
-            if poiInfo then
-                ns.POI.ProcessPOIInfo(self, map, mapID, childMapID, poiInfo)
-            end
-        end
-    end
-end
-
-ns.POI.ProcessActiveMapPOIs = function(self, map, mapID, childMapID)
-    for _, poiID in next, C_AreaPoiInfo.GetAreaPOIForMap(childMapID) do
         local poiInfo = C_AreaPoiInfo.GetAreaPOIInfo(childMapID, poiID)
-        if poiInfo and ns.IsValidID(childMapID, poiID) then
+        if poiInfo then
             ns.POI.ProcessPOIInfo(self, map, mapID, childMapID, poiInfo)
         end
     end
@@ -48,8 +37,7 @@ end
 ns.POI.ProcessChildMap = function(self, map, mapID)
     for childMapID, childMap in pairs(ns.maps) do
         if childMap.parent == mapID then
-            ns.POI.ProcessActiveMapPOIs(self, map, mapID, childMapID)
-            ns.POI.ProcessPassiveMapPOIs(self, map, mapID, childMapID)
+            ns.POI.ProcessMapPOIs(self, map, mapID, childMapID)
         end
     end
 end
