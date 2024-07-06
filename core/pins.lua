@@ -19,8 +19,7 @@ end
 -------------------------------------------------------------------------------
 
 local Dungeon = Class('Dungeon', Pin, {
-    group = ns.groups.DUNGEON,
-    passive = true
+    group = ns.groups.DUNGEON
 }) -- Dungeon
 
 -------------------------------------------------------------------------------
@@ -28,8 +27,7 @@ local Dungeon = Class('Dungeon', Pin, {
 -------------------------------------------------------------------------------
 
 local Raid = Class('Raid', Pin, {
-    group = ns.groups.RAID,
-    passive = true
+    group = ns.groups.RAID
 }) -- Raid
 
 -------------------------------------------------------------------------------
@@ -37,8 +35,7 @@ local Raid = Class('Raid', Pin, {
 -------------------------------------------------------------------------------
 
 local SkyridingRace = Class('SkyridingRace', Pin, {
-    group = ns.groups.SKYRIDING_RACE,
-    passive = true
+    group = ns.groups.SKYRIDING_RACE
 }) -- Skyriding Race
 
 -------------------------------------------------------------------------------
