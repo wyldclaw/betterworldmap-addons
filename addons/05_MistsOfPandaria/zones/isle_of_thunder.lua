@@ -15,5 +15,5 @@ local map = Map({id = 504, parent = 424})
 -------------------------------------------------------------------------------
 
 map.pins[6508] = Raid({
-	coordinates = 22580986
+    coordinates = 22580986
 }) -- Throne of Thunder

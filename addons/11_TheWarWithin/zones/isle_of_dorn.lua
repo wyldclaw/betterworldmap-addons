@@ -33,7 +33,7 @@ map.pins[7787] = Delves -- Earthcrawl Mines
 -------------------------------------------------------------------------------
 
 map.pins[7898] = Pin({
-	group = ns.groups.FACTION_DORNOGAL
+    group = ns.groups.FACTION_DORNOGAL
 }) -- Dornogal
 
 -------------------------------------------------------------------------------
@@ -59,7 +59,7 @@ map.pins[7857] = Dungeon -- Cinderbrew Meadery
 -------------------------------------------------------------------------------
 
 local GreatVault = Pin({
-	group = ns.groups.GREAT_VAULT
+    group = ns.groups.GREAT_VAULT
 }) -- Great Vault
 
 dor.pins[7831] = GreatVault -- Nerub-ar Palace
@@ -69,7 +69,7 @@ dor.pins[7958] = GreatVault -- Rewards Available
 -------------------------------------------------------------------------------
 
 local TheaterTroupe = Pin({
-	group = ns.groups.THEATER_TROUPE
+    group = ns.groups.THEATER_TROUPE
 }) -- Theater Troupe
 
 map.pins[7654] = TheaterTroupe -- The Rivals

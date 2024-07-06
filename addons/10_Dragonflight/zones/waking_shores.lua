@@ -21,7 +21,7 @@ local map = Map({id = 2022, parent = 1978})
 -------------------------------------------------------------------------------
 
 map.pins[7365] = Pin({
-	group = ns.groups.FACTION_EXPEDITION
+    group = ns.groups.FACTION_EXPEDITION
 }) -- Dragonscale Basecamp
 
 -------------------------------------------------------------------------------
@@ -29,11 +29,11 @@ map.pins[7365] = Pin({
 -------------------------------------------------------------------------------
 
 map.pins[2842] = AncientWaygate({
-	coordinates = 48904632
+    coordinates = 48904632
 }) -- Rubyscale Outpost
 
 map.pins[2841] = AncientWaygate({
-	coordinates = 57673589
+    coordinates = 57673589
 }) -- Skytop Observatory
 
 -------------------------------------------------------------------------------
@@ -41,7 +41,7 @@ map.pins[2841] = AncientWaygate({
 -------------------------------------------------------------------------------
 
 local DragonbaneSiege = Pin({
-	group = ns.groups.DRAGONBANE_SIEGE
+    group = ns.groups.DRAGONBANE_SIEGE
 }) -- Seige on Dragonbane Keep
 
 map.pins[7267] = DragonbaneSiege -- Siege on Dragonbane Keep - Before

@@ -58,5 +58,5 @@ map.pins[7546] = Raid -- Nerub'ar Palace
 -------------------------------------------------------------------------------
 
 map.pins[7940] = Pin({
-	group = ns.groups.FACTION_WEAVERS_LAIR
+    group = ns.groups.FACTION_WEAVERS_LAIR
 }) -- The Weaver's Lair

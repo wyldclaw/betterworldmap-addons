@@ -57,5 +57,5 @@ tvs.pins[6509] = Raid -- Terrace of Endless Spring
 veb.pins[6507] = Raid -- Siege of Orgimmar
 
 iot.pins[6508] = Raid({
-	coordinates = 22580986
+    coordinates = 22580986
 }) -- Throne of Thunder

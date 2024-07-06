@@ -23,7 +23,7 @@ local val = Map({id = 2112, parent = 1978})
 -------------------------------------------------------------------------------
 
 map.pins[7391] = Pin({
-	group = ns.groups.FACTION_VALDRAKKEN
+    group = ns.groups.FACTION_VALDRAKKEN
 }) -- The Seat of the Aspects
 
 -------------------------------------------------------------------------------
@@ -31,7 +31,7 @@ map.pins[7391] = Pin({
 -------------------------------------------------------------------------------
 
 val.pins[7614] = Pin({
-	group = ns.groups.ARCANE_FORGE
+    group = ns.groups.ARCANE_FORGE
 }) -- Arcane Forge
 
 -------------------------------------------------------------------------------
@@ -39,11 +39,11 @@ val.pins[7614] = Pin({
 -------------------------------------------------------------------------------
 
 map.pins[2834] = AncientWaygate({
-	coordinates = 60925612
+    coordinates = 60925612
 }) -- Eon's Fringe
 
 map.pins[2836] = AncientWaygate({
-	coordinates = 64934099
+    coordinates = 64934099
 }) -- Algeth'era
 
 -------------------------------------------------------------------------------
@@ -78,7 +78,7 @@ map.pins[7271] = FishingHole -- Tyrhold Fishing Hole
 -------------------------------------------------------------------------------
 
 local GreatVault = Pin({
-	group = ns.groups.GREAT_VAULT
+    group = ns.groups.GREAT_VAULT
 }) -- Great Vault
 
 val.pins[7296] = GreatVault -- Vault of the Incarnates
@@ -92,7 +92,7 @@ val.pins[7739] = GreatVault -- Awakened Dragonflight Raids
 -------------------------------------------------------------------------------
 
 val.pins[7544] = Pin({
-	group = ns.groups.SECRETS_OF_AZEROTH
+    group = ns.groups.SECRETS_OF_AZEROTH
 }) -- Secrets of Azeroth
 
 -------------------------------------------------------------------------------
@@ -117,5 +117,5 @@ map.pins[7048] = Raid -- Vault of the Incarnates
 -------------------------------------------------------------------------------
 
 map.pins[7492] = Pin({
-	group = ns.groups.TIME_RIFT
+    group = ns.groups.TIME_RIFT
 }) -- Time Rift

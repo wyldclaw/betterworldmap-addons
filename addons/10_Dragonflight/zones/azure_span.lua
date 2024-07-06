@@ -23,7 +23,7 @@ local map = Map({id = 2024, parent = 1978})
 -------------------------------------------------------------------------------
 
 map.pins[7393] = Pin({
-	group = ns.groups.FACTION_TUSKARR
+    group = ns.groups.FACTION_TUSKARR
 }) -- Iskaara
 
 -------------------------------------------------------------------------------
@@ -31,11 +31,11 @@ map.pins[7393] = Pin({
 -------------------------------------------------------------------------------
 
 map.pins[2838] = AncientWaygate({
-	coordinates = 51466802
+    coordinates = 51466802
 }) -- Cobalt Assembly
 
 map.pins[2837] = AncientWaygate({
-	coordinates = 63966829
+    coordinates = 63966829
 }) -- Vakthros
 
 -------------------------------------------------------------------------------
@@ -43,7 +43,7 @@ map.pins[2837] = AncientWaygate({
 -------------------------------------------------------------------------------
 
 local CommunityFeast = Pin({
-	group = ns.groups.COMMUNITY_FEAST
+    group = ns.groups.COMMUNITY_FEAST
 }) -- Community Feast
 
 map.pins[7218] = CommunityFeast -- Community Feast - Before
@@ -106,7 +106,7 @@ map.pins[7757] = SkyridingRace -- Vakthros Ascent
 -------------------------------------------------------------------------------
 
 map.pins[7657] = Pin({
-	group = ns.groups.THE_BIG_DIG
+    group = ns.groups.THE_BIG_DIG
 })
 
 -------------------------------------------------------------------------------

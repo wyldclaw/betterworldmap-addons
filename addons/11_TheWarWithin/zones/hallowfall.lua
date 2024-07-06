@@ -52,5 +52,5 @@ map.pins[7892] = Dungeon -- The Dawnbreaker
 -------------------------------------------------------------------------------
 
 map.pins[7893] = Pin({
-	group = ns.groups.FACTION_MERELDAR
+    group = ns.groups.FACTION_MERELDAR
 }) -- Mereldar

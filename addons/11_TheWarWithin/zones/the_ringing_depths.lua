@@ -48,5 +48,5 @@ map.pins[7821] = Dungeon -- Darkflame Cleft
 -------------------------------------------------------------------------------
 
 map.pins[7911] = Pin({
-	group = ns.groups.FACTION_GUNDARGAZ
+    group = ns.groups.FACTION_GUNDARGAZ
 }) -- Gundargaz

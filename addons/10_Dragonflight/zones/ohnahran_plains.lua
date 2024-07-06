@@ -23,7 +23,7 @@ local map = Map({id = 2023, parent = 1978})
 -------------------------------------------------------------------------------
 
 map.pins[7392] = Pin({
-	group = ns.groups.FACTION_CENTAUR
+    group = ns.groups.FACTION_CENTAUR
 }) -- Maruukai
 
 -------------------------------------------------------------------------------
@@ -31,11 +31,11 @@ map.pins[7392] = Pin({
 -------------------------------------------------------------------------------
 
 map.pins[2840] = AncientWaygate({
-	coordinates = 34705779
+    coordinates = 34705779
 }) -- Shady Sanctuary
 
 map.pins[2839] = AncientWaygate({
-	coordinates = 49765289
+    coordinates = 49765289
 }) -- Ruszathar Reach
 
 -------------------------------------------------------------------------------
@@ -43,7 +43,7 @@ map.pins[2839] = AncientWaygate({
 -------------------------------------------------------------------------------
 
 local AylaagCamp = Pin({
-	group = ns.groups.AYLAAG_CAMPS
+    group = ns.groups.AYLAAG_CAMPS
 }) -- Aylaag Camp
 
 map.pins[7101] = AylaagCamp -- Aylaag Camp - River Camp
