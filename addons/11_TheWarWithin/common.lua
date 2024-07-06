@@ -74,8 +74,7 @@ ns.groups.FACTION_WEAVERS_LAIR = Group({
 -------------------------------------------------------------------------------
 
 local Delves = Class('Delves', Pin, {
-    group = ns.groups.DELVES,
-    passive = true
+    group = ns.groups.DELVES
 }) -- Delves
 
 ns.pin.Delves = Delves
