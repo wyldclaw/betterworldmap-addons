@@ -1,0 +1,11 @@
+## Interface: 102070
+## Title: BetterWorldMap: Wrath Of The Lich King
+## Version: 1
+## Notes: Add pins to world map for Wrath Of The Lich King
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
+## SavedVariables: BetterWorldMap_WrathOfTheLichKingDB
+
+embeds.xml
+core/core.xml
+plugin.xml
