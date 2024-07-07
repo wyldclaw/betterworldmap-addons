@@ -5,6 +5,7 @@ local _, ns = ...
 local Map = ns.Map
 
 local Dungeon = ns.pin.Dungeon
+local InfiniteBazaar = ns.pin.InfiniteBazaar
 local Raid = ns.pin.Raid
 
 -------------------------------------------------------------------------------
@@ -17,6 +18,13 @@ local map = Map({id = 390, parent = 424})
 
 map.pins[6680] = Dungeon -- Mogu'shan Palace
 map.pins[6681] = Dungeon -- Gate of the Setting Sun
+
+-------------------------------------------------------------------------------
+------------------------------- INFINITE BAZAAR -------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7724] = InfiniteBazaar -- Alliance
+map.pins[7723] = InfiniteBazaar -- Horde
 
 -------------------------------------------------------------------------------
 ------------------------------------ RAID -------------------------------------
