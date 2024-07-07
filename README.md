@@ -1,5 +1,8 @@
 # BetterWorldMap Addons
-- [BetterWorldMap: Dragonriding]()
+- [BetterWorldMap: World of Warcraft]()
+- [BetterWorldMap: Burning Crusade]()
+- [BetterWorldMap: Wrath of the Lich King]()
+- [BetterWorldMap: Mists of Pandaria]()
 - [BetterWorldMap: Dragonflight](https://www.curseforge.com/wow/addons/betterworldmap-dragonflight)
 
 ## Development
@@ -7,7 +10,7 @@ This repository hosts all of my BetterWorldMap addons. Because the core code wil
 
 The BetterWorldMap core has a hidden development feature to help with finding out more information about points of interest on the map. You can toggle this feature on or off by using `true` or `false`.
 
-To enable development for BetterWorldMap: Dragonflight type the following in the chat window:
+To enable development for BetterWorldMap type the following in the chat window:
 ```
 /bwm true
 BetterWorldMap_Dragonflight: Developer mode enabled
@@ -15,4 +18,4 @@ BetterWorldMap_Dragonflight: Developer mode enabled
 /bwm false
 BetterWorldMap_Dragonflight: Developer mode disabled
 ```
-BetterWorldMap will append additional detail to the tooltip on hover including `mapID` for the current map, `areaPoiID` for the hovered Area POI, `atlas` for the hovered Area POI, and `coordinates` for the hoverd Area POI on the current map.
+BetterWorldMap will append additional detail to the tooltip on hover including `mapID`, `areaPoiID`, and `atlas` for the hovered Area POI as well as `coordinates` for the hoverd Area POI on the current map.
