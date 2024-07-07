@@ -1,0 +1,11 @@
+## Interface: 102070
+## Title: BetterWorldMap: World of Warcraft
+## Version: 1
+## Notes: Add pins to world map for World of Warcraft
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
+## SavedVariables: BetterWorldMap_WorldOfWarcraftDB
+
+embeds.xml
+core/core.xml
+plugin.xml

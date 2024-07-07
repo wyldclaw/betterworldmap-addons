@@ -1,0 +1,11 @@
+## Interface: 102070
+## Title: BetterWorldMap: Burning Crusade
+## Version: 1
+## Notes: Add pins to world map for Burning Crusade
+## OptionalDeps: Ace3
+## X-Embeds: Ace3
+## SavedVariables: BetterWorldMap_BurningCrusadeaDB
+
+embeds.xml
+core/core.xml
+plugin.xml

@@ -219,17 +219,6 @@ ns.groups.SECRETS_OF_AZEROTH = Group({
     end
 }) -- Secrets of Azeroth
 
------------------------- WOW REMIX: MISTS OF PANDARIA -------------------------
-
-ns.groups.INFINITE_BAZAAR = Group({
-    atlas = 'timerunninghub',
-    label = L['infinite_bazaar'],
-    name = 'infinite_bazaar',
-    IsVisible = function()
-        return ns.CalendarEventIsActive(1525)
-    end
-}) -- Infinite Bazaar
-
 -------------------------------------------------------------------------------
 ------------------------------------ PINS -------------------------------------
 -------------------------------------------------------------------------------
@@ -308,51 +297,6 @@ end)
 -------------------------------------------------------------------------------
 
 ns.menuGroups = {
-    [12] = { -- Kalimdor
-        [1] = {
-            groups = {
-                ns.groups.KALIMDOR_CUP
-            }
-        }
-    },
-    [13] = { -- Eastern Kingdoms
-        [1] = {
-            groups = {
-                ns.groups.EASTERN_KINGDOMS_CUP
-            }
-        }
-    },
-    [101] = { -- Outland
-        [1] = {
-            groups = {
-                ns.groups.OUTLAND_CUP
-            }
-        }
-    },
-    [113] = { -- Northrend
-        [1] = {
-            groups = {
-                ns.groups.NORTHREND_CUP
-            }
-        }
-    },
-    [424] = { -- Pandaria
-        [1] = {
-            groups = {
-                ns.groups.DUNGEON,
-                ns.groups.INFINITE_BAZAAR,
-                ns.groups.PANDARIA_CUP,
-                ns.groups.RAID
-            }
-        }
-    },
-    [619] = { -- Broken Isles
-        [1] = {
-            groups = {
-                ns.groups.BROKEN_ISLES_CUP
-            }
-        }
-    },
     [1978] = { -- Dragon Isles
         [1] = {
             title = ns.GetMapName(1978),
