@@ -10,9 +10,9 @@ A quick toggle menu will appear on the Pandaria world map which allows you to qu
 
 ## Pins
 
-* Dungeon locations in all zones
-* Infinite Bazaar locations in all zones
-* Raid locations in all zones
+* Dungeon entrance locations
+* Infinite Bazaar locations
+* Raid entrance locations
 
 ## Zones
 

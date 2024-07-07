@@ -10,7 +10,7 @@ A quick toggle menu will appear on the Northrend world map which allows you to q
 
 ## Pins
 
-* Northrend Cup race locations in all zones
+* Northrend Cup race locations
 
 ## Zones
 

@@ -10,7 +10,7 @@ A quick toggle menu will appear on the Outland world map which allows you to qui
 
 ## Pins
 
-* Outland Cup race locations in all zones
+* Outland Cup race locations
 
 ## Zones
 

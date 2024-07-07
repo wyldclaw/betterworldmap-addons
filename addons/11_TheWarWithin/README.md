@@ -12,10 +12,10 @@ A quick toggle menu will appear on the Khaz Algar world map which allows you to 
 
 ### Khaz Algar
 
-* Delve and Bountiful Delve locations
+* Delve entrance locations
 * Dragonriding Race locations
-* Dungeon locations
-* Raid locations
+* Dungeon entrance locations
+* Raid entrance locations
 
 ### Isle of Dorn
 
@@ -40,10 +40,6 @@ This addon adds information to the world map for the following zones:
 
 * `Patch 11.0.0` - Isle of Dorn, The Ringing Deeps, Hallowfall, and Azj-Kahet
 
-## Limitations
-
-Several locations are unable to be affected by Better World Map due to World of Warcraft API limitations.
-
 ## Localization
 
 This addon has been (mostly) translated to the following languages:
@@ -57,7 +53,3 @@ This addon has been (mostly) translated to the following languages:
 * `zhTW` - Chinese (Traditional) (thanks BlueNightSky and mcc1!)
 
 If you would like to translate the addon to another language, or fill in any gaps, please open a [ticket](https://github.com/wyldclaw/betterworldmap-dragonflight/issues) or submit a [pull request](https://github.com/wyldclaw/betterworldmap-dragonflight/pulls) on GitHub.
-
-## Credits
-
-* I'd like to thank Zarillion for inspiring much of the codebase for this addon.

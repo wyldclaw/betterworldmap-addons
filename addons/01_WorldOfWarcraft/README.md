@@ -12,11 +12,11 @@ A quick toggle menu will appear on the Kalimdor and Eastern Kingdoms world maps 
 
 ### Kalimdor
 
-* Kalimdor Cup race locations in all zones
+* Kalimdor Cup race locations
 
 ### Eastern Kingdom
 
-* Eastern Kingdom Cup race locations in all zones
+* Eastern Kingdom Cup race locations
 
 ## Zones
 
