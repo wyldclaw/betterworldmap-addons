@@ -1,8 +1,8 @@
 # BetterWorldMap Addons
-- [BetterWorldMap: World of Warcraft]()
-- [BetterWorldMap: Burning Crusade]()
-- [BetterWorldMap: Wrath of the Lich King]()
-- [BetterWorldMap: Mists of Pandaria]()
+- BetterWorldMap: World of Warcraft
+- BetterWorldMap: Burning Crusade
+- BetterWorldMap: Wrath of the Lich King
+- BetterWorldMap: Mists of Pandaria
 - [BetterWorldMap: Dragonflight](https://www.curseforge.com/wow/addons/betterworldmap-dragonflight)
 
 ## Development
