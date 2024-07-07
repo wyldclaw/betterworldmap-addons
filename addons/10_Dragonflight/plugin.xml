@@ -5,7 +5,6 @@
   <Script file="zones\emerald_dream.lua"/>
   <Script file="zones\forbidden_reach.lua"/>
   <Script file="zones\ohnahran_plains.lua"/>
-  <Script file="zones\remix.lua"/>
   <Script file="zones\thaldraszus.lua"/>
   <Script file="zones\waking_shores.lua"/>
   <Script file="zones\zaralek_cavern.lua"/>
