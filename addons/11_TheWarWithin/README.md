@@ -13,7 +13,7 @@ A quick toggle menu will appear on the Khaz Algar world map which allows you to 
 ### Khaz Algar
 
 * Delve entrance locations
-* Dragonriding Race locations
+* Skyriding Race locations
 * Dungeon entrance locations
 * Raid entrance locations
 
@@ -21,6 +21,7 @@ A quick toggle menu will appear on the Khaz Algar world map which allows you to 
 
 * Dornogal location
 * Great Vault location
+* Theater Troupe location
 
 ### The Ringing Deeps
 
