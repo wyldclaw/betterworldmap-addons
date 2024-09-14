@@ -54,12 +54,12 @@ map.pins[7898] = Pin({
 ------------------------------- SKYRIDING RACE --------------------------------
 -------------------------------------------------------------------------------
 
-map.pins[7793] = SkyridingRace({coordinates = nil}) -- Basin Bypass
-map.pins[7793] = SkyridingRace({coordinates = nil}) -- Dornogal Drift
-map.pins[7794] = SkyridingRace({coordinates = nil}) -- Storm's Watch Survey
-map.pins[7796] = SkyridingRace({coordinates = nil}) -- The Wold Ways
-map.pins[7797] = SkyridingRace({coordinates = nil}) -- Thunderhead Trail
-map.pins[7798] = SkyridingRace({coordinates = nil}) -- Orecreg's Doglegs
+map.pins[7793] = SkyridingRace({coordinates = 68681489}) -- Dornogal Drift
+map.pins[7794] = SkyridingRace({coordinates = 65572009}) -- Storm's Watch Survey
+map.pins[7795] = SkyridingRace({coordinates = 74772877}) -- Basin Bypass
+map.pins[7796] = SkyridingRace({coordinates = 78722313}) -- The Wold Ways
+map.pins[7797] = SkyridingRace({coordinates = 74181148}) -- Thunderhead Trail
+map.pins[7798] = SkyridingRace({coordinates = 64613576}) -- Orecreg's Doglegs
 
 -------------------------------------------------------------------------------
 ---------------------------------- DUNGEONS -----------------------------------
