@@ -1,10 +1,11 @@
-## Interface: 110000
+## Interface: 110002
 ## Title: BetterWorldMap: The War Within
 ## Version: 1
 ## Notes: Add pins to world map for The War Within
 ## OptionalDeps: Ace3
 ## X-Embeds: Ace3
 ## SavedVariables: BetterWorldMap_TheWarWithinDB
+## IconTexture: 4914668
 
 embeds.xml
 core/core.xml
