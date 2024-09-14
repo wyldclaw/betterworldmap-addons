@@ -34,13 +34,13 @@ ns.groups.FACTION_DORNOGAL = Group({
 }) -- Dornogal
 
 ns.groups.GREAT_VAULT = Group({
-    atlas = 'greatvault-dragonflight-32x32',
+    atlas = 'greatvault-32x32',
     label = L['great_vault_label'],
     name = 'great_vault'
 }) -- Great Vault
 
 ns.groups.THEATER_TROUPE = Group({
-    atlas = 'minimap-genericevent-hornicon',
+    atlas = 'ui-eventpoi-theatretroupe',
     label = L['theater_troupe_label'],
     name = 'theater_troupe'
 }) -- Theater Troupe
