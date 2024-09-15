@@ -78,4 +78,4 @@ This addon has been (mostly) translated to the following languages:
 * `zhCN` - Chinese (Simplified) (thanks Adavak!)
 * `zhTW` - Chinese (Traditional) (thanks BlueNightSky and mcc1!)
 
-If you would like to translate the addon to another language, or fill in any gaps, please open a [ticket](https://github.com/wyldclaw/betterworldmap-dragonflight/issues) or submit a [pull request](https://github.com/wyldclaw/betterworldmap-dragonflight/pulls) on GitHub.
+If you would like to translate the addon to another language, or fill in any gaps, please open a [ticket](https://github.com/wyldclaw/betterworldmap-addons/issues) or submit a [pull request](https://github.com/wyldclaw/betterworldmap-addons/pulls) on GitHub.
