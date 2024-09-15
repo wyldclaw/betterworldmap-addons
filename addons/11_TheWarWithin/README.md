@@ -46,7 +46,7 @@ This addon adds information to the world map for the following zones:
 This addon has been (mostly) translated to the following languages:
 
 * `deDE` - German
-* `esES` - Spanish
+* `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
 * `frFR` - French
 * `koKR` - Korean
 * `ruRU` - Russian

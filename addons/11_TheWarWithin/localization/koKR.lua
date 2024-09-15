@@ -1,26 +1,25 @@
 local ADDON_NAME, _ = ...
 local L = LibStub('AceLocale-3.0'):NewLocale(ADDON_NAME, 'koKR')
 if not L then return end
--- Korean translation by soaa
 
 --------------------------------- KHAZ ALGAR ----------------------------------
 
-L['delves_label'] = 'Delves' -- TODO
+L['delves_label'] = '구렁'
 
 -------------------------------- ISLE OF DORN ---------------------------------
 
-L['faction_dornogal'] = 'Dornogal' -- TODO
+L['faction_dornogal'] = '도르노갈'
 L['great_vault_label'] = '위대한 금고t'
-L['theater_troupe_label'] = 'Theater Troupe' -- TODO
+L['theater_troupe_label'] = '극장 공연단'
 
 ------------------------------ THE RINGING DEEPS ------------------------------
 
-L['faction_gundargaz'] = 'Gundargaz' -- TODO
+L['faction_gundargaz'] = '군다가즈'
 
 --------------------------------- HALLOWFALL ----------------------------------
 
-L['faction_mereldar'] = 'Mereldar' -- TODO
+L['faction_mereldar'] = '메렐다르'
 
 ---------------------------------- AZJ-KAHET ----------------------------------
 
-L['faction_weavers_lair'] = 'The Weaver\'s Lair' -- TODO
+L['faction_weavers_lair'] = '방직공의 소굴'
