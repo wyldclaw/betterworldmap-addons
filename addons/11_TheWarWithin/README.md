@@ -8,6 +8,11 @@ A quick toggle menu will appear on the Khaz Algar world map which allows you to 
 * Many icons provide helpful information in the tooltip such as countdown times, reputation gains, rewards available, and more
 * Some icons provide access to additional UI with more important information when clicked
 
+## Related Addons
+
+- [BetterWorldMap: Dragonflight](https://www.curseforge.com/wow/addons/betterworldmap-dragonflight)
+- [BetterWorldMap: The War Within](https://www.curseforge.com/wow/addons/betterworldmap-the-war-within)
+
 ## Pins
 
 ### Khaz Algar

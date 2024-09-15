@@ -8,6 +8,11 @@ A quick toggle menu will appear on the Dragon Isles world map which allows you t
 * Many icons provide helpful information in the tooltip such as countdown times, reputation gains, rewards available, and more
 * Some icons provide access to additional UI with more important information when clicked
 
+## Related Addons
+
+- [BetterWorldMap: Dragonflight](https://www.curseforge.com/wow/addons/betterworldmap-dragonflight)
+- [BetterWorldMap: The War Within](https://www.curseforge.com/wow/addons/betterworldmap-the-war-within)
+
 ## Pins
 
 ### Dragon Isles
