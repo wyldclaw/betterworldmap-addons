@@ -4,6 +4,7 @@
 - BetterWorldMap: Wrath of the Lich King
 - BetterWorldMap: Mists of Pandaria
 - [BetterWorldMap: Dragonflight](https://www.curseforge.com/wow/addons/betterworldmap-dragonflight)
+- [BetterWorldMap: The War Within(https://www.curseforge.com/wow/addons/betterworldmap-the-war-within)
 
 ## Installation
 This repository hosts all of my BetterWorldMap addons. Because the core code will be consistent between addons it makes sense to keep them in a single repository. This repository cannot be cloned directly into your addons directory because the files will not be where World of Warcraft expects them to be.
