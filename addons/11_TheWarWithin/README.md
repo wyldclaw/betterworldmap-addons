@@ -45,12 +45,12 @@ This addon adds information to the world map for the following zones:
 
 This addon has been (mostly) translated to the following languages:
 
-* `deDE` - German (thanks Dathwada EU-Eredar and Ioney!)
-* `esES` - Spanish (Spain) (thanks (EU) Krovikan-Minahonda!)
-* `frFR` - French (thanks Lightuky EU-Khaz Modan!)
-* `koKR` - Korean (thanks soaa!)
-* `ruRU` - Russian (thanks ZamestoTV!)
-* `zhCN` - Chinese (Simplified) (thanks Adavak!)
-* `zhTW` - Chinese (Traditional) (thanks BlueNightSky and mcc1!)
+* `deDE` - German
+* `esES` - Spanish
+* `frFR` - French
+* `koKR` - Korean
+* `ruRU` - Russian
+* `zhCN` - Chinese (Simplified)
+* `zhTW` - Chinese (Traditional)
 
-If you would like to translate the addon to another language, or fill in any gaps, please open a [ticket](https://github.com/wyldclaw/betterworldmap-dragonflight/issues) or submit a [pull request](https://github.com/wyldclaw/betterworldmap-dragonflight/pulls) on GitHub.
+If you would like to translate the addon to another language, or fill in any gaps, please open a [ticket](https://github.com/wyldclaw/betterworldmap-addons/issues) or submit a [pull request](https://github.com/wyldclaw/betterworldmap-addons/pulls) on GitHub.
