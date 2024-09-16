@@ -94,10 +94,15 @@ local TheaterTroupe = Pin({
     coordinates = 74652141
 }) -- Theater Troupe
 
-map.pins[7654] = TheaterTroupe -- The Rivals
-map.pins[7899] = TheaterTroupe -- The Wanderer
-map.pins[7900] = TheaterTroupe -- Forget Me Not
-map.pins[7901] = TheaterTroupe -- The Cruelty of Dornic
-map.pins[7902] = TheaterTroupe -- The Thraegar's Descent
-map.pins[7941] = TheaterTroupe -- The Rivals
-map.pins[7943] = TheaterTroupe -- The Wanderer
+map.pins[7654] = TheaterTroupe -- The Rivals (Now showing)
+map.pins[7899] = TheaterTroupe -- The Wanderer (Now showing)
+map.pins[7900] = TheaterTroupe -- Forget Me Not (Now showing)
+map.pins[7901] = TheaterTroupe -- The Cruelty of Dornic (Now showing)
+map.pins[7902] = TheaterTroupe -- The Thraegar's Descent (Now showing)
+map.pins[7941] = TheaterTroupe -- 5 minutes
+map.pins[7943] = TheaterTroupe -- The Wanderer (Top of the hour)
+map.pins[8076] = TheaterTroupe -- The Cruelty of Dornic (Top of the hour)
+map.pins[8077] = TheaterTroupe -- The Rivals (Top of the hour)
+map.pins[8078] = TheaterTroupe -- Forget Me Not (Top of the hour)
+map.pins[8079] = TheaterTroupe -- The Thraegar's Descent (Top of the hour)
+map.pins[8080] = TheaterTroupe -- Next play (Top of the hour)
