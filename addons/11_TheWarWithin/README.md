@@ -18,9 +18,12 @@ A quick toggle menu will appear on the Khaz Algar world map which allows you to 
 ### Khaz Algar
 
 * Delve entrance locations
-* Skyriding Race locations
 * Dungeon entrance locations
+* Entrance locations for Khaz Algar
+* Portal locations for Khaz Algar
 * Raid entrance locations
+* Skyriding Race locations
+* Special Assignments
 
 ### Isle of Dorn
 
