@@ -5,6 +5,8 @@ if not L then return end
 --------------------------------- KHAZ ALGAR ----------------------------------
 
 L['delves_label'] = 'Gouffre'
+L['entrance_label'] = 'Entrée'
+L['special_assignment_label'] = 'Mission spéciale'
 
 -------------------------------- ISLE OF DORN ---------------------------------
 
