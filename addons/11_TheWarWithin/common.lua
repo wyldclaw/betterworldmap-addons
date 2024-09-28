@@ -25,6 +25,24 @@ ns.groups.DELVES = Group({
     name = 'delves'
 }) -- Delves
 
+ns.groups.ENTRANCES = Group({
+    atlas = 'caveunderground-down',
+    label = L['entrance_label'],
+    name = 'entrance'
+}) -- Entrances
+
+ns.groups.PORTALS = Group({
+    atlas = 'TaxiNode_Continent_Neutral',
+    label = '{spell:109400}',
+    name = 'portals'
+}) -- Portals
+
+ns.groups.SPECIAL_ASSIGNMENTS = Group({
+    atlas = 'worldquest-Capstone-questmarker-epic-Locked',
+    label = L['special_assignment_label'],
+    name = 'special_assignment'
+}) -- Special Assignments
+
 -------------------------------- ISLE OF DORN ---------------------------------
 
 ns.groups.FACTION_DORNOGAL = Group({
@@ -77,7 +95,22 @@ local Delves = Class('Delves', Pin, {
     group = ns.groups.DELVES
 }) -- Delves
 
+local Entrance = Class('Entrance', Pin, {
+    group = ns.groups.ENTRANCES
+}) -- Entrance
+
+local Portal = Class('Portal', Pin, {
+    group = ns.groups.PORTALS
+}) -- Portal
+
+local SpecialAssignment = Class('SpecialAssignment', Pin, {
+    group = ns.groups.SPECIAL_ASSIGNMENTS
+}) -- Special Assignment
+
 ns.pin.Delves = Delves
+ns.pin.Entrance = Entrance
+ns.pin.Portal = Portal
+ns.pin.SpecialAssignment = SpecialAssignment
 
 -------------------------------------------------------------------------------
 --------------------------------- MENU GROUPS ---------------------------------
@@ -90,8 +123,11 @@ ns.menuGroups = {
             groups = {
                 ns.groups.DELVES,
                 ns.groups.DUNGEON,
+                ns.groups.ENTRANCES,
                 ns.groups.RAID,
-                ns.groups.SKYRIDING_RACE
+                ns.groups.PORTALS,
+                ns.groups.SKYRIDING_RACE,
+                ns.groups.SPECIAL_ASSIGNMENTS
             }
         },
         [2] = { -- Isle of Dorn

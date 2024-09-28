@@ -5,10 +5,14 @@ local _, ns = ...
 local Map = ns.Map
 local Class = ns.Class
 
-local Delves = ns.pin.Delves
-local SkyridingRace = ns.pin.SkyridingRace
 local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
+local SkyridingRace = ns.pin.SkyridingRace
+
+local Delves = ns.pin.Delves
+local Entrance = ns.pin.Entrance
+local Portal = ns.pin.Portal
+local SpecialAssignment = ns.pin.SpecialAssignment
 
 -------------------------------------------------------------------------------
 
@@ -74,6 +78,14 @@ map.pins[7857] = Dungeon({
 }) -- Cinderbrew Meadery
 
 -------------------------------------------------------------------------------
+---------------------------------- ENTRANCE -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[8003] = Entrance({coordinates = 69992357}) -- Ringing Deeps
+map.pins[8008] = Entrance({coordinates = 64733325}) -- Ringing Deeps
+map.pins[8009] = Entrance({coordinates = 79791460}) -- Ringing Deeps
+
+-------------------------------------------------------------------------------
 --------------------------------- GREAT VAULT ---------------------------------
 -------------------------------------------------------------------------------
 
@@ -84,6 +96,22 @@ local GreatVault = Pin({
 
 dor.pins[7831] = GreatVault -- Nerub-ar Palace
 dor.pins[7958] = GreatVault -- Rewards Available
+
+-------------------------------------------------------------------------------
+----------------------------------- PORTALS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[8001] = Portal({coordinates = 73582070}) -- Portal to Azj-Kahet
+map.pins[8171] = Portal({coordinates = 71661900}) -- Portal to The Timeways
+
+-------------------------------------------------------------------------------
+----------------------------- SPECIAL ASSIGNMENT ------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7823] = SpecialAssignment -- Cinderbee Surge
+map.pins[7824] = SpecialAssignment -- Titanic Resurgence
+map.pins[7886] = SpecialAssignment -- Titanic Resurgence
+map.pins[7887] = SpecialAssignment -- Titanic Resurgence
 
 -------------------------------------------------------------------------------
 ------------------------------- THEATER TROUPE --------------------------------

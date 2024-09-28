@@ -4,10 +4,12 @@
 local _, ns = ...
 local Map = ns.Map
 
-local Delves = ns.pin.Delves
-local SkyridingRace = ns.pin.SkyridingRace
 local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
+
+local Delves = ns.pin.Delves
+local SkyridingRace = ns.pin.SkyridingRace
+local SpecialAssignment = ns.pin.SpecialAssignment
 
 -------------------------------------------------------------------------------
 
@@ -54,3 +56,10 @@ map.pins[7892] = Dungeon -- The Dawnbreaker
 map.pins[7893] = Pin({
     group = ns.groups.FACTION_MERELDAR
 }) -- Mereldar
+
+-------------------------------------------------------------------------------
+----------------------------- SPECIAL ASSIGNMENT ------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7827] = SpecialAssignment -- Lynx Rescue
+map.pins[7828] = SpecialAssignment -- Rise of the Colassals

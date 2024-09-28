@@ -4,11 +4,14 @@
 local _, ns = ...
 local Map = ns.Map
 
-local Delves = ns.pin.Delves
-local SkyridingRace = ns.pin.SkyridingRace
 local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
 local Raid = ns.pin.Raid
+
+local Delves = ns.pin.Delves
+local Portal = ns.pin.Portal
+local SkyridingRace = ns.pin.SkyridingRace
+local SpecialAssignment = ns.pin.SpecialAssignment
 
 -------------------------------------------------------------------------------
 
@@ -25,8 +28,8 @@ map.pins[7874] = Delves -- The Spiral Weave
 map.pins[7875] = Delves -- Zekvir's Lair
 
 -- BOUNTIFUL DELVES
-map.pins[7786] = Delves -- The Underkeep
 map.pins[7784] = Delves -- Tak-Rethan Abyss
+map.pins[7786] = Delves -- The Underkeep
 map.pins[7790] = Delves -- The Spiral Weave
 
 -------------------------------------------------------------------------------
@@ -54,9 +57,22 @@ map.pins[7548] = Dungeon -- City of Threads
 map.pins[7546] = Raid -- Nerub'ar Palace
 
 -------------------------------------------------------------------------------
+----------------------------------- PORTALS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[8002] = Portal -- Portal to Dornogal
+
+-------------------------------------------------------------------------------
 ------------------------------ THE WEAVER'S LAIR ------------------------------
 -------------------------------------------------------------------------------
 
 map.pins[7940] = Pin({
     group = ns.groups.FACTION_WEAVERS_LAIR
 }) -- The Weaver's Lair
+
+-------------------------------------------------------------------------------
+----------------------------- SPECIAL ASSIGNMENT ------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7829] = SpecialAssignment -- Bombs from Behind
+map.pins[7830] = SpecialAssignment -- A Pound of Cure

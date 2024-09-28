@@ -4,10 +4,14 @@
 local _, ns = ...
 local Map = ns.Map
 
-local Delves = ns.pin.Delves
-local SkyridingRace = ns.pin.SkyridingRace
 local Dungeon = ns.pin.Dungeon
 local Pin = ns.pin.Pin
+local SkyridingRace = ns.pin.SkyridingRace
+
+local Delves = ns.pin.Delves
+local Entrance = ns.pin.Entrance
+local Portal = ns.pin.Portal
+local SpecialAssignment = ns.pin.SpecialAssignment
 
 -------------------------------------------------------------------------------
 
@@ -24,6 +28,14 @@ map.pins[7867] = Delves -- The Dread Pit
 -- BOUNTIFUL DELVES
 map.pins[7782] = Delves -- The Waterworks
 map.pins[7788] = Delves -- The Dread Pit
+
+-------------------------------------------------------------------------------
+---------------------------------- ENTRANCE -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[8004] = Entrance -- Isle of Dorn
+map.pins[8005] = Entrance -- Isle of Dorn
+map.pins[8007] = Entrance -- Halowfall
 
 -------------------------------------------------------------------------------
 ------------------------------- SKYRIDING RACE --------------------------------
@@ -50,3 +62,16 @@ map.pins[7821] = Dungeon -- Darkflame Cleft
 map.pins[7911] = Pin({
     group = ns.groups.FACTION_GUNDARGAZ
 }) -- Gundargaz
+
+-------------------------------------------------------------------------------
+----------------------------------- PORTALS -----------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[8010] = Portal -- Isle of Dorn
+
+-------------------------------------------------------------------------------
+----------------------------- SPECIAL ASSIGNMENT ------------------------------
+-------------------------------------------------------------------------------
+
+map.pins[7825] = SpecialAssignment -- Shadows Below
+map.pins[7826] = SpecialAssignment -- When the Deeps Stir
